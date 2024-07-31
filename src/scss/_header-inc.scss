@@ -1,0 +1,127 @@
+.background-image {
+    background: url('./img/Topo - Imagem - BG.png') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top-menu {
+    &__link-border {
+        text-align: left;
+        font-family: 'avenir-medium', sans-serif;
+        font-size: 11px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        border: 1px solid #FFF;
+        border-radius: 50px;
+        padding: 3px 0px 1px 0px;
+    }
+
+    &__link-border:hover {
+        color: #FFF;
+        border: 1px solid #FFF;
+    }
+
+    &__brands-border {
+        border: 1px solid #FFF !important;
+        border-radius: 50%;
+        color: #FFF;
+        height: 28px;
+        width: 28px;
+        place-content: center;
+    }
+
+    &__brands-border:hover {
+        color: #FFF;
+    }
+
+}
+
+.menuSuperior-inc {
+    background-color: #66C1BF !important;
+}
+
+.navbar-brand-inc {
+    top: 39px !important;
+
+    img {
+        width: 350px !important;
+    }
+
+}
+
+
+.header-inc.scrolled .navbar-brand-inc img {
+    width: 320px !important;
+}
+
+header.scrolled .navbar-brand-inc {
+    top: 32px !important;
+}
+
+.header-inc.scrolled .nav-link-inc {
+    color: #FFF;
+}
+
+.header-inc.scrolled .nav-link-inc.top-menu__link-border {
+    border: 1px solid #FFF;
+    border-radius: 50px;
+}
+
+.header-inc.scrolled .top-menu__brands-border {
+    color: #FFF;
+    border: 1px solid #FFF!important;
+    border-radius: 50%;
+}
+
+
+
+
+.logo-menu {
+    &__button-inc {
+        background: #66C1BF 0% 0% no-repeat padding-box;
+        border-radius: 50px;
+        opacity: 1;
+        color: #FFF;
+        font-size: 12px;
+        font-family: 'avenir-medium', sans-serif;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 162px;
+        transition: all 0.5s ease;
+    }
+
+    &__button-inc:hover {
+        color: #FFF;
+        background: transparent linear-gradient(180deg, #18354F 0%, #66C1BF 100%) 0% 0% no-repeat padding-box;
+    }
+}
+
+.header-inc.scrolled {
+    background: #FFF;
+    height: auto;
+}
+
+/* RESPONSIVO */
+
+@media (min-width:992px) and (max-width:1200px) {
+    .nav-link-inc {
+        font-size: 12px !important;
+    }
+
+    .navbar-brand-inc {
+        top: 0 !important;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .nav-link-inc {
+        font-size: 12px
+    }
+
+    .navbar-brand-inc {
+        top: 0 !important;
+    }
+}
