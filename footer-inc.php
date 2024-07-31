@@ -1,5 +1,4 @@
-<?php wp_footer();
-?>
+
 <footer class="py-5 bg-acquagreen">
     <div class="container-fluid px-5">
         <div class="row">

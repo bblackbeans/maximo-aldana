@@ -1,3 +1,5 @@
+@import "./variaveis";
+
 .background-image {
     background: url('./img/Topo - Imagem - BG.png') center no-repeat;
     background-size: cover;
@@ -12,35 +14,48 @@
         font-family: 'avenir-medium', sans-serif;
         font-size: 11px;
         letter-spacing: 0px;
-        color: #FFFFFF;
+        color: $cor-branca;
         opacity: 1;
-        border: 1px solid #FFF;
+        border: 1px solid $cor-branca;
         border-radius: 50px;
         padding: 3px 0px 1px 0px;
     }
 
     &__link-border:hover {
-        color: #FFF;
-        border: 1px solid #FFF;
+        color: $cor-branca;
+        border: 1px solid $cor-branca;
     }
 
     &__brands-border {
-        border: 1px solid #FFF !important;
+        border: 1px solid $cor-branca !important;
         border-radius: 50%;
-        color: #FFF;
+        color: $cor-branca;
         height: 28px;
         width: 28px;
         place-content: center;
     }
 
     &__brands-border:hover {
-        color: #FFF;
+        color: $cor-branca;
+    }
+
+    &__brands-border-two {
+        border: 1px solid $cor-branca !important;
+        border-radius: 50%;
+        color: $cor-branca;
+        height: 28px;
+        width: 28px;
+        place-content: center;
+    }
+
+    &__brands-border-two:hover {
+        color: $cor-branca;
     }
 
 }
 
 .menuSuperior-inc {
-    background-color: #66C1BF !important;
+    background-color: $cor-verde-agua-claro !important;
 }
 
 .navbar-brand-inc {
@@ -62,29 +77,28 @@ header.scrolled .navbar-brand-inc {
 }
 
 .header-inc.scrolled .nav-link-inc {
-    color: #FFF;
+    color: $cor-branca;
 }
 
 .header-inc.scrolled .nav-link-inc.top-menu__link-border {
-    border: 1px solid #FFF;
+    border: 1px solid $cor-branca;
     border-radius: 50px;
 }
 
-.header-inc.scrolled .top-menu__brands-border {
-    color: #FFF;
-    border: 1px solid #FFF!important;
+.header-inc.scrolled .top-menu__brands-border-two {
+    color: $cor-verde-agua-claro;
+    border: 1px solid $cor-verde-agua-claro!important;
     border-radius: 50%;
 }
 
 
 
-
 .logo-menu {
     &__button-inc {
-        background: #66C1BF 0% 0% no-repeat padding-box;
+        background: $cor-verde-agua-claro 0% 0% no-repeat padding-box;
         border-radius: 50px;
         opacity: 1;
-        color: #FFF;
+        color: $cor-branca;
         font-size: 12px;
         font-family: 'avenir-medium', sans-serif;
         letter-spacing: 0px;
@@ -94,15 +108,16 @@ header.scrolled .navbar-brand-inc {
     }
 
     &__button-inc:hover {
-        color: #FFF;
-        background: transparent linear-gradient(180deg, #18354F 0%, #66C1BF 100%) 0% 0% no-repeat padding-box;
+        color: $cor-branca;
+        background: transparent linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%) 0% 0% no-repeat padding-box;
     }
 }
 
 .header-inc.scrolled {
-    background: #FFF;
+    background: $cor-branca;
     height: auto;
 }
+
 
 /* RESPONSIVO */
 

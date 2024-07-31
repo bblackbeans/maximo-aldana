@@ -72,7 +72,7 @@
 header {
   background: transparent linear-gradient(180deg, rgba(0, 0, 0, 0.7294117647) 0%, rgba(84, 84, 84, 0) 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
-  height: 340px;
+  height: 140px;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -1156,30 +1156,41 @@ footer {
   font-family: "avenir-medium", sans-serif;
   font-size: 11px;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
-  border: 1px solid #FFF;
+  border: 1px solid #ffffff;
   border-radius: 50px;
   padding: 3px 0px 1px 0px;
 }
 .top-menu__link-border:hover {
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 .top-menu__brands-border {
-  border: 1px solid #FFF !important;
+  border: 1px solid #ffffff !important;
   border-radius: 50%;
-  color: #FFF;
+  color: #ffffff;
   height: 28px;
   width: 28px;
   place-content: center;
 }
 .top-menu__brands-border:hover {
-  color: #FFF;
+  color: #ffffff;
+}
+.top-menu__brands-border-two {
+  border: 1px solid #ffffff !important;
+  border-radius: 50%;
+  color: #ffffff;
+  height: 28px;
+  width: 28px;
+  place-content: center;
+}
+.top-menu__brands-border-two:hover {
+  color: #ffffff;
 }
 
 .menuSuperior-inc {
-  background-color: #66C1BF !important;
+  background-color: #66c1bf !important;
 }
 
 .navbar-brand-inc {
@@ -1198,25 +1209,25 @@ header.scrolled .navbar-brand-inc {
 }
 
 .header-inc.scrolled .nav-link-inc {
-  color: #FFF;
+  color: #ffffff;
 }
 
 .header-inc.scrolled .nav-link-inc.top-menu__link-border {
-  border: 1px solid #FFF;
+  border: 1px solid #ffffff;
   border-radius: 50px;
 }
 
-.header-inc.scrolled .top-menu__brands-border {
-  color: #FFF;
-  border: 1px solid #FFF !important;
+.header-inc.scrolled .top-menu__brands-border-two {
+  color: #66c1bf;
+  border: 1px solid #66c1bf !important;
   border-radius: 50%;
 }
 
 .logo-menu__button-inc {
-  background: #66C1BF 0% 0% no-repeat padding-box;
+  background: #66c1bf 0% 0% no-repeat padding-box;
   border-radius: 50px;
   opacity: 1;
-  color: #FFF;
+  color: #ffffff;
   font-size: 12px;
   font-family: "avenir-medium", sans-serif;
   letter-spacing: 0px;
@@ -1225,12 +1236,12 @@ header.scrolled .navbar-brand-inc {
   transition: all 0.5s ease;
 }
 .logo-menu__button-inc:hover {
-  color: #FFF;
-  background: transparent linear-gradient(180deg, #18354F 0%, #66C1BF 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
 }
 
 .header-inc.scrolled {
-  background: #FFF;
+  background: #ffffff;
   height: auto;
 }
 
@@ -1261,7 +1272,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 128px;
   font-family: "avenir-black", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 8px 8px 98px #000000;
   opacity: 1;
 }
@@ -1270,7 +1281,7 @@ header.scrolled .navbar-brand-inc {
   font-family: "avenir-roman", sans-serif;
   font-size: 32px;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-shadow: 8px 8px 98px #000000;
   opacity: 1;
 }
@@ -1292,7 +1303,7 @@ header.scrolled .navbar-brand-inc {
   left: 10px;
 }
 .container-bar__dot span {
-  color: #FFF;
+  color: #ffffff;
   font-size: 55px;
 }
 .container-bar__lorem {
@@ -1300,11 +1311,12 @@ header.scrolled .navbar-brand-inc {
   left: 130px;
 }
 .container-bar__lorem p {
-  text-align: center;
+  text-align: left;
   font-size: 28px;
   font-family: "avenir-light", sans-serif;
+  font-weight: 700;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   margin-bottom: 0 !important;
 }
@@ -1317,7 +1329,8 @@ header.scrolled .navbar-brand-inc {
   font-size: 28px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  font-weight: 700;
+  color: #ffffff;
   opacity: 1;
   margin-bottom: 0 !important;
 }
@@ -1326,19 +1339,20 @@ header.scrolled .navbar-brand-inc {
   right: 10px;
 }
 .container-bar__button a {
-  background: #66C1BF 0% 0% no-repeat padding-box;
+  background: #66c1bf 0% 0% no-repeat padding-box;
   border-radius: 50px;
   opacity: 1;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 700;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
   padding: 15px 25px;
 }
 .container-bar__button a:hover {
-  background: transparent linear-gradient(180deg, #18354F 0%, #66C1BF 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
 }
 
 #para-sua-fase {
@@ -1351,38 +1365,40 @@ header.scrolled .navbar-brand-inc {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
 }
 .container-fase__title p {
   text-align: center;
   font-size: 26px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #18354F;
+  color: #18354f;
   opacity: 1;
 }
 .container-fase__button {
   display: flex;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
-.container-fase__button button,
-.container-fase__button a {
-  background: #66C1BF 0% 0% no-repeat padding-box;
+.container-fase__button button {
+  background-color: #66c1bf;
+  color: #ffffff;
+  border: none;
   border-radius: 41px;
-  opacity: 1;
-  color: #FFF;
-  text-align: center;
-  font-size: 17px;
-  font-family: "avenir-light", sans-serif;
-  letter-spacing: 0px;
-  border: 1px solid #66C1BF;
-  width: 142px;
-  padding: 10px;
+  cursor: pointer;
+  width: 152px;
+  height: 53px;
+}
+.container-fase__button button:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+.container-fase__button a {
   text-decoration: none;
+  color: white;
 }
 
 .container-fase__button button:hover {
-  background: transparent linear-gradient(180deg, #18354F 0%, #66C1BF 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
 }
 
 .carousel {
@@ -1414,7 +1430,7 @@ header.scrolled .navbar-brand-inc {
   max-width: 20%;
   margin-right: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 5px;
   flex-shrink: 0;
   display: flex;
@@ -1440,10 +1456,10 @@ header.scrolled .navbar-brand-inc {
   font-size: 12px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
-  border: 2px solid #66C1BF;
-  background-color: #66C1BF;
+  border: 2px solid #66c1bf;
+  background-color: #66c1bf;
   border-radius: 30px;
   padding: 8px 40px 8px 40px;
 }
@@ -1458,7 +1474,7 @@ header.scrolled .navbar-brand-inc {
   font-family: "avenir-black", sans-serif;
   letter-spacing: 0px;
   line-height: 1.1;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 .carousel-item__hover-content {
@@ -1481,7 +1497,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 20px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 .carousel-item:hover .carousel-item__hover-content h3 {
@@ -1489,7 +1505,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 30px;
   font-family: "avenir-black", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 
@@ -1499,7 +1515,7 @@ header.scrolled .navbar-brand-inc {
 }
 
 #form-incorporadora {
-  background: #18354F 0% 0% no-repeat padding-box;
+  background: #18354f 0% 0% no-repeat padding-box;
 }
 
 .container-form {
@@ -1526,7 +1542,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 30px;
   font-family: "avenir-black", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 .container-form__texto p {
@@ -1534,7 +1550,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 16px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 .container-form__form {
@@ -1555,7 +1571,7 @@ header.scrolled .navbar-brand-inc {
   font-size: 24px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
   margin-bottom: 2rem;
 }
@@ -1565,23 +1581,23 @@ header.scrolled .navbar-brand-inc {
   font-size: 18px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 .form-group-select select {
   background-color: transparent;
-  color: #FFF;
+  color: #ffffff;
   border: unset;
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid #ffffff;
   border-radius: 0px;
   margin-bottom: 1rem;
 }
 .form-group-select select option {
-  background-color: #66C1BF;
+  background-color: #66c1bf;
 }
 
 .bg-acquagreen {
-  background-color: #66C1BF !important;
+  background-color: #66c1bf !important;
 }
 
 /* MODAL */
@@ -1613,7 +1629,7 @@ header.scrolled .navbar-brand-inc {
   padding: 20px 20px 0px 20px;
 }
 .container-modal-title h2 {
-  color: #18354F;
+  color: #18354f;
   font-family: "avenir-black", sans-serif;
 }
 
@@ -1639,14 +1655,14 @@ header.scrolled .navbar-brand-inc {
 .form-group-inc label {
   display: block;
   margin-bottom: 5px;
-  color: #18354F;
+  color: #18354f;
   font-family: "avenir-light", sans-serif;
 }
 
 .label-modal-title {
   margin-bottom: 1rem !important;
   font-size: 20px;
-  color: #18354F;
+  color: #18354f;
   font-family: "avenir-black", sans-serif !important;
 }
 
@@ -1683,9 +1699,9 @@ button {
 }
 
 .clear-btn {
-  background-color: white;
-  border: 1px solid #18354F;
-  color: #18354F;
+  background-color: #ffffff;
+  border: 1px solid #18354f;
+  color: #18354f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1697,8 +1713,8 @@ button {
 }
 
 .apply-btn {
-  background-color: #18354F;
-  color: white;
+  background-color: #18354f;
+  color: #ffffff;
   border-radius: 50px;
 }
 

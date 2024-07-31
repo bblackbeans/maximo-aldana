@@ -85,6 +85,12 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                             <li class="nav-item logo-menu">
                                 <a class="nav-link logo-menu__button-inc" href="<?php echo $home; ?>/fale-conosco">FALE CONOSCO</a>
                             </li>
+                            <li class="nav-item top-menu align-self-center">
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="nav-item top-menu align-self-center">
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-bars"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>

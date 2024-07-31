@@ -10,9 +10,7 @@ include('header-inc.php'); ?>
             <div class="container-banner__title">
                 <h1>Aldana Jardim</h1>
             </div>
-            <div class="container-banner__subtitle">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            </div>
+            
         </div>
         <div class="container-bar">
             <div class="container-bar__dot">
@@ -21,10 +19,10 @@ include('header-inc.php'); ?>
                 </span>
             </div>
             <div class="container-bar__lorem">
-                <p>Lorem ipsum dolor sit amet<br>consectetur adipiscing elit.</p>
+                <p>Jardim do Mar </br> São Bernardo do Campo</p>
             </div>
             <div class="container-bar__descricao">
-                <p>80m² | 2 e 3 Suítes | 2 Vagas de Garagem</p>
+                <p>59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
             </div>
             <div class="container-bar__button">
                 <a href="">SAIBA MAIS</a>
@@ -46,7 +44,7 @@ include('header-inc.php'); ?>
                 <p>Encontre seu Máximo Aldana</p>
             </div>
             <div class="container-fase__button">
-                <button id="filterBtn">FILTRAR</button>
+                <button id="filterBtn">FILTRAR &ensp; <i class="fa-solid fa-bars"></i></button>
             </div>
             <div id="myModal" class="modal">
                 <div class="modal-content">
@@ -235,7 +233,7 @@ include('header-inc.php'); ?>
                 </div>
             </div>
             <div class="container-fase__button mt-5">
-                <a href="">VER TODOS</a>
+                <a href=""><button>VER TODOS</button></a>
             </div>
         </div>
     </div>
