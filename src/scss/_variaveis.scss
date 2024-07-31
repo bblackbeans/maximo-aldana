@@ -1,0 +1,172 @@
+// Definindo variáveis de cor
+$cor-verde-agua-claro: #66c1bf; // Subtítulos //Botao
+$cor-azul-escuro: #18354f; // Títulos
+$cor-branca: #ffffff;
+$cor-verde-agua-medio: #559e9c; // Botao
+$cor-verde-agua-escuro: #41918f; // Botao
+$cor-preta: #000000; // Parágrafos
+
+// Definindo variáveis de fonte
+//Títulos
+$tamanho-fonte-titulo: 50px;
+$peso-fonte-normal-titulo: 400;
+$peso-fonte-negrito-titulo: 700;
+
+// Definindo variáveis de fonte
+//SubTítulos
+$tamanho-fonte-subtitulo: 34px;
+$peso-fonte-normal-subtitulo: 400;
+$peso-fonte-negrito-subtitulo: 700;
+
+// Definindo variáveis de fonte
+//Parágrafos
+$tamanho-fonte-paragrafo: 20px;
+$peso-fonte-normal-paragrafo: 400;
+$peso-fonte-negrito-paragrafo: 700;
+
+@mixin botaoFiltrar($cor-verde-agua-claro, $cor-branca) {
+  background-color: $cor-verde-agua-claro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 152px;
+  height: 53px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
+@mixin botao($cor-verde-agua-claro, $cor-branca) {
+  background-color: $cor-verde-agua-claro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 285px;
+  height: 53px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
+@mixin botaoMenu($cor-verde-agua-claro, $cor-branca) {
+  background-color: $cor-verde-agua-claro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  width: 180px;
+  height: 42px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
+@mixin botaoOrceConosco($cor-verde-agua-medio, $cor-branca) {
+  background-color: $cor-verde-agua-medio;
+  color: $cor-branca;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin botaoOrceConosco($cor-verde-agua-medio, $cor-branca) {
+  background-color: $cor-verde-agua-medio;
+  color: $cor-branca;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin btnAzulEscuro($cor-azul-escuro, $cor-branca) {
+  background-color: $cor-azul-escuro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 285px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin btnParaMorar($cor-verde-agua-claro, $cor-branca) {
+  background-color: $cor-verde-agua-claro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 285px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin btnBreveLancamento($cor-verde-agua-escuro, $cor-branca) {
+  background-color: $cor-verde-agua-escuro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 285px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin btnLeiaMais($cor-verde-agua-claro, $cor-branca) {
+  background-color: $cor-verde-agua-claro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  width: 103px;
+  height: 39px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
+@mixin btnForm($cor-branca, $cor-preta) {
+  background-color: $cor-branca;
+  color: $cor-preta;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  height: 65px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
