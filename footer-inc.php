@@ -1,4 +1,3 @@
-
 <footer class="py-5 bg-acquagreen">
     <div class="container-fluid px-5">
         <div class="row">
@@ -72,13 +71,18 @@
                             <li><a href=""><i class="fa-brands fa-whatsapp me-3"></i>+55 11 91705-3110</a></li>
                             <li><a href=""><i class="fa-solid fa-phone me-3"></i>+55 11 4337-1200</a></li>
                         </ul>
+                        <div class="icons-redes-sociais">
+                            <a href=""><i class="fa-brands fa-instagram icon-rede-social"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook icon-rede-social"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin icon-rede-social"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3">
                 <div class="footer-logo">
                     <div class="footer-logo__title">
-                        ASSOCIADAS
+                        ASSOCIADA A
                     </div>
                     <div class="footer-container_logo_img">
                         <div class="footer-logo__img">

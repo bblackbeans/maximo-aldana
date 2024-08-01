@@ -1,3 +1,29 @@
+// Definindo a função toggleDisplay para abrir todos os cards
+function toggleDisplay() {
+    var carousels = document.querySelectorAll('.secondCarousel');
+    
+    carousels.forEach(carousel => {
+        if (carousel.style.display === 'none' || carousel.style.display === '') {
+            carousel.style.display = 'block';
+        } else {
+            carousel.style.display = 'none';
+        }
+    });
+}
+
+function toggleCardBlog() {
+    var carousels = document.querySelectorAll('.second-card-blog');
+    
+    carousels.forEach(carousel => {
+        if (carousel.style.display === 'none' || carousel.style.display === '') {
+            carousel.style.display = 'flex';
+        } else {
+            carousel.style.display = 'none';
+        }
+    });
+}
+
+
 /* ESTILIZAÇÃO DO HEADER QUANDO A JANELA ROLA */
 
 window.addEventListener('scroll', function() {
@@ -112,4 +138,3 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
     }
 });
-
