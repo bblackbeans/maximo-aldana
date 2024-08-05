@@ -86,20 +86,6 @@ $peso-fonte-negrito-paragrafo: 700;
   }
 }
 
-@mixin botaoOrceConosco($cor-verde-agua-medio, $cor-branca) {
-  background-color: $cor-verde-agua-medio;
-  color: $cor-branca;
-  border: none;
-  border-radius: 27px;
-  cursor: pointer;
-  width: 310px;
-  height: 53px;
-
-  &:hover {
-    opacity: 0.9;
-  }
-}
-
 @mixin btnAzulEscuro($cor-azul-escuro, $cor-branca) {
   background-color: $cor-azul-escuro;
   color: $cor-branca;

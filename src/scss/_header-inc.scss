@@ -16,6 +16,30 @@
   justify-content: center;
 }
 
+.background-image-oportunidades-inc {
+  background: url("./img/banner-oportunidades.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-vaga-inc {
+  background: url("./img/banner-vaga.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-portal-inc {
+  background: url("./img/Banner-Somos-Maximo.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .top-menu {
   &__link-border {
     text-align: left;
