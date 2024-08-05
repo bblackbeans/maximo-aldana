@@ -995,7 +995,7 @@ footer {
 
 .footer-menu__title {
   font-family: "avenir-black", sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   color: #fff;
   letter-spacing: 0px;
   text-align: left;
@@ -1011,6 +1011,9 @@ footer {
   letter-spacing: 0px;
   text-align: left;
   text-decoration: none;
+}
+.footer-menu__list ul li a .icon-zap-insta {
+  font-size: 20px;
 }
 .footer-menu__text p {
   text-align: left;
@@ -1064,9 +1067,13 @@ footer {
   color: #ffffff;
 }
 .icons-redes-sociais .icon-rede-social {
-  color: #ffffff;
+  color: #66c1bf;
   text-decoration: none;
   margin-bottom: 2rem;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 25px;
 }
 
 /* RESPONSIVO */
@@ -1176,6 +1183,38 @@ footer {
 }
 .background-image {
   background: url("./img/Topo - Imagem - BG.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-sobre-inc {
+  background: url("./img/Banner-Somos-Maximo.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-oportunidades-inc {
+  background: url("./img/banner-oportunidades.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-vaga-inc {
+  background: url("./img/banner-vaga.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-portal-inc {
+  background: url("./img/Banner-Somos-Maximo.png") center no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -2387,6 +2426,591 @@ button {
   top: 30px;
   right: 20px;
   margin: auto;
+}
+.container-banner-sobre__title h1 {
+  text-align: start;
+  font-size: 128px;
+  font-family: "avenir-black", sans-serif;
+  color: #ffffff;
+  text-shadow: 8px 8px 98px #000000;
+  opacity: 1;
+  line-height: 1;
+}
+
+#somos-maximo {
+  margin-bottom: 5rem;
+}
+#somos-maximo .container-btns-somos-maximo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+}
+#somos-maximo .container-btns-somos-maximo .btn-somos-maximo {
+  background-color: #66c1bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 21px;
+  cursor: pointer;
+  width: 180px;
+  height: 42px;
+}
+#somos-maximo .container-btns-somos-maximo .btn-somos-maximo:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+#somos-maximo .container-content-somos-maximo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 1rem;
+}
+#somos-maximo .container-content-somos-maximo h1 {
+  text-align: center;
+  color: #66c1bf;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+#somos-maximo .container-content-somos-maximo span {
+  color: #18354f;
+}
+
+#proposito .container-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+#proposito .container-content-text h1 {
+  color: #18354f;
+  font-weight: 700;
+}
+#proposito .container-content-text h4 {
+  color: #66c1bf;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0px;
+}
+#proposito .container-content-text .container-content-proposito {
+  text-align: center;
+  margin: 4rem 0;
+}
+#proposito .container-content-text .container-content-visao {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#nossos-valores {
+  background-image: url("");
+  background: url("./img/MMaximo.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#nossos-valores .titles-nossos-valores {
+  text-align: center;
+  margin: 3rem 0;
+}
+#nossos-valores .titles-nossos-valores h1 {
+  color: #ffffff;
+  line-height: 1;
+  font-weight: 700;
+}
+#nossos-valores .titles-nossos-valores h4 {
+  color: #66c1bf;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+#nossos-valores .title-section-nosso-valores {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #66c1bf;
+  margin-bottom: 3rem;
+}
+#nossos-valores .title-section-nosso-valores span {
+  color: #ffffff;
+}
+#nossos-valores .container-content-nossos-valores {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+  text-align: center;
+  gap: 3rem;
+}
+#nossos-valores .container-content-nossos-valores .item-content {
+  max-width: 500px;
+  color: #ffffff;
+}
+#nossos-valores .container-content-nossos-valores .item-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+#nossos-valores .container-content-nossos-valores .item-content p {
+  font-weight: 400;
+}
+
+#nossa-historia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 7rem 0 3rem;
+}
+#nossa-historia h1 {
+  color: #18354f;
+  font-weight: 700;
+}
+#nossa-historia h3 {
+  color: #66c1bf;
+}
+#nossa-historia #linha-do-tempo {
+  background: url("./img/linha-do-tempo.png") center no-repeat;
+  background-size: contain;
+  height: 508vh;
+}
+#nossa-historia #linha-do-tempo .container-content-ano {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 0 4rem;
+  margin-top: 9rem;
+}
+#nossa-historia #linha-do-tempo .container-content-ano .content-text-ano {
+  max-width: 532px;
+}
+
+#certificacoes-premiacoes {
+  padding: 3rem 1rem;
+  background-color: #f8f4f4;
+  margin-top: 13rem;
+}
+#certificacoes-premiacoes .container-title-certificacoes {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#certificacoes-premiacoes .container-title-certificacoes h5 {
+  color: #66c1bf;
+  line-height: 1;
+}
+#certificacoes-premiacoes .container-title-certificacoes h1 {
+  color: #18354f;
+  font-weight: 700;
+  line-height: 1;
+}
+#certificacoes-premiacoes .container-content-certificacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+  gap: 20px;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes h2 {
+  color: #18354f;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes img {
+  object-fit: contain;
+}
+#certificacoes-premiacoes .container-content-certificacoes p {
+  max-width: 750px;
+  text-align: left;
+}
+#certificacoes-premiacoes .container-content-certificacoes p span {
+  color: #000000;
+  font-weight: 700;
+}
+
+@media (max-width: 810px) {
+  #certificacoes-premiacoes .container-content-certificacoes {
+    flex-direction: column;
+  }
+  #certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes {
+    padding: 0 !important;
+  }
+  #certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  .container-banner-sobre__title h1 {
+    font-size: 92px;
+  }
+}
+@media (max-width: 505px) {
+  .container-banner-sobre__title h1 {
+    font-size: 64px;
+  }
+}
+@media (max-width: 420px) {
+  #somos-maximo .container-content-somos-maximo h1 {
+    font-size: 34px;
+  }
+}
+.container-banner-oportunidades__title h1 {
+  text-align: start;
+  font-size: 100px;
+  font-family: "avenir-black", sans-serif;
+  color: #ffffff;
+  text-shadow: 8px 8px 98px #000000;
+  opacity: 1;
+  line-height: 1;
+  margin-left: 3rem;
+}
+
+.container-content-oportunidades {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-content-oportunidades h1 {
+  color: #18354f;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container-content-oportunidades h2 {
+  color: #66c1bf;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+#vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+#vagas .container-filtrar-opotunidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#vagas .container-filtrar-opotunidades p {
+  font-size: 34px;
+}
+#vagas .container-filtrar-opotunidades .bt-oportunidades-filtrar {
+  background-color: #66c1bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 152px;
+  height: 53px;
+  margin-bottom: 5rem;
+}
+#vagas .container-filtrar-opotunidades .bt-oportunidades-filtrar:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+#vagas .container-filtrar-opotunidades h1 {
+  color: #18354f;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+#vagas .accordion-item {
+  margin-bottom: 2rem;
+  border: none;
+}
+#vagas .accordion-button {
+  background-color: #66c1bf;
+  border-radius: 27px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  padding-left: 70px;
+}
+#vagas .accordion-button::after {
+  position: absolute;
+  left: 20px;
+  transform: rotate(270deg);
+}
+#vagas .accordion-button:not(.collapsed)::after {
+  position: absolute;
+  left: 20px;
+  transform: rotate(0deg);
+}
+#vagas .accordion-button i {
+  font-size: 1.2rem;
+}
+
+.container-nao-a-vagas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container-nao-a-vagas h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #18354f;
+  margin-bottom: 2rem;
+}
+.container-nao-a-vagas .paragrafo-nao-a-vagas {
+  font-size: 20px !important;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.container-nao-a-vagas button {
+  background-color: #559e9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-left: 30px;
+}
+.container-nao-a-vagas button:hover {
+  opacity: 0.9;
+}
+.container-nao-a-vagas .fa-arrow-right:before {
+  content: "\f061";
+  background: #62b1af;
+  color: #ffffff;
+  padding: 13px 15px;
+  border-radius: 37px;
+  font-size: 24px;
+}
+
+#oportunidades-somos-maximos {
+  background-color: #18354f;
+}
+#oportunidades-somos-maximos .container-historia-maximos {
+  padding: 5rem 5rem;
+}
+#oportunidades-somos-maximos .container-historia-maximos h1 {
+  color: #66c1bf;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+#oportunidades-somos-maximos .container-historia-maximos p {
+  color: #ffffff;
+}
+
+@media (max-width: 940px) {
+  .container-banner-oportunidades__title h1 {
+    font-size: 65px;
+  }
+}
+@media (max-width: 640px) {
+  .container-banner-oportunidades__title h1 {
+    font-size: 42px;
+    margin-left: 1rem;
+  }
+  #oportunidades-somos-maximos .container-historia-maximos {
+    padding: 3rem 3rem;
+  }
+}
+@media (max-width: 409px) {
+  .container-banner-oportunidades__title h1 {
+    font-size: 37px;
+  }
+  #oportunidades-somos-maximos .container-historia-maximos {
+    padding: 2rem 1rem;
+  }
+}
+.btn-status-vaga {
+  background-color: #66c1bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 285px;
+  height: 53px;
+  margin: 1rem 0;
+}
+.btn-status-vaga:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+
+#content-vaga {
+  margin-bottom: 3rem;
+}
+#content-vaga .container-btns-vaga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+#content-vaga .container-btns-vaga button {
+  background-color: #559e9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-left: 30px;
+}
+#content-vaga .container-btns-vaga button:hover {
+  opacity: 0.9;
+}
+#content-vaga .container-btns-vaga .fa-arrow-right:before {
+  content: "\f061";
+  background: #62b1af;
+  color: #ffffff;
+  padding: 13px 15px;
+  border-radius: 37px;
+  font-size: 24px;
+}
+
+#compilance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  background-color: #18354f;
+  padding: 4rem 1rem;
+}
+#compilance h1 {
+  color: #66c1bf;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+#compilance button {
+  background-color: #559e9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-left: 30px;
+  width: 425px;
+}
+#compilance button:hover {
+  opacity: 0.9;
+}
+#compilance .fa-arrow-right:before {
+  content: "\f061";
+  background: #62b1af;
+  color: #ffffff;
+  padding: 13px 15px;
+  border-radius: 37px;
+  font-size: 24px;
+}
+
+#canal-denuncia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
+  padding: 0rem 1rem 1rem;
+}
+#canal-denuncia h1 {
+  color: #66c1bf;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+#canal-denuncia button {
+  background-color: #559e9c;
+  color: #ffffff;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 310px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  padding-left: 30px;
+  width: 425px;
+}
+#canal-denuncia button:hover {
+  opacity: 0.9;
+}
+#canal-denuncia .fa-arrow-right:before {
+  content: "\f061";
+  background: #62b1af;
+  color: #ffffff;
+  padding: 13px 15px;
+  border-radius: 37px;
+  font-size: 24px;
+}
+
+@media (max-width: 490px) {
+  #compilance button {
+    width: 300px;
+  }
+  #canal-denuncia button {
+    width: 300px;
+  }
+}
+.content-parceria-portal-inc h1 {
+  color: #18354f;
+  font-size: 42px;
+  font-weight: 700;
+}
+.content-parceria-portal-inc h2 {
+  color: #66c1bf;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#form-portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form-portal .container-form-portal-inc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem 0 4rem;
+}
+#form-portal .content-container-form-portal-inc {
+  background-color: #66c1bf;
+  padding: 3rem;
+  border-radius: 27px;
+  max-width: 582px;
+}
+#form-portal .content-container-form-portal-inc form .form-group label {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

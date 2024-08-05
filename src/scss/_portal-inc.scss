@@ -1,0 +1,48 @@
+@import "./variaveis";
+
+.content-parceria-portal-inc {
+  h1 {
+    color: $cor-azul-escuro;
+    font-size: 42px;
+    font-weight: $peso-fonte-negrito-titulo;
+  }
+
+  h2 {
+    color: $cor-verde-agua-claro;
+    font-weight: $peso-fonte-normal-paragrafo;
+    margin-bottom: 2rem;
+  }
+}
+
+#form-portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container-form-portal-inc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 4rem;
+   
+  }
+
+  .content-container-form-portal-inc {
+    background-color: $cor-verde-agua-claro;
+    padding: 3rem;
+    border-radius: 27px;
+    max-width: 582px;
+
+    form {
+
+      .form-group {
+        label {
+          color: white;
+          font-weight: 700;
+          margin-bottom: 0.5rem;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+}
