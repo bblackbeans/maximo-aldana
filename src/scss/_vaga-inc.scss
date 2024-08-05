@@ -1,0 +1,36 @@
+@import "./variaveis";
+
+.btn-status-vaga {
+  @include botao($cor-verde-agua-claro, $cor-branca);
+  margin: 1rem 0;
+}
+
+#content-vaga {
+  margin-bottom: 3rem;
+
+  .container-btns-vaga {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+
+    button {
+      @include botaoOrceConosco($cor-verde-agua-medio, $cor-branca);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 0;
+      padding-left: 30px;
+    }
+    .fa-arrow-right:before {
+      content: "\f061";
+      background: #62b1af;
+      color: $cor-branca;
+      padding: 13px 15px;
+      border-radius: 37px;
+      font-size: 24px;
+    }
+  }
+}
