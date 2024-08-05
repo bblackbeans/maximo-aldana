@@ -1,0 +1,83 @@
+@import "./variaveis";
+
+#compilance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  background-color: $cor-azul-escuro;
+  padding: 4rem 1rem;
+
+  h1 {
+    color: $cor-verde-agua-claro;
+    font-weight: $peso-fonte-negrito-titulo;
+    font-size: $tamanho-fonte-titulo;
+    margin-bottom: 3rem;
+  }
+
+  button {
+    @include botaoOrceConosco($cor-verde-agua-medio, $cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    padding-left: 30px;
+    width: 425px;
+  }
+  .fa-arrow-right:before {
+    content: "\f061";
+    background: #62b1af;
+    color: $cor-branca;
+    padding: 13px 15px;
+    border-radius: 37px;
+    font-size: 24px;
+  }
+}
+
+#canal-denuncia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0;
+    padding: 0rem 1rem 1rem;
+  
+    h1 {
+      color: $cor-verde-agua-claro;
+      font-weight: $peso-fonte-negrito-titulo;
+      font-size: $tamanho-fonte-titulo;
+      margin-bottom: 3rem;
+    }
+  
+    button {
+      @include botaoOrceConosco($cor-verde-agua-medio, $cor-branca);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 0;
+      padding-left: 30px;
+      width: 425px;
+    }
+    .fa-arrow-right:before {
+      content: "\f061";
+      background: #62b1af;
+      color: $cor-branca;
+      padding: 13px 15px;
+      border-radius: 37px;
+      font-size: 24px;
+    }
+  }
+
+@media (max-width: 490px) {
+  #compilance {
+    button {
+      width: 300px;
+    }
+  }
+
+  #canal-denuncia {
+    button {
+      width: 300px;
+    }
+  }
+}
