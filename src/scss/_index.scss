@@ -333,7 +333,8 @@
 .card-blog {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  position: relative;
+  height: 100%;
 
   &__title {
     h2 {
@@ -344,6 +345,7 @@
       color: #66c1bf;
       opacity: 1;
       margin-top: 1rem;
+      line-height: 1;
     }
   }
 
@@ -351,6 +353,8 @@
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
+    bottom: 110px;
   }
 
   &__desc {
@@ -361,12 +365,16 @@
     color: #444744;
     opacity: 1;
     margin-bottom: 1.5rem;
+    bottom: 45px;
+    position: absolute;
   }
 
   &__button {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
     @include btnLeiaMais($cor-verde-agua-claro, $cor-branca);
     a {
       text-decoration: none;

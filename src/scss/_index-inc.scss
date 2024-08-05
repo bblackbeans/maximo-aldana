@@ -335,6 +335,7 @@
 .image-container {
   position: relative;
   display: inline-block;
+  overflow: hidden;
 }
 
 .image-container img {
@@ -369,6 +370,7 @@
   line-height: 1.2;
   position: absolute;
   z-index: 0;
+  transition: transform 0.5s ease;
 }
 
 #form-incorporadora {
@@ -588,6 +590,20 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+}
+
+
+
+.card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover .card-img-top {
+  transform: scale(1.2);
+}
+
+.image-container:hover .img-text-title {
+  display: none;
 }
 
 /* RESPONSIVO */

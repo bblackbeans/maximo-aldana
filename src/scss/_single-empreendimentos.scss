@@ -1,0 +1,283 @@
+.botao-interesse {
+    @include botaoMenu($cor-verde-agua-claro, $cor-branca)
+}
+
+#infos-gerais {
+    padding: 2rem 0rem;
+}
+
+.botao-interesse>a {
+    text-decoration: none;
+    color: unset;
+}
+
+.container-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-info {
+    font-size: 20px;
+    font-family: 'avenir-roman', sans-serif;
+    letter-spacing: 0px;
+    color: #000000 !important;
+    opacity: 1;
+}
+
+.container-infos-sm {
+    width: 12.4%;
+}
+
+#carousel-img {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title-empreendimento {
+    color: $cor-azul-escuro;
+    font-size: $tamanho-fonte-titulo;
+    font-family: 'avenir-black', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.subtitle-empreendimento {
+    color: $cor-verde-agua-claro;
+    font-size: $tamanho-fonte-subtitulo;
+    text-align: left;
+    letter-spacing: 0px;
+    font-family: 'avenir-light', sans-serif;
+}
+
+.paragrafo-empreendimento {
+    color: #707070;
+    font-size: $tamanho-fonte-paragrafo;
+    font-family: 'avenir-light', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-carousel {
+    position: relative;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+}
+
+.carousel-dots {
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    left: 0;
+}
+
+.carousel-dots span {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-dots .active {
+    background-color: $cor-verde-agua-claro;
+}
+
+.controlador-voltar,
+.controlador-avancar {
+    background-color: transparent;
+    color: #FFF;
+    font-size: 70px;
+}
+
+.botao-voltar {
+    position: absolute;
+    bottom: 10px;
+    right: 280px;
+    z-index: 980;
+}
+
+.botao-avancar {
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+    z-index: 980;
+}
+
+.map-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+    &__button {
+        @include botao($cor-verde-agua-claro, $cor-branca);
+        text-decoration: none;
+        text-align: center;
+        align-content: center;
+    }
+}
+
+#map-section {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+#lazer-section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.lista-opcoes {
+    position: relative;
+    width: 100%;
+}
+
+.icon-opcoes {
+    position: absolute;
+    left: 35%;
+    margin: auto;
+}
+
+.itens-opcoes {
+    position: absolute;
+    left: 45%;
+    margin: auto;
+    font-size: $tamanho-fonte-paragrafo;
+    color: #000000;
+    font-family: 'avenir-roman', sans-serif;
+}
+
+.tab-item>button {
+    color: $cor-azul-escuro !important;
+    font-size: 18px;
+    letter-spacing: 0;
+    font-family: 'avenir-black', sans-serif;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #000;
+}
+
+.tab-item>.nav-link {
+    border: unset !important;
+}
+
+.tab-item>.nav-link.active {
+    border-bottom: 5px solid $cor-verde-agua-claro !important;
+    border-radius: 0 !important;
+    padding-bottom: 1.5rem;
+}
+
+.container-button-plantas {
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button-plantas {
+    background-color: $cor-verde-agua-claro;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem 0rem;
+}
+
+.button-plantas>button {
+    color: $cor-branca !important;
+    font-size: 18px;
+    font-family: 'avenir-heavy', sans-serif;
+    text-decoration: none !important;
+    background: transparent;
+}
+
+.button-plantas>span {
+    font-size: 40px;
+    color: $cor-azul-escuro;
+}
+
+.button-plantas.active {
+    background-color: $cor-azul-escuro;
+}
+
+.button-plantas.active .material-symbols-outlined {
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+    color: $cor-verde-agua-claro;
+}
+
+.info-plantas {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'avenir-light', sans-serif;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+.info-plantas>span {
+    color: $cor-azul-escuro;
+    font-family: 'avenir-medium', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+#button-tour-vista {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn-tour-vista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-tour-vista>a {
+    background-color: $cor-azul-escuro;
+    border-radius: 27px;
+    color: #FFF;
+    font-size: 50px;
+    font-family: 'avenir-black', sans-serif;
+    letter-spacing: 0px;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 1.5rem 0rem;
+}
+
+.btn-tour-vista>a>img {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    margin: auto;
+    top: 0;
+}
+
+.btn-tour-vista>a>span {
+    font-size: 65px;
+    position: absolute;
+    bottom: 0;
+    top: 30px;
+    right: 20px;
+    margin: auto;
+}
