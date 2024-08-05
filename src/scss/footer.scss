@@ -34,7 +34,7 @@ footer {
 .footer-menu {
   &__title {
     font-family: "avenir-black", sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     color: #fff;
     letter-spacing: 0px;
     text-align: left;
@@ -53,6 +53,10 @@ footer {
           letter-spacing: 0px;
           text-align: left;
           text-decoration: none;
+
+          .icon-zap-insta {
+            font-size: 20px;
+          }
         }
       }
     }
@@ -115,9 +119,13 @@ footer {
   color: $cor-branca;
 
   .icon-rede-social {
-    color: $cor-branca;
+    color: $cor-verde-agua-claro;
     text-decoration: none;
     margin-bottom: 2rem;
+    font-size: 20px;
+    background-color: $cor-branca;
+    padding: 5px;
+    border-radius: 25px;
   }
 }
 

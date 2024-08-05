@@ -59,63 +59,255 @@ include('header-sobre-inc.php'); ?>
 </section>
 
 <section id="nossos-valores">
-    <div class="container">
+    <div class="container-fluid">
         <div class="titles-nossos-valores">
             <h4>Nossos</h4>
             <h1>Valores</h1>
         </div>
-
         <h1 class="title-section-nosso-valores">Aqui praticamos o <span>Max Mentality</span></h1>
-
         <div>
-            <div>
-                <div>
+            <div class="container-content-nossos-valores">
+                <div class="item-content">
                     <h2>Cliente no Centro</h2>
-                    <p>Trabalhamos intensamente para priorizar a satisfação dos nossos clientes em cada entrega, 
+                    <p>Trabalhamos intensamente para priorizar a satisfação dos nossos clientes em cada entrega,
                         cumprindo sempre o que prometemos dentro dos prazos acordados, com a máxima qualidade.</p>
                 </div>
-                <div>
+                <div class="item-content">
                     <h2>DNA da construção</h2>
-                    <p>Desde sua fundação, a “obra” corre em nosso sangue. Ter o “pé na obra” é fundamental para 
+                    <p>Desde sua fundação, a “obra” corre em nosso sangue. Ter o “pé na obra” é fundamental para
                         entregar o melhor resultado.</p>
                 </div>
-                <div>
+                <div class="item-content">
                     <h2>Fazer por merecer</h2>
                     <p>Ter atitudes que merecem o mérito, fazendo sempre algo bom além dos parâmetros aceitos.</p>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="container-content-nossos-valores">
+                <div class="item-content">
                     <h2>Segurança não se negocia</h2>
-                    <p>Cultivamos o envolvimento e comprometimento das lideranças e profissionais operacionais 
+                    <p>Cultivamos o envolvimento e comprometimento das lideranças e profissionais operacionais
                         para garantirem o máximo de segurança no trabalho em nossos canteiros.</p>
                 </div>
-                <div>
+                <div class="item-content">
                     <h2>#OrgulhoMaximoAldana</h2>
-                    <p>Prezamos e valorizamos o lado humano da nossa equipe, buscando seu constante desenvolvimento 
+                    <p>Prezamos e valorizamos o lado humano da nossa equipe, buscando seu constante desenvolvimento
                         e criando um ambiente equilibrado e empático onde se sintam orgulhosos de fazer parte.</p>
                 </div>
-                <div>
+                <div class="item-content">
                     <h2>Ética e transparência</h2>
-                    <p>Valorizamos o respeito e a honestidade em nossas relações com clientes, fornecedores, 
+                    <p>Valorizamos o respeito e a honestidade em nossas relações com clientes, fornecedores,
                         colaboradores e investidores, com o objetivo de formar alianças duradouras.</p>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="container-content-nossos-valores">
+                <div class="item-content">
                     <h2>Desenvolvimento Social e Sustentável</h2>
-                    <p>Somos engajados com a responsabilidade ambiental e contribuímos para a conservação 
-                        da natureza em todas as obras, investindo em tecnologias que colaboram para a construção 
+                    <p>Somos engajados com a responsabilidade ambiental e contribuímos para a conservação
+                        da natureza em todas as obras, investindo em tecnologias que colaboram para a construção
                         de projetos cada vez mais responsáveis</p>
                 </div>
-                <div>
+                <div class="item-content">
                     <h2>Gerar valor e inovação através da Engenharia</h2>
-                    <p>Inovação e criatividade são comportamentos intrínsecos, onde todos podem exercer a engenharia 
+                    <p>Inovação e criatividade são comportamentos intrínsecos, onde todos podem exercer a engenharia
                         para trazer valor aos nossos clientes.</p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
 
+<section id="nossa-historia">
+    <h1>Nossa história</h1>
+    <h3 style="margin-bottom: 4rem;">Há 25 anos planejando sonhos, construindo o futuro</h3>
+    <div id="linha-do-tempo">
+        <div class="container-fluid">
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Fundação da</h4>
+                    <h3>Maximo Aldana Engenharia e Construção</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano"> 
+                <div class="content-text-ano">
+                    <h4>Primeira obra hospitalar</h4>
+                    <h3>Hospital São João de Deus</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+                <div>
+                    <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="max-width: 370px;" alt="">
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Fundação da</h4>
+                    <h3>Maximo Aldana Incorporadora</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Primeira incorporação residencial</h4>
+                    <h3>Style Platinum</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div class="content-text-ano">
+                    <h4>Implantação e Certificação</h4>
+                    <h3>ISO:9001 E PBQP-H</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Primeira incorporação no litoral paulista</h4>
+                    <h3>Costa Esmeralda</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div class="content-text-ano">
+                    <h4>Criação da nova marca</h4>
+                    <h3>Maximo Aldana <br> Construtora e Incorporadora</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Foram construídos</h4>
+                    <h3>100.000 m²</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div class="content-text-ano">
+                    <h4>Construção do</h4>
+                    <h3>Aeroporto de Aripuanã - MT</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Categoria Inovação em Obras</h4>
+                    <h3>Prêmio HealthARQ 2022</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div class="content-text-ano">
+                    <h4>3º ano consecutivo entre as</h4>
+                    <h3>100 maiores construtoras do Brasil</h3>
+                    <h4>segundo no Ranking Intec</h4>
+                    <h3>2ª maior construtora do Grande ABC</h3>
+                    <h4>Ganhador na Categoria Construtora</h4>
+                    <h3>Prêmio Líderes de Saúde</h3>
+                </div>
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+            </div>
+            <div class="container-content-ano">
+                <div>
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                </div>
+                <div class="content-text-ano">
+                    <h4>Entrega do prédio residencial</h4>
+                    <h3>Aldana One</h3>
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                        tempora est ipsa pariatur.</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section id="certificacoes-premiacoes">
+    <div class="container">
+        <div class="container-title-certificacoes">
+            <h5>Certificados e Premiações</h4>
+                <h1>Maximo Aldana</h1>
+        </div>
+        <div>
+            <div class="container-content-certificacoes">
+                <div class="content-one-certificacoes" style="padding-left: 48px;">
+                    <h2>Certificados</h2>
+                    <div class="content-img-certificacoes">
+                        <img src="./src/img/certificados-premiacoes/sas.png" alt="SAS">
+                        <img src="./src/img/certificados-premiacoes/pbqp-h.png" alt="PBQP">
+                    </div>
+                </div>
+                <p style="padding-left: 20px;">Sempre focados em oferecer o melhor aos nossos clientes, conquistamos o Certificado do PBQP-H
+                    (Programa Brasileiro da Qualidade e Produtividade do Habitat), regulamentador nacional de produtos e
+                    serviços e o ISO 9001:2015, norma de sistema de gestão da qualidade. </p>
+            </div>
+            <hr>
+            <div class="container-content-certificacoes">
+                <div class="content-one-certificacoes">
+                    <h2>Premiações</h2>
+                    <div class="content-img-certificacoes">
+                        <img src="./src/img/certificados-premiacoes/lideres-da-saude.png" alt="lideres">
+                        <img src="./src/img/certificados-premiacoes/Premio-health-arq-2022.png" alt="health arq">
+                        <img src="./src/img/certificados-premiacoes/INTEC.png" alt="intec">
+                    </div>
+                </div>
+                <div>
+                    <p>Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
+                        segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).</p>
+                    <h6>POLÍTICA DE QUALIDADE</h6>
+                    <p>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis,
+                        melhorando continuamente nossos processos em busca da satisfação dos nossos clientes e colaboradores.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

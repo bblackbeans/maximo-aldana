@@ -117,6 +117,142 @@
       color: $cor-branca;
     }
   }
+
+  .container-content-nossos-valores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+    text-align: center;
+    gap: 3rem;
+
+    .item-content {
+      max-width: 500px;
+      color: $cor-branca;
+
+      h2 {
+        font-size: $tamanho-fonte-subtitulo;
+        font-weight: $peso-fonte-negrito-titulo;
+      }
+
+      p {
+        font-weight: $peso-fonte-normal-paragrafo;
+      }
+    }
+  }
+}
+
+#nossa-historia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 7rem 0 3rem;
+
+  h1 {
+    color: $cor-azul-escuro;
+    font-weight: $peso-fonte-negrito-titulo;
+  }
+
+  h3 {
+    color: $cor-verde-agua-claro;
+  }
+
+  #linha-do-tempo {
+    background: url("./img/linha-do-tempo.png") center no-repeat;
+    background-size: contain;
+    height: 685vh;
+
+    .container-content-ano {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3rem;
+      padding: 0 4rem;
+      margin-top: 9rem;
+
+      .content-text-ano {
+        max-width: 532px;
+      }
+    }
+  }
+}
+
+#certificacoes-premiacoes {
+  padding: 3rem 1rem;
+  background-color: #f8f4f4;
+  margin-top: 13rem;
+
+  .container-title-certificacoes {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h5 {
+      color: $cor-verde-agua-claro;
+      line-height: 1;
+    }
+
+    h1 {
+      color: $cor-azul-escuro;
+      font-weight: $peso-fonte-negrito-titulo;
+      line-height: 1;
+    }
+  }
+
+  .container-content-certificacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0;
+    gap: 20px;
+
+    .content-one-certificacoes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        color: $cor-azul-escuro;
+        font-weight: $peso-fonte-negrito-titulo;
+        margin-bottom: 0.5rem;
+      }
+
+      .content-img-certificacoes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    p {
+      max-width: 750px;
+      text-align: left;
+
+      span {
+        color: $cor-preta;
+        font-weight: $peso-fonte-negrito-paragrafo;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  #certificacoes-premiacoes .container-content-certificacoes {
+    flex-direction: column;
+
+    .content-one-certificacoes {
+      padding: 0 !important;
+
+      .content-img-certificacoes {
+        margin: 20px 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {

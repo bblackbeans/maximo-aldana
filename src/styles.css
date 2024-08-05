@@ -987,7 +987,7 @@ footer {
 
 .footer-menu__title {
   font-family: "avenir-black", sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   color: #fff;
   letter-spacing: 0px;
   text-align: left;
@@ -1003,6 +1003,9 @@ footer {
   letter-spacing: 0px;
   text-align: left;
   text-decoration: none;
+}
+.footer-menu__list ul li a .icon-zap-insta {
+  font-size: 20px;
 }
 .footer-menu__text p {
   text-align: left;
@@ -1056,9 +1059,13 @@ footer {
   color: #ffffff;
 }
 .icons-redes-sociais .icon-rede-social {
-  color: #ffffff;
+  color: #66c1bf;
   text-decoration: none;
   margin-bottom: 2rem;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 25px;
 }
 
 /* RESPONSIVO */
@@ -2183,7 +2190,121 @@ button {
 #nossos-valores .title-section-nosso-valores span {
   color: #ffffff;
 }
+#nossos-valores .container-content-nossos-valores {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+  text-align: center;
+  gap: 3rem;
+}
+#nossos-valores .container-content-nossos-valores .item-content {
+  max-width: 500px;
+  color: #ffffff;
+}
+#nossos-valores .container-content-nossos-valores .item-content h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+#nossos-valores .container-content-nossos-valores .item-content p {
+  font-weight: 400;
+}
 
+#nossa-historia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 7rem 0 3rem;
+}
+#nossa-historia h1 {
+  color: #18354f;
+  font-weight: 700;
+}
+#nossa-historia h3 {
+  color: #66c1bf;
+}
+#nossa-historia #linha-do-tempo {
+  background: url("./img/linha-do-tempo.png") center no-repeat;
+  background-size: contain;
+  height: 685vh;
+}
+#nossa-historia #linha-do-tempo .container-content-ano {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 0 4rem;
+  margin-top: 9rem;
+}
+#nossa-historia #linha-do-tempo .container-content-ano .content-text-ano {
+  max-width: 532px;
+}
+
+#certificacoes-premiacoes {
+  padding: 3rem 1rem;
+  background-color: #f8f4f4;
+  margin-top: 13rem;
+}
+#certificacoes-premiacoes .container-title-certificacoes {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#certificacoes-premiacoes .container-title-certificacoes h5 {
+  color: #66c1bf;
+  line-height: 1;
+}
+#certificacoes-premiacoes .container-title-certificacoes h1 {
+  color: #18354f;
+  font-weight: 700;
+  line-height: 1;
+}
+#certificacoes-premiacoes .container-content-certificacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+  gap: 20px;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes h2 {
+  color: #18354f;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+#certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes img {
+  object-fit: contain;
+}
+#certificacoes-premiacoes .container-content-certificacoes p {
+  max-width: 750px;
+  text-align: left;
+}
+#certificacoes-premiacoes .container-content-certificacoes p span {
+  color: #000000;
+  font-weight: 700;
+}
+
+@media (max-width: 810px) {
+  #certificacoes-premiacoes .container-content-certificacoes {
+    flex-direction: column;
+  }
+  #certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes {
+    padding: 0 !important;
+  }
+  #certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes {
+    margin: 20px 0;
+  }
+}
 @media (max-width: 768px) {
   .container-banner-sobre__title h1 {
     font-size: 92px;
