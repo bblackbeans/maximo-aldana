@@ -64,6 +64,18 @@
     border: none;
   }
 
+  .arrow-acordion {
+    position: absolute;
+    left: 10px;
+    font-size: 55px;
+    color: $cor-azul-escuro;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-button:not(.collapsed) .arrow-acordion {
+    transform: rotate(90deg);
+  }
+
   .accordion-button {
     background-color: $cor-verde-agua-claro;
     border-radius: 27px;
@@ -78,6 +90,7 @@
     position: absolute;
     left: 20px;
     transform: rotate(270deg);
+    display: none;
   }
 
   .accordion-button:not(.collapsed)::after {

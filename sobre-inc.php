@@ -318,7 +318,7 @@ include('header-sobre-inc.php'); ?>
             <h2>Nosso Blog</h2>
         </div>
         <div class="container container-card-blog">
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -333,14 +333,14 @@ include('header-sobre-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -355,14 +355,14 @@ include('header-sobre-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -377,7 +377,7 @@ include('header-sobre-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -386,7 +386,7 @@ include('header-sobre-inc.php'); ?>
             </div>
         </div>
         <div class="container container-card-blog second-card-blog" style="display: none;">
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -401,14 +401,14 @@ include('header-sobre-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -423,14 +423,14 @@ include('header-sobre-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px;">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -445,7 +445,7 @@ include('header-sobre-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>

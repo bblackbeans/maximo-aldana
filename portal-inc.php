@@ -37,11 +37,11 @@ include('header-portal-inc.php'); ?>
             <form action="">
                 <div class="form-group">
                     <label for="login">Login:</label>
-                    <input type="text" class="form-control" placeholder="Login..." id="login" aria-describedby="LoginHelp" required>
+                    <input type="text" class="form-control" placeholder="Login" id="login" aria-describedby="LoginHelp" required>
                 </div>
                 <div class="form-group">
                     <label for="senha">Senha:</label>
-                    <input type="password" class="form-control" placeholder="Senha..." id="senha" required>
+                    <input type="password" class="form-control" placeholder="*********" id="senha" required>
                 </div>
                 <button type="submit">Enviar</button>
                 <div class="form-check">
