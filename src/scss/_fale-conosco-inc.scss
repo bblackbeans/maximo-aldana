@@ -1,0 +1,99 @@
+@import "./variaveis";
+
+#form-portal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container-form-portal-inc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 4rem;
+  }
+
+  .content-container-form-portal-inc {
+    background-color: $cor-verde-agua-claro;
+    padding: 2rem;
+    border-radius: 27px;
+    max-width: 582px;
+
+    form {
+      .form-group {
+        label {
+          color: white;
+          font-weight: 700;
+          margin-bottom: 0.5rem;
+          margin-left: 2rem;
+          font-size: $tamanho-fonte-paragrafo;
+        }
+
+        input {
+          border: none;
+          background-color: $cor-branca;
+          color: $cor-preta;
+          border-radius: 27px;
+          height: 60px;
+          padding-left: 1rem;
+        }
+
+        input::placeholder {
+          color: #444744;
+          opacity: 0.4;
+          padding-left: 1rem;
+        }
+
+        textarea {
+          border-radius: 27px;
+        }
+
+        textarea::placeholder {
+          color: #444744;
+          opacity: 0.4;
+          padding-left: 1rem;
+        }
+
+        select {
+          border: none;
+          background-color: $cor-branca;
+          color: $cor-preta;
+          border-radius: 27px;
+          height: 60px;
+          padding-left: 1rem;
+        }
+
+        select::placeholder {
+          color: #444744;
+          opacity: 0.4;
+          padding-left: 1rem;
+        }
+
+        .label-radio-fale-conosco-inc {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-left: 2rem;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+
+          .input-radio-fale-conosco-inc {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 2rem;
+
+            label {
+              font-weight: $peso-fonte-normal-paragrafo;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #form-portal .container-form-portal-inc {
+    flex-direction: column;
+  }
+}
