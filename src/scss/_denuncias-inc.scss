@@ -1,0 +1,41 @@
+@import "./variaveis";
+
+.container-btns-denuncia-inc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 3rem 0 5rem;
+
+  button {
+    @include botaoOrceConosco($cor-verde-agua-medio, $cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+  .fa-arrow-right:before {
+    content: "\f061";
+    background: #62b1af;
+    color: $cor-branca;
+    padding: 13px 15px;
+    border-radius: 37px;
+    font-size: 24px;
+  }
+}
+
+.content-tipos-denuncias-inc {
+  h5 {
+    color: $cor-azul-escuro;
+    font-weight: $peso-fonte-negrito-subtitulo;
+  }
+
+  .content-tipos-paragrafo-inc {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+}
