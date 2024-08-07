@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "avenir-black";
   src: url("./fonts/AvenirLTStd-Black.otf") format("opentype");
@@ -2387,8 +2388,8 @@ button {
 }
 
 #button-tour-vista {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 
 .btn-tour-vista {
@@ -2426,6 +2427,332 @@ button {
   top: 30px;
   right: 20px;
   margin: auto;
+}
+
+.title-obras {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "avenir-black", sans-serif;
+  letter-spacing: 0px;
+}
+
+#obra-status {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #18354f;
+}
+
+.title-status {
+  color: #66c1bf;
+  font-size: 34px;
+  font-family: "avenir-heavy", sans-serif;
+  letter-spacing: 0px;
+}
+
+.progress {
+  height: 53px;
+  border-radius: 17px;
+  position: relative;
+  display: flex;
+  place-items: center;
+}
+
+.progress-bar {
+  background-color: #66c1bf;
+  border-radius: 17px;
+  height: 100%;
+}
+
+.progress-number {
+  color: #18354f;
+  font-size: 30px;
+  font-family: "avenir-heavy", sans-serif;
+  letter-spacing: 0px;
+  margin: 0;
+  position: absolute;
+  left: 30px;
+}
+
+/* CAROUSEL */
+.carousel-slick {
+  margin-top: 7rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.slick-slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.caption {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.caption p {
+  color: #66c1bf;
+  font-size: 34px;
+  font-family: "avenir-heavy", sans-serif;
+}
+
+/* carousel */
+#video-empreendimento {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #18354f;
+}
+
+.video-title {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: "avenir-heavy", sans-serif;
+  letter-spacing: 0px;
+}
+
+.video-title span {
+  color: #66c1bf;
+}
+
+.container-play-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-play {
+  background-color: #66c1bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button-play span {
+  color: #ffffff;
+  font-size: 100px;
+}
+
+.video-data {
+  color: 34px;
+  color: #66c1bf;
+  font-family: "avenir-heavy", sans-serif;
+  margin-top: 2rem;
+}
+
+.row-status .col-md-6:first-child {
+  padding-right: 4rem;
+}
+
+.row-status .col-md-6:last-child {
+  padding-left: 4rem;
+}
+
+#obra-status2 {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: #18354f;
+}
+
+#ficha-tecnica {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.container-acordeao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acordeao-item {
+  background-color: #18354f;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.acordeao-item span {
+  color: #66c1bf;
+  font-size: 70px;
+  transition: transform 0.8s ease;
+}
+
+.acordeao-item span.rotated {
+  transform: rotate(0deg);
+  /* Classe para a rotação */
+}
+
+.acordeao-title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "avenir-heavy", sans-serif;
+  letter-spacing: 0px;
+}
+
+.acordeao-descricao {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.acordeao-descricao ul {
+  padding: 0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.acordeao-descricao ul li {
+  border-bottom: 1px solid #66c1bf;
+  margin-bottom: 1.5rem;
+}
+
+.descricao-item {
+  color: #66c1bf;
+  font-size: 20px;
+  font-family: "avenir-heavy", sans-serif;
+}
+
+.descricao-resp {
+  color: #434743;
+  font-size: 20px;
+  font-family: "avenir-heavy", sans-serif;
+  float: right;
+}
+
+#localizacao {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  background: #FBFBFB 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.container-iframe iframe {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.container-text p {
+  color: #434743;
+  font-size: 21px;
+  font-family: "avenir-light", sans-serif;
+}
+
+.localizacao-text {
+  padding-left: 4rem;
+}
+
+#outros-empreendimentos {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.title-conheca {
+  color: #66c1bf;
+  font-size: 50px;
+  font-family: "avenir-black", sans-serif;
+  letter-spacing: 0px;
+  margin-bottom: 2rem;
+}
+
+.container-carousel-conheca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-carousel-obras {
+  margin-top: 8rem;
+  position: relative;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 50%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: -52px;
+  left: 50px;
+  transform: translateX(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  bottom: unset;
+  top: 38%;
+  width: auto;
+  opacity: 1;
+}
+
+.controller-carousel {
+  color: #66c1bf;
+  font-size: 50px;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+}
+
+.carousel-indicators button {
+  background-color: #FFF;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.carousel-indicators button.active {
+  background-color: #66c1bf;
 }
 
 .container-banner-sobre__title h1 {

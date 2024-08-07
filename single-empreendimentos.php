@@ -220,7 +220,7 @@ include('header-inc.php'); ?>
                         <div class="col-md-8">
                             <img src="./src/img/plantas/54m²-e-58m²-1-Dorm-_suite_-e-lavabo-_1_.webp" alt="Planta" class="img-fluid" id="planta1">
                             <img src="./src/img/plantas/54m²-e-58m²-1-Dorm-_suite_-e-lavabo-_1_.webp" alt="Planta" class="img-fluid d-none" id="planta2">
-                            <p class="info-plantas px-4">Os elementos decorativos, os móveis, os acessórios, as vegetações e os demais elementos elucidativos das ilustrações, são meramente sugestivos, não incluídos nas especificações da obra e no preço das unidades.<span>Estudo Preliminar de Projeto | Sujeito a Alterações.</span></p>
+                            <p class="info-plantas mt-4 px-4">Os elementos decorativos, os móveis, os acessórios, as vegetações e os demais elementos elucidativos das ilustrações, são meramente sugestivos, não incluídos nas especificações da obra e no preço das unidades.<span>Estudo Preliminar de Projeto | Sujeito a Alterações.</span></p>
                         </div>
                     </div>
                 </div>
@@ -251,10 +251,728 @@ include('header-inc.php'); ?>
             </div>
         </div>
     </div>
-
 </section>
 
-<script>
+<section id="obra-status">
+    <div class="container">
+        <div class="container-title">
+            <h2 class="title-obras">Acompanhe a obra</h2>
+        </div>
+        <div class="container-total-obra">
+            <p class="title-status">Total da Obra</p>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%"></div>
+                <p class="progress-number">25%</p>
+            </div>
+        </div>
+        <div class="container-carousel-obras">
+
+
+
+            <div class="carousel-container">
+                <div class="carousel-slide" id="carouselSlide">
+                    <div class="carousel-item carousel-item-obras">
+                        <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="Image 1">
+                        <div class="carousel-caption">JUNHO/2024</div>
+                    </div>
+                    <div class="carousel-item carousel-item-obras">
+                        <img src="./src/img/obras/obra_seven_living_frente-768x576.webp" alt="Image 2">
+                        <div class="carousel-caption">JUNHO/2024</div>
+                    </div>
+                    <div class="carousel-item carousel-item-obras">
+                        <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="Image 3">
+                        <div class="carousel-caption">JUNHO/2024</div>
+                    </div>
+                    <div class="carousel-item carousel-item-obras">
+                        <img src="./src/img/obras/obra_seven_living_frente-768x576.webp" alt="Image 4">
+                        <div class="carousel-caption">JUNHO/2024</div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" onclick="prevSlide()"><span class="material-symbols-outlined controller-carousel">
+                        arrow_back_ios
+                    </span></button>
+                <button class="carousel-control-next" onclick="nextSlide()"><span class="material-symbols-outlined controller-carousel">
+                        arrow_forward_ios
+                    </span></button>
+                <div class="carousel-indicators">
+                    <button class="active" onclick="currentSlide(0)"></button>
+                    <button onclick="currentSlide(1)"></button>
+                    <button onclick="currentSlide(2)"></button>
+                </div>
+            </div>
+
+
+            <!-- <div class="carousel-items">
+                <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="" class="img-fluid w-100">
+                <img src="./src/img/obras/obra_seven_living_frente-768x576.webp" alt="" class="img-fluid w-100">
+                <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="" class="img-fluid w-100">
+            </div>
+            <div class="carousel-obras-control-next">
+                <button class="button-control-carousel" type="button"><span class="material-symbols-outlined">
+                        arrow_forward_ios
+                    </span></button>
+            </div>
+            <div class="carousel-obras-control-prev">
+                <button class="button-control-carousel" type="button"><span class="material-symbols-outlined">
+                        arrow_back_ios
+                    </span></button>
+            </div>
+            <div class="carousel-obras-indicadores">
+                <div class="carousel-dots-obras">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<section id="video-empreendimento">
+    <div class="container">
+        <div class="container-title">
+            <h5 class="video-title">Assista ao <span>vídeo</span></h5>
+        </div>
+        <div class="container-play-video">
+            <div class="button-play">
+                <span class="material-symbols-outlined">
+                    play_arrow
+                </span>
+            </div>
+            <h4 class="video-data">(Julho de 2024)</h4>
+        </div>
+    </div>
+</section>
+
+<section id="obra-status2">
+    <div class="container">
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Movimentação de terra</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Impermeabilização</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Canteiro de Obras</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Esquadrias</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Fundações</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Revestimentos</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Estrutura</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Pavimentação</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Alvenaria</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Elevadores</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Instalações Elétricas</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item mb-5">
+                <div class="container-total-obra">
+                    <p class="title-status">Pinturas</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-status">
+            <div class="col-md-6 total-item">
+                <div class="container-total-obra">
+                    <p class="title-status">Instalações Hidráulicas</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 total-item">
+                <div class="container-total-obra">
+                    <p class="title-status">Limpeza final de obra</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%"></div>
+                        <p class="progress-number">25%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ficha-tecnica">
+    <div class="container">
+        <div class="container-title">
+            <h1 class="title-empreendimento">Ficha técnica e mais informações</h1>
+        </div>
+        <div class="container-acordeao">
+            <div class="acordeao-item">
+                <span class="material-symbols-outlined arrow-acordeao">
+                    arrow_right
+                </span>
+                <p class="acordeao-title">Ficha Técnica</p>
+            </div>
+            <div class="acordeao-descricao">
+                <ul>
+                    <li><span class="descricao-item">Área construída</span><span class="descricao-resp">X.XXX m²</span></li>
+                    <li><span class="descricao-item">Torres</span><span class="descricao-resp">1 Torre</span></li>
+                    <li><span class="descricao-item">Unidades por andar</span><span class="descricao-resp">X Unidades</span></li>
+                    <li><span class="descricao-item">Total por unidades</span><span class="descricao-resp">X unidades + X coberturas</span></li>
+                    <li><span class="descricao-item">Nº de pavimentos</span><span class="descricao-resp">X pavimentos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-acordeao">
+            <div class="acordeao-item">
+                <span class="material-symbols-outlined arrow-acordeao">
+                    arrow_right
+                </span>
+                <p class="acordeao-title">Sustentabilidade</p>
+            </div>
+            <div class="acordeao-descricao">
+                <ul>
+                    <li><span class="descricao-item">Área construída</span><span class="descricao-resp">X.XXX m²</span></li>
+                    <li><span class="descricao-item">Torres</span><span class="descricao-resp">1 Torre</span></li>
+                    <li><span class="descricao-item">Unidades por andar</span><span class="descricao-resp">X Unidades</span></li>
+                    <li><span class="descricao-item">Total por unidades</span><span class="descricao-resp">X unidades + X coberturas</span></li>
+                    <li><span class="descricao-item">Nº de pavimentos</span><span class="descricao-resp">X pavimentos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-acordeao">
+            <div class="acordeao-item">
+                <span class="material-symbols-outlined arrow-acordeao">
+                    arrow_right
+                </span>
+                <p class="acordeao-title">Diferenciais Construtivos</p>
+            </div>
+            <div class="acordeao-descricao">
+                <ul>
+                    <li><span class="descricao-item">Área construída</span><span class="descricao-resp">X.XXX m²</span></li>
+                    <li><span class="descricao-item">Torres</span><span class="descricao-resp">1 Torre</span></li>
+                    <li><span class="descricao-item">Unidades por andar</span><span class="descricao-resp">X Unidades</span></li>
+                    <li><span class="descricao-item">Total por unidades</span><span class="descricao-resp">X unidades + X coberturas</span></li>
+                    <li><span class="descricao-item">Nº de pavimentos</span><span class="descricao-resp">X pavimentos</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-acordeao">
+            <div class="acordeao-item">
+                <span class="material-symbols-outlined arrow-acordeao">
+                    arrow_right
+                </span>
+                <p class="acordeao-title">Diferenciais do produto</p>
+            </div>
+            <div class="acordeao-descricao">
+                <ul>
+                    <li><span class="descricao-item">Área construída</span><span class="descricao-resp">X.XXX m²</span></li>
+                    <li><span class="descricao-item">Torres</span><span class="descricao-resp">1 Torre</span></li>
+                    <li><span class="descricao-item">Unidades por andar</span><span class="descricao-resp">X Unidades</span></li>
+                    <li><span class="descricao-item">Total por unidades</span><span class="descricao-resp">X unidades + X coberturas</span></li>
+                    <li><span class="descricao-item">Nº de pavimentos</span><span class="descricao-resp">X pavimentos</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="localizacao">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14581.217963971167!2d-46.3000798!3d-23.9850225!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03dcd4fb170b%3A0x41423c0d4e82a293!2sSeven%20Living%20Life%20Residence!5e0!3m2!1spt-BR!2sbr!4v1723060776596!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 localizacao-text">
+                <div class="container-title align-items-start">
+                    <h1 class="title-empreendimento m-0">Localização</h1>
+                </div>
+                <div class="container-text">
+                    <p>O Bairro Ponta da Praia, em Santos, possuí três museus (Museu do Mar, Museu Marítimo e Museu de Pesca), um complexo esportivo, restaurantes, estação de ferry-boat e está entre os melhores bairros da cidade para morar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="form-incorporadora">
+    <div class="container-fluid p-0">
+        <div class="container-form">
+            <div class="container-form__img">
+                <img src="./src/img/casal-sofa.png" alt="">
+            </div>
+            <div class="container-form__form">
+                <div class="container-form__texto">
+                    <h3>Conquiste o seu<br>IMÓVEL dos sonhos!</h3>
+                    <p>Os empreendimentos da Maximo Aldana trazem a exclusividade, modernidade e o conforto que você procura.</p>
+                </div>
+                <form method="POST" action="" id="form-home-incorporadora">
+                    <h3>Preencha o formulário para conversar com um especialista.</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" name="phone" placeholder="Telefone*" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email*" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group-select">
+                        <label for="empreendimento">Qual empreendimento você tem interesse?*</label>
+                        <select class="form-select" aria-label="empreendimento" id="empreendimento" name="empreendimento">
+                            <option selected>Selecionar uma opção</option>
+                            <option value="xxxxxxxx">Opção 1</option>
+                            <option value="xxxxxxxxxx">Opção 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group-radio">
+                        <label>Qual melhor forma de contato?*</label><br>
+                        <label class="label-radio" for="whatsapp">Whatsapp</label>
+                        <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
+                        &ensp;
+                        <label class="label-radio" for="email">E-mail</label>
+                        <input type="radio" id="e-mail" name="contact_method" value="email" required>
+                        &ensp;
+                        <label class="label-radio" for="phone">Telefone</label>
+                        <input type="radio" id="phone" name="contact_method" value="phone" required>
+                    </div>
+                    <div class="form-group-button">
+                        <button type="submit" class="button-form-construtora">Enviar</button>
+                    </div>
+                    <p class="form-footer">Ao enviar esse formulário, eu declaro que aceito receber contato com ofertas de produtos e serviços Maximo Aldana via e-mail, telefone e WhatsApp.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="outros-empreendimentos">
+    <div class="container-fluid">
+        <div class="container-title">
+            <h1 class="title-conheca">Conheça outros empreendimentos</h1>
+        </div>
+        <div class="container-carousel-conheca">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/51e223fa0238e8489aca6b51b9e7b6b4.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">ALDANA<br>JARDIM</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">JARDIM DO MAR - SÃO BERNARDO DO CAMPO</p>
+                                <h4 class="card-text-two">Aldana Jardim</h4>
+                                <p class="card-content">59 e 65 m²</p>
+                                <p class="card-content">2 dormitórios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/seven-living.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">SEVEN <br>LIVING</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">PONTA DA PRAIA - SANTOS</p>
+                                <h4 class="card-text-two">Seven Living</h4>
+                                <p class="card-content">55 e 96 m²</p>
+                                <p class="card-content">1, 2, 3 dormitórios (2 suítes)</p>
+                                <p class="card-content">1 vaga determinada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/Aldana-One.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">ALDANA <br>ONE</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title-second-color">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">JARDIM DO MAR - SÃO BERNARDO DO CAMPO</p>
+                                <h4 class="card-text-two">Aldana One</h4>
+                                <p class="card-content">51 e 58 m²</p>
+                                <p class="card-content">2 dormitórios (1 suíte)</p>
+                                <p class="card-content">1 vaga determinada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/egydio-martins (1).png" class="card-img-top" alt="...">
+                                <p class="img-text-title">EGYDIO <br>MARTINS</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">PONTA DA PRAIA - SANTOS</p>
+                                <h4 class="card-text-two">Egydio Martins</h4>
+                                <!-- <p class="card-content">55 e 96 m²</p>
+                                    <p class="card-content">1, 2, 3 dormitórios (2 suítes)</p>
+                                    <p class="card-content">1 vaga determinada</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel secondCarousel" style="display: none;">
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/51e223fa0238e8489aca6b51b9e7b6b4.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">ALDANA<br>JARDIM</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">JARDIM DO MAR - SÃO BERNARDO DO CAMPO</p>
+                                <h4 class="card-text-two">Aldana Jardim</h4>
+                                <p class="card-content">59 e 65 m²</p>
+                                <p class="card-content">2 dormitórios</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/seven-living.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">SEVEN <br>LIVING</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">PONTA DA PRAIA - SANTOS</p>
+                                <h4 class="card-text-two">Seven Living</h4>
+                                <p class="card-content">55 e 96 m²</p>
+                                <p class="card-content">1, 2, 3 dormitórios (2 suítes)</p>
+                                <p class="card-content">1 vaga determinada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/Aldana-One.png" class="card-img-top" alt="...">
+                                <p class="img-text-title">ALDANA <br>ONE</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title-second-color">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">JARDIM DO MAR - SÃO BERNARDO DO CAMPO</p>
+                                <h4 class="card-text-two">Aldana One</h4>
+                                <p class="card-content">51 e 58 m²</p>
+                                <p class="card-content">2 dormitórios (1 suíte)</p>
+                                <p class="card-content">1 vaga determinada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                        <div class="card" style="width: 100%;">
+                            <div class="image-container">
+                                <img src="./src/img/egydio-martins (1).png" class="card-img-top" alt="...">
+                                <p class="img-text-title">EGYDIO <br>MARTINS</p>
+                            </div>
+                            <div class="carousel-item__estagio">
+                                <p>EM CONSTRUÇÃO</p>
+                            </div>
+                            <div class="card-body">
+                                <a class="link-card-title" href="">
+                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                </a>
+                                <p class="card-text">PONTA DA PRAIA - SANTOS</p>
+                                <h4 class="card-text-two">Egydio Martins</h4>
+                                <!-- <p class="card-content">55 e 96 m²</p>
+                                    <p class="card-content">1, 2, 3 dormitórios (2 suítes)</p>
+                                    <p class="card-content">1 vaga determinada</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fase__button mt-5">
+                <button onclick="toggleDisplay()">VER TODOS</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog-home" class="pb-5">
+    <div class="container-fluid px-2">
+        <div class="container-title-blog">
+            <h4>Fique por dento do</h4>
+            <h2>Nosso Blog</h2>
+        </div>
+        <div class="container container-card-blog">
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-card-blog second-card-blog" style="display: none;">
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-button-todos">
+            <button class="ver-todos-button bg-acquagreen" onclick="toggleCardBlog()">VER TODOS</button>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
     document.getElementById('button-planta1').addEventListener('click', function() {
         document.getElementById('planta1').classList.remove('d-none');
         document.getElementById('planta2').classList.add('d-none');
@@ -270,6 +988,105 @@ include('header-inc.php'); ?>
         document.getElementById('button-planta2').parentElement.classList.add('active');
         document.getElementById('button-planta1').parentElement.classList.remove('active');
     });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const acordeaoItems = document.querySelectorAll(".acordeao-item");
+        acordeaoItems.forEach(item => {
+            item.addEventListener("click", function() {
+                const acordeaoDescricao = this.nextElementSibling;
+                const arrowIcon = this.querySelector(".arrow-acordeao");
+
+                if (acordeaoDescricao.style.display === "none" || !acordeaoDescricao.style.display) {
+                    acordeaoDescricao.style.display = "block";
+                    arrowIcon.textContent = "arrow_drop_down";
+                    arrowIcon.classList.add("rotated");
+                } else {
+                    acordeaoDescricao.style.display = "none";
+                    arrowIcon.textContent = "arrow_right";
+                    arrowIcon.classList.remove("rotated");
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel-images img');
+    const dots = document.querySelectorAll('.carousel-dots span');
+    const prevButton = document.querySelector('.controlador-voltar');
+    const nextButton = document.querySelector('.controlador-avancar');
+
+    function updateCarousel() {
+        const offset = -currentIndex * 100;
+        document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[currentIndex].classList.add('active');
+    }
+
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+        updateCarousel();
+    });
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+        updateCarousel();
+    });
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            currentIndex = index;
+            updateCarousel();
+        });
+    });
+</script>
+
+<script>
+  function showSlide(index) {
+    const slide = document.getElementById('carouselSlide');
+    const totalSlides = document.querySelectorAll('.carousel-item-obras').length;
+    console.log (totalSlides);
+    if (index >= totalSlides - 1) {
+      currentIndex = 0;
+    } else if (index < 0) {
+      currentIndex = totalSlides / 2 - 1;
+    } else {
+      currentIndex = index;
+    }
+    slide.style.transform = `translateX(${-currentIndex * 50}%)`;
+    updateIndicators();
+  }
+
+  function prevSlide() {
+    showSlide(currentIndex - 1);
+  }
+
+  function nextSlide() {
+    showSlide(currentIndex + 1);
+  }
+
+  function currentSlide(index) {
+    showSlide(index);
+  }
+
+  function updateIndicators() {
+    const indicators = document.querySelectorAll('.carousel-indicators button');
+    indicators.forEach((indicator, index) => {
+      if (index === Math.floor(currentIndex / 1)) {
+        indicator.classList.add('active');
+      } else {
+        indicator.classList.remove('active');
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    updateIndicators();
+  });
 </script>
 
 <?php include('footer-inc.php'); ?>
