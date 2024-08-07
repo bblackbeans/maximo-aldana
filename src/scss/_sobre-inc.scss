@@ -23,11 +23,22 @@
     justify-content: center;
     gap: 20px;
     margin-top: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     padding: 1rem;
 
     .btn-somos-maximo {
       @include botaoMenu($cor-verde-agua-claro, $cor-branca);
+    }
+    .btn-corretor-logout {
+      background-color: #0d5f7b;
+      border-radius: 27px;
+      color: $cor-branca;
+    }
+
+    .btn-corretor-logout:hover {
+      background: transparent
+        linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+        0% 0% no-repeat padding-box;
     }
   }
 

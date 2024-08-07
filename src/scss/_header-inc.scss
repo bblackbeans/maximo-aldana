@@ -8,6 +8,15 @@
   justify-content: center;
 }
 
+.background-agradecimento-image {
+  background: linear-gradient(180deg, #000000a1 0%, #54545400 100%),
+  url("./img/Topo - Imagem - BG.png")
+    center no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
 .background-image-sobre-inc {
   background: url("./img/Banner-Somos-Maximo.png") center no-repeat;
   background-size: cover;
@@ -33,7 +42,7 @@
 }
 
 .background-image-portal-inc {
-  background: url("./img/Banner-Somos-Maximo.png") center no-repeat;
+  background: url("./img/Topo - Imagem - BG.png") center no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;

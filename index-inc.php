@@ -122,7 +122,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -142,7 +142,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -163,7 +163,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">ALDANA <br>ONE</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -184,11 +184,11 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">EGYDIO <br>MARTINS</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-three-breve"><i class="fa-solid fa-calendar"></i>&ensp;BREVE LANÇAMENTO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
-                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                    <h5 class="card-title-three-color">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
                                 </a>
                                 <p class="card-text">PONTA DA PRAIA - SANTOS</p>
                                 <h4 class="card-text-two">Egydio Martins</h4>
@@ -209,7 +209,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -229,7 +229,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -250,7 +250,7 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">ALDANA <br>ONE</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
@@ -271,11 +271,11 @@ include('header-inc.php'); ?>
                                 <p class="img-text-title">EGYDIO <br>MARTINS</p>
                             </div>
                             <div class="carousel-item__estagio">
-                                <p>EM CONSTRUÇÃO</p>
+                                <p class="color-three-breve"><i class="fa-solid fa-calendar"></i>&ensp;BREVE LANÇAMENTO</p>
                             </div>
                             <div class="card-body">
                                 <a class="link-card-title" href="">
-                                    <h5 class="card-title">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
+                                    <h5 class="card-title-three-color">Saiba Mais <span class="material-symbols-outlined">arrow_forward_ios</span></h5>
                                 </a>
                                 <p class="card-text">PONTA DA PRAIA - SANTOS</p>
                                 <h4 class="card-text-two">Egydio Martins</h4>
@@ -367,7 +367,7 @@ include('header-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -389,7 +389,7 @@ include('header-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -411,7 +411,7 @@ include('header-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -435,7 +435,7 @@ include('header-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -457,7 +457,7 @@ include('header-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -479,7 +479,7 @@ include('header-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
