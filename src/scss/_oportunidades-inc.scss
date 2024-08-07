@@ -30,6 +30,13 @@
   font-weight: $peso-fonte-normal-subtitulo;
 }
 
+.btn-baixar-compliance-inc {
+  @include botao($cor-verde-agua-claro, $cor-branca);
+  padding: 5px 0;
+  width: 310px;
+  margin-top: 2rem;
+}
+
 #vagas {
   display: flex;
   flex-direction: column;

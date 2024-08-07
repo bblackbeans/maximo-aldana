@@ -25,6 +25,13 @@
   }
 }
 
+.text-agradecimento-inc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: $cor-branca;
+}
+
 .container-bar {
   display: flex;
   flex-direction: row;
@@ -212,7 +219,36 @@
       border: 2px solid $cor-verde-agua-claro;
       background-color: $cor-verde-agua-claro;
       border-radius: 30px;
-      padding: 8px 40px 8px 40px;
+      padding: 8px 25px 8px 25px;
+      font-weight: $peso-fonte-negrito-paragrafo;
+    }
+
+    .color-two-construction {
+      text-align: left;
+      font-size: 12px;
+      font-family: "avenir-light", sans-serif;
+      letter-spacing: 0px;
+      color: $cor-branca;
+      opacity: 1;
+      border: 2px solid $cor-azul-escuro;
+      background-color: $cor-azul-escuro;
+      border-radius: 30px;
+      padding: 8px 25px 8px 25px;
+      font-weight: $peso-fonte-negrito-paragrafo;
+    }
+
+    .color-three-breve {
+      text-align: left;
+      font-size: 12px;
+      font-family: "avenir-light", sans-serif;
+      letter-spacing: 0px;
+      color: $cor-branca;
+      opacity: 1;
+      border: 2px solid $cor-verde-agua-medio;
+      background-color: $cor-verde-agua-medio;
+      border-radius: 30px;
+      padding: 8px 25px 8px 25px;
+      font-weight: $peso-fonte-negrito-paragrafo;
     }
   }
 
@@ -271,8 +307,24 @@
   justify-content: space-between;
 }
 
+.card-title-three-color {
+  background-color: $cor-verde-agua-medio;
+  color: $cor-branca;
+  height: 38px;
+  text-align: justify;
+  padding: 2px 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .card-title-second-color:hover {
   background-color: $cor-verde-agua-medio;
+}
+
+.card-title-three-color:hover {
+  opacity: 0.9;
 }
 
 .card-title:hover {
@@ -357,7 +409,7 @@
 
 .carousel-item img {
   width: 100%;
-  max-height: 525px;
+  height: 525px;
 }
 
 .img-text-title {
@@ -591,8 +643,6 @@ button {
   justify-content: center;
   margin-top: 20px;
 }
-
-
 
 .card-img-top {
   transition: transform 0.5s ease;

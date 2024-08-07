@@ -1,0 +1,22 @@
+@import "./variaveis";
+
+#content-politica-inc {
+  .text-politica-inc h1 {
+    color: $cor-azul-escuro;
+    font-size: $tamanho-fonte-titulo;
+    margin: 3rem 0 2rem;
+  }
+
+  .termos-politica-inc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: $cor-azul-escuro;
+      font-size: $tamanho-fonte-titulo;
+      margin: 3rem 0 1rem;
+    }
+  }
+}

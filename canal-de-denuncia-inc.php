@@ -71,58 +71,73 @@ include('header-portal-inc.php'); ?>
             <p>Este canal é totalmente confidencial e anônimo, então, não se sinta reprimido na hora de fazer sua denúncia. </p>
             <p>A ferramenta é segura e confidencial e as informações relatadas são recebidas de forma sigilosa. Em seguida, encaminhadas para avaliação dos responsáveis. Deseja relatar um desvio de conduta? Basta preencher o formulário abaixo:</p>
         </div>
-        <div class="content-container-form-portal-inc">
+        <div class="content-container-form-denuncia-inc">
             <form action="">
                 <div class="form-group">
                     <label for="login">Deseja se identificar? Se sim, escreva seu nome abaixo:</label>
                     <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Natureza da Ocorrência:*</label>
-                    <input type="text" class="form-control" placeholder="Nome da empresa" id="nome-empresa" required>
+                    <label for="produto">Natureza da Ocorrência:*</label>
+                    <select class="form-control" id="senha" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
+                        <option value="senha2">ocorrencia 1</option>
+                        <option value="senha3">ocorrencia 2</option>
+                        <option value="senha4">ocorrencia 3</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label for="email">CNPJ:*</label>
-                    <input type="email" class="form-control" placeholder="CNPJ" id="CNPJ" required>
+                    <label for="produto">Tipo do Envolvimento:*</label>
+                    <select class="form-control" id="senha" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
+                        <option value="senha2">Envolvimento 1</option>
+                        <option value="senha3">Envolvimento 2</option>
+                        <option value="senha4">Envolvimento 3</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label for="login">Telefone?*</label>
-                    <input type="text" class="form-control" placeholder="+55 (00) 00000-0000" id="nome" aria-describedby="nome" required>
+                    <label for="email">Data do ocorrido:*</label>
+                    <input type="date" class="form-control" placeholder="DIA/MÊS/ANO" id="data" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">E-mail:*</label>
-                    <input type="text" class="form-control" placeholder="E-mail" id="Email" required>
+                    <label for="login">Local do Ocorrido:*</label>
+                    <input type="text" class="form-control" placeholder="Local" id="local-ocorrido" aria-describedby="local-ocorrido" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Segmento da Empresa</label>
-                    <input type="email" class="form-control" placeholder="Segmento da Empresa" id="segmento-empresa" required>
+                    <label for="telefone">Descrição do Ocorrido:*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Descrição" rows="5"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="">Qual a melhor forma de contato?</label><br>
-                    <div class="label-radio-fale-conosco-inc">
-                        <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="Whatsapp">
-                            <label for="">Whatsapp</label>
-                        </div>
-                        <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="E-mail">
-                            <label for="">E-mail</label>
-                        </div>
-                        <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="Telefone">
-                            <label for="">Telefone</label>
-                        </div>
-                    </div>
+                    <label for="telefone">Há quanto tempo ocorre?*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Há situação relatada acontece ou aconteceu mais de uma vez? Se é algo que se repete, conte-nos há quanto tempo vem ocorrendo a ação." rows="5"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Escreva sua mensagem:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escreva aqui" rows="4"></textarea>
+                    <label for="telefone">Quando ficou sabendo?*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Como ficou ciente sobre a ocorrência deste evento?" rows="5"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="">Faça upload:</label><br>
+                    <label for="telefone">Sugestão para resolver o problema?*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Se tiver alguma sugestão de como resolver o problema, descreve-a:" rows="5"></textarea>
                 </div>
-                <p style="padding: 0 2rem; color: white;">Capacidade máxima de até 25MB. Aceitamos arquivos do tipo jpeg. pgn. pdf. ppt. mp4.</p><br>
+                <div class="form-group">
+                    <label for="produto">Quanto ao conteúdo do seu relato, você:*</label>
+                    <select class="form-control" id="senha" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
+                        <option value="senha2">relato 1</option>
+                        <option value="senha3">relato 2</option>
+                        <option value="senha4">relato 3</option>
+                    </select>
+                </div>
+                <p style="padding: 0 2rem; color: white;">Caso queira enviar alguma evidência (ex: documento digitalizado, foto, vídeo, áudio ou outro documento) associado ao seu relato, utilize o campo abaixo para anexá-la.</p><br>
+                <p style="padding: 0 2rem; color: white;">Neste acesso poderá ser enviado até 5 arquivos ou se preferir anexe todos os documentos em um único arquivo zipado. (Capacidade máxima de até 100 MB por arquivo anexado).</p><br>
                 <div class="inputs-file-seu-terreno-inc">
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                </div>
+                <div class="inputs-file-seu-terreno-inc">
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <button type="submit">Enviar</button>
@@ -132,7 +147,7 @@ include('header-portal-inc.php'); ?>
                 </div>
             </form>
         </div>
-    </div> 
+    </div>
 </section>
 
 

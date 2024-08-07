@@ -1,31 +1,14 @@
 <?php
 /*
-Template Name: Home Incorporadora
+Template Name: Portal Corretor Parceiro - Incorporadora
 */
-include('header-inc.php'); ?>
+include('header-portal-inc.php'); ?>
 
 <section id="banner" class="py-5">
-    <div class="container">
+    <div class="container-fluid">
         <div class="container-banner">
-            <div class="container-banner__title">
-                <h1>Aldana Jardim</h1>
-            </div>
-
-        </div>
-        <div class="container-bar">
-            <div class="container-bar__dot">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
-            </div>
-            <div class="container-bar__lorem">
-                <p>Jardim do Mar </br> São Bernardo do Campo</p>
-            </div>
-            <div class="container-bar__descricao">
-                <p>59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
-            </div>
-            <div class="container-bar__button">
-                <a href="">SAIBA MAIS</a>
+            <div class="container-banner-oportunidades__title">
+                <h1>Portal<br> &ensp;&ensp; Corretor Parceiro</h1>
             </div>
         </div>
     </div>
@@ -33,15 +16,25 @@ include('header-inc.php'); ?>
 
 </main>
 
-<section id="para-sua-fase">
+<section class="container" id="somos-maximo" style="margin-bottom: 2rem !important;">
+    <div class="container-btns-somos-maximo">
+        <button class="btn-somos-maximo">PORTFÓLIO</button>
+        <button class="btn-somos-maximo">NOSSOS CLIENTES</button>
+        <button class="btn-somos-maximo">CERTIFICAÇÕES</button>
+        <button class="btn-somos-maximo">ORCE SUA OBRA</button>
+        <button class="btn-corretor-logout">ENCERRAR SESSÃO</button>
+    </div>
+</section>
+
+<section id="para-sua-fase" style="padding-bottom: 2rem;">
     <div class="container-fluid px-5">
         <div class="container-title">
-            <h3 class="container-title__title">Para sua nova fase da vida, um novo imóvel</h3>
-            <h6 class="container-title__subtitle mb-0">Empreendimentos para morar ou investir.</h6>
+            <h3 class="container-title__title">Bem-vindo ao Portal Corretor Parceiro</h3>
+            <h6 class="container-title__subtitle mb-0">Abaixo você encontra todos os empreendimentos com materiais disponíveis para uso.</h6>
         </div>
         <div class="container-fase">
             <div class="container-fase__title">
-                <p>Encontre seu Máximo Aldana</p>
+                <p>Busque por um imóvel</p>
             </div>
             <div class="container-fase__button">
                 <button id="filterBtn">FILTRAR &ensp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-SettingsHorizontal">
@@ -293,204 +286,8 @@ include('header-inc.php'); ?>
         </div>
     </div>
 </section>
-
-<section id="form-incorporadora">
-    <div class="container-fluid p-0">
-        <div class="container-form">
-            <div class="container-form__img">
-                <img src="./src/img/casal-sofa.png" alt="">
-            </div>
-            <div class="container-form__form">
-                <div class="container-form__texto">
-                    <h3>Conquiste o seu<br>IMÓVEL dos sonhos!</h3>
-                    <p>Os empreendimentos da Maximo Aldana trazem a exclusividade, modernidade e o conforto que você procura.</p>
-                </div>
-                <form method="POST" action="" id="form-home-incorporadora">
-                    <h3>Preencha o formulário para conversar com um especialista.</h3>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="telefone" name="phone" placeholder="Telefone*" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Email*" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group-select">
-                        <label for="empreendimento">Qual empreendimento você tem interesse?*</label>
-                        <select class="form-select" aria-label="empreendimento" id="empreendimento" name="empreendimento">
-                            <option selected>Selecionar uma opção</option>
-                            <option value="xxxxxxxx">Opção 1</option>
-                            <option value="xxxxxxxxxx">Opção 2</option>
-                        </select>
-                    </div>
-                    <div class="form-group-radio">
-                        <label>Qual melhor forma de contato?*</label><br>
-                        <label class="label-radio" for="whatsapp">Whatsapp</label>
-                        <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
-                        &ensp;
-                        <label class="label-radio" for="email">E-mail</label>
-                        <input type="radio" id="e-mail" name="contact_method" value="email" required>
-                        &ensp;
-                        <label class="label-radio" for="phone">Telefone</label>
-                        <input type="radio" id="phone" name="contact_method" value="phone" required>
-                    </div>
-                    <div class="form-group-button">
-                        <button type="submit" class="button-form-construtora">Enviar</button>
-                    </div>
-                    <p class="form-footer">Ao enviar esse formulário, eu declaro que aceito receber contato com ofertas de produtos e serviços Maximo Aldana via e-mail, telefone e WhatsApp.</p>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="blog-home" class="pb-5">
-    <div class="container-fluid px-2">
-        <div class="container-title-blog">
-            <h4>Fique por dento do</h4>
-            <h2>Nosso Blog</h2>
-        </div>
-        <div class="container container-card-blog">
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container container-card-blog second-card-blog" style="display: none;">
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="" style="max-width: 400px; height:605px;">
-                <div class="card-blog">
-                    <div class="card-blog__img">
-                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
-                    </div>
-                    <div class="card-blog__title">
-                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
-                    </div>
-                    <div class="card-blog__data">
-                        <span class="material-symbols-outlined">
-                            calendar_today
-                        </span>
-                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
-                    </div>
-                    <div class="card-blog__desc">
-                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
-                    </div>
-                    <div class="card-blog__button">
-                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-button-todos">
-            <button class="ver-todos-button bg-acquagreen" onclick="toggleCardBlog()">VER TODOS</button>
-        </div>
-    </div>
-</section>
+<div class="container-btns-denuncia-inc" style="margin-top: 0;">
+    <button>ENCERRAR SESSÃO <i class="fa-solid fa-arrow-right"></i></button>
+</div>
 
 <?php include('footer-inc.php'); ?>
