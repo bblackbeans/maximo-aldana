@@ -17,57 +17,57 @@ include('header-inc.php'); ?>
 <section id="infos-gerais">
     <div class="container-fluid px-4">
         <div class="row">
-            <div class="container-infos col-md-3">
+            <div class="container-infos col-md-6 col-lg-6 col-xl-3 col-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-2 d-flex flex-column justify-content-center">
+                    <div class="col-md-2 col-2 col-sm-2 d-flex flex-column justify-content-center">
                         <img src="./src/img/Icones/maximo-localizacao.png" alt="Localização" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center col-md-10">
+                    <div class="infos-text d-flex flex-column justify-content-center align-items-center col-md-10 col-10 col-sm-10">
                         <p class="m-0 text-info">Avenida General San Martin, 132 Ponta da Praia - Santos</p>
                     </div>
                 </div>
             </div>
-            <div class="container-infos col-md-2">
+            <div class="container-infos col-md-6 col-lg-6 col-xl-2 col-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                    <div class="col-md-3 col-2 col-sm-2 d-flex flex-column justify-content-center">
                         <img src="./src/img/Icones/maximo-dormitorio.png" alt="Dormitórios" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center col-md-9">
-                        <p class="m-0 text-info">1,2,3 dormitórios <br>(2 suítes)</p>
+                    <div class="d-flex flex-column justify-content-center align-items-center infos-text col-md-9 col-10 col-sm-10">
+                        <p class="m-0 text-info">1,2,3 dormitórios <br class="br-dorms">(2 suítes)</p>
                     </div>
                 </div>
             </div>
-            <div class="container-infos container-infos-sm col-md-2">
+            <div class="container-infos container-infos-sm col-md-6 col-lg-6 col-xl-2 col-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="col-md-4 col-2 col-sm-2 d-flex flex-column justify-content-center">
                         <img src="./src/img/Icones/maximo-metragem.png" alt="Metragem" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center col-md-8">
+                    <div class="d-flex flex-column justify-content-center align-items-center infos-text col-md-8 col-sm-10 col-10">
                         <p class="m-0 text-info">55 a 96 m²</p>
                     </div>
                 </div>
             </div>
-            <div class="container-infos container-infos-sm col-md-2">
+            <div class="container-infos container-infos-sm col-md-6 col-lg-6 col-xl-2 col-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-4 d-flex flex-column justify-content-center">
+                    <div class="col-md-4 col-2 col-sm-2 d-flex flex-column justify-content-center">
                         <img src="./src/img/Icones/maximo-garagem.png" alt="Vagas" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center col-md-8">
+                    <div class="d-flex flex-column justify-content-center align-items-center infos-text col-md-8 col-10 col-sm-10">
                         <p class="m-0 text-info">1 vaga</p>
                     </div>
                 </div>
             </div>
-            <div class="container-infos col-md-2">
+            <div class="container-infos col-md-6 col-lg-6 col-xl-2 col-12 col-sm-12">
                 <div class="row">
-                    <div class="col-md-3 d-flex flex-column justify-content-center">
+                    <div class="col-md-3 col-2 col-sm-2 d-flex flex-column justify-content-center">
                         <img src="./src/img/Icones/maximo-valor.png" alt="Vagas" class="img-fluid">
                     </div>
-                    <div class="d-flex flex-column justify-content-center align-items-center col-md-9">
+                    <div class="d-flex flex-column justify-content-center align-items-center infos-text col-md-9 col-10 col-sm-10">
                         <p class="m-0 text-info">A partir de R$ 000.000,00</p>
                     </div>
                 </div>
             </div>
-            <div class="container-infos col-md-2">
+            <div class="container-infos col-md-6 col-lg-6 col-xl-2 col-12 col-sm-12">
                 <div class="button-interesse">
                     <button class="botao-interesse"><a href="#">Tenho interesse</a></a>
                 </div>
@@ -107,16 +107,16 @@ include('header-inc.php'); ?>
 <section id="map-section">
     <div class="container-fluid px-5">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-12 col-lg-8 col-12 col-sm-12">
                 <img src="./src/img/mapa-dots.png" alt="Mapa" class="img-fluid">
             </div>
-            <div class="col-md-4 d-flex justify-content-center flex-column">
+            <div class="col-md-12 col-lg-4 col-12 col-sm-12 d-flex justify-content-center flex-column">
                 <div class="row flex-column">
-                    <div class="row">
-                        <div class="col-md-2">
+                    <div class="row row-localizacao">
+                        <div class="col-md-2 col-3 col-sm-3">
                             <img src="./src/img/Icones/maximo-localizacao.png" alt="Localização" class="img-fluid">
                         </div>
-                        <div class="col-md-10 p-0">
+                        <div class="col-md-10 col-9 col-sm-9 p-0">
                             <h3 class="title-empreendimento m-0">Santos</h3>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ include('header-inc.php'); ?>
 
                 // Loop para exibir cada opção
                 foreach ($opcoes_de_lazer as $opcao) {
-                    echo '<div class="col-md-4 mb-4 d-flex align-items-center area-de-lazer-opcao"><ul class="lista-opcoes align-items-center d-flex p-0"><img src="./src/img/Icones/icon-check.png" alt="Check" class="img-fluid icon-opcoes"><li class="itens-opcoes m-0">' . htmlspecialchars($opcao) . '</li></ul></div>';
+                    echo '<div class="col-md-4 col-6 col-sm-6 mb-4 d-flex align-items-center area-de-lazer-opcao"><ul class="lista-opcoes align-items-center d-flex p-0"><img src="./src/img/Icones/icon-check.png" alt="Check" class="img-fluid icon-opcoes"><li class="itens-opcoes m-0">' . htmlspecialchars($opcao) . '</li></ul></div>';
                 }
                 ?>
             </div>
@@ -239,12 +239,12 @@ include('header-inc.php'); ?>
 <section id="button-tour-vista">
     <div class="container-fluid">
         <div class="row">
-            <div class="btn-tour-vista col-md-6">
+            <div class="btn-tour-vista col-md-12 col-lg-6">
                 <a href=#><img src="./src/img/Icones/360-60x60.png" alt="360" class="img-fluid">Tour Virtual<span class="material-symbols-outlined">
                         chevron_right
                     </span></a>
             </div>
-            <div class="btn-tour-vista col-md-6">
+            <div class="btn-tour-vista col-md-12 col-lg-6">
                 <a href=#><img src="./src/img/Icones/vistaandares-60x60.png" alt="Vista" class="img-fluid">Vista dos Andares<span class="material-symbols-outlined">
                         chevron_right
                     </span></a>
@@ -300,30 +300,6 @@ include('header-inc.php'); ?>
                     <button onclick="currentSlide(2)"></button>
                 </div>
             </div>
-
-
-            <!-- <div class="carousel-items">
-                <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="" class="img-fluid w-100">
-                <img src="./src/img/obras/obra_seven_living_frente-768x576.webp" alt="" class="img-fluid w-100">
-                <img src="./src/img/obras/obra_seven_living-768x576.webp" alt="" class="img-fluid w-100">
-            </div>
-            <div class="carousel-obras-control-next">
-                <button class="button-control-carousel" type="button"><span class="material-symbols-outlined">
-                        arrow_forward_ios
-                    </span></button>
-            </div>
-            <div class="carousel-obras-control-prev">
-                <button class="button-control-carousel" type="button"><span class="material-symbols-outlined">
-                        arrow_back_ios
-                    </span></button>
-            </div>
-            <div class="carousel-obras-indicadores">
-                <div class="carousel-dots-obras">
-                    <span class="active"></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
