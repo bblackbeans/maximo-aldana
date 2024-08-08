@@ -2744,7 +2744,7 @@ button {
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 600px;
+  aspect-ratio: 16/9;
 }
 
 .carousel-slide {
@@ -2752,12 +2752,12 @@ button {
   transition: transform 0.5s ease-in-out;
 }
 
-.carousel-item {
+.carousel-item-obras {
   min-width: 50%;
   box-sizing: border-box;
 }
 
-.carousel-item img {
+.carousel-item-obras img {
   width: 100%;
 }
 
@@ -2812,6 +2812,785 @@ button {
   background-color: #66c1bf;
 }
 
+/* RESPONSIVO */
+@media (max-width: 430px) {
+  .container-infos-sm {
+    width: 100%;
+  }
+  .infos-text {
+    align-items: self-start !important;
+  }
+  .container-infos {
+    margin-bottom: 2rem;
+  }
+  .br-dorms {
+    display: none;
+  }
+  .button-interesse {
+    align-self: center;
+  }
+  .container-title {
+    padding: 0 2rem;
+  }
+  .title-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  .controlador-voltar, .controlador-avancar {
+    font-size: 40px;
+  }
+  .botao-voltar {
+    right: 50px;
+  }
+  .botao-avancar {
+    right: 0;
+  }
+  .carousel-dots {
+    bottom: 30px;
+  }
+  .row-localizacao {
+    margin-top: 1.5rem;
+  }
+  .row-localizacao .col-md-10 {
+    align-content: center;
+  }
+  .map-subtitle {
+    margin-top: 1.5rem;
+  }
+  .subtitle-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  #map-section {
+    padding-bottom: 1rem;
+  }
+  .icon-opcoes {
+    position: initial;
+    margin: 0;
+  }
+  .itens-opcoes {
+    position: initial;
+    margin: 0;
+    margin-left: 0.5rem !important;
+  }
+  .container-options-lazer {
+    padding: 0rem 1rem;
+  }
+  #lazer-section {
+    padding-bottom: 1rem;
+  }
+  .tab-item > .nav-link.active {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .tab-item > .nav-link {
+    text-align: left;
+  }
+  .nav-item.tab-item {
+    width: 50%;
+  }
+  .tab-pane > .row > .col-md-8 {
+    margin-top: 1.5rem;
+  }
+  .info-plantas {
+    font-size: 14px;
+  }
+  .info-plantas > span {
+    font-size: 14px;
+  }
+  .btn-tour-vista {
+    margin-bottom: 1.5rem;
+  }
+  .btn-tour-vista > a {
+    padding: 1rem 0;
+    font-size: 28px;
+  }
+  .btn-tour-vista > a > span {
+    top: 7px;
+  }
+  #button-tour-vista {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title-obras {
+    font-size: 30px;
+  }
+  .title-status {
+    font-size: 25px;
+  }
+  .progress {
+    height: 40px;
+  }
+  .progress-number {
+    font-size: 23px;
+  }
+  .container-carousel-obras {
+    margin-top: 5rem;
+  }
+  .total-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .row-status:last-child .total-item:last-child {
+    margin-top: 3rem;
+  }
+  #ficha-tecnica {
+    padding: 3rem 0;
+  }
+  .acordeao-item {
+    width: 100%;
+  }
+  .acordeao-title {
+    font-size: 25px;
+  }
+  .acordeao-descricao {
+    width: 100%;
+  }
+  .descricao-item, .descricao-resp {
+    font-size: 15px;
+  }
+  .localizacao-text {
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .localizacao-text .container-title {
+    padding: 0;
+  }
+  #localizacao {
+    padding-bottom: 3rem;
+  }
+  .title-conheca {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-group-radio label {
+    width: 80%;
+  }
+}
+@media (min-width: 431px) and (max-width: 576px) {
+  .container-infos-sm {
+    width: 100%;
+  }
+  .infos-text {
+    align-items: self-start !important;
+  }
+  .container-infos {
+    margin-bottom: 2rem;
+  }
+  .br-dorms {
+    display: none;
+  }
+  .button-interesse {
+    align-self: center;
+  }
+  .container-title {
+    padding: 0 2rem;
+  }
+  .title-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  .controlador-voltar, .controlador-avancar {
+    font-size: 40px;
+  }
+  .botao-voltar {
+    right: 50px;
+  }
+  .botao-avancar {
+    right: 0;
+  }
+  .carousel-dots {
+    bottom: 30px;
+  }
+  .row-localizacao {
+    margin-top: 1.5rem;
+  }
+  .row-localizacao .col-md-10 {
+    align-content: center;
+  }
+  .map-subtitle {
+    margin-top: 1.5rem;
+  }
+  .subtitle-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  #map-section {
+    padding-bottom: 1rem;
+  }
+  .icon-opcoes {
+    position: initial;
+    margin: 0;
+  }
+  .itens-opcoes {
+    position: initial;
+    margin: 0;
+    margin-left: 0.5rem !important;
+  }
+  .container-options-lazer {
+    padding: 0rem 1rem;
+  }
+  #lazer-section {
+    padding-bottom: 1rem;
+  }
+  .tab-item > .nav-link.active {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .tab-item > .nav-link {
+    text-align: left;
+  }
+  .nav-item.tab-item {
+    width: 50%;
+  }
+  .tab-pane > .row > .col-md-8 {
+    margin-top: 1.5rem;
+  }
+  .info-plantas {
+    font-size: 14px;
+  }
+  .info-plantas > span {
+    font-size: 14px;
+  }
+  .btn-tour-vista {
+    margin-bottom: 1.5rem;
+  }
+  .btn-tour-vista > a {
+    padding: 1rem 0;
+    font-size: 28px;
+  }
+  .btn-tour-vista > a > span {
+    top: 7px;
+  }
+  #button-tour-vista {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title-obras {
+    font-size: 30px;
+  }
+  .title-status {
+    font-size: 25px;
+  }
+  .progress {
+    height: 40px;
+  }
+  .progress-number {
+    font-size: 23px;
+  }
+  .container-carousel-obras {
+    margin-top: 5rem;
+  }
+  .total-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .row-status:last-child .total-item:last-child {
+    margin-top: 3rem;
+  }
+  #ficha-tecnica {
+    padding: 3rem 0;
+  }
+  .acordeao-item {
+    width: 100%;
+  }
+  .acordeao-title {
+    font-size: 25px;
+  }
+  .acordeao-descricao {
+    width: 100%;
+  }
+  .descricao-item, .descricao-resp {
+    font-size: 15px;
+  }
+  .localizacao-text {
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .localizacao-text .container-title {
+    padding: 0;
+  }
+  #localizacao {
+    padding-bottom: 3rem;
+  }
+  .title-conheca {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-group-radio label {
+    width: 80%;
+  }
+}
+@media (min-width: 577px) and (max-width: 767px) {
+  .container-infos-sm {
+    width: 100%;
+  }
+  .infos-text {
+    align-items: self-start !important;
+  }
+  .container-infos {
+    margin-bottom: 2rem;
+  }
+  .br-dorms {
+    display: none;
+  }
+  .button-interesse {
+    align-self: center;
+  }
+  .container-title {
+    padding: 0 2rem;
+  }
+  .title-empreendimento {
+    font-size: 30px;
+    text-align: left;
+  }
+  .controlador-voltar, .controlador-avancar {
+    font-size: 40px;
+  }
+  .botao-voltar {
+    right: 50px;
+  }
+  .botao-avancar {
+    right: 0;
+  }
+  .carousel-dots {
+    bottom: 30px;
+  }
+  .row-localizacao {
+    margin-top: 1.5rem;
+  }
+  .row-localizacao .col-md-10 {
+    align-content: center;
+  }
+  .map-subtitle {
+    margin-top: 1.5rem;
+  }
+  .subtitle-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  #map-section {
+    padding-bottom: 1rem;
+  }
+  .icon-opcoes {
+    position: initial;
+    margin: 0;
+  }
+  .itens-opcoes {
+    position: initial;
+    margin: 0;
+    margin-left: 0.5rem !important;
+  }
+  .container-options-lazer {
+    padding: 0rem 1rem;
+  }
+  #lazer-section {
+    padding-bottom: 1rem;
+  }
+  .tab-item > .nav-link.active {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .tab-item > .nav-link {
+    text-align: left;
+  }
+  .nav-item.tab-item {
+    width: 50%;
+  }
+  .tab-pane > .row > .col-md-8 {
+    margin-top: 1.5rem;
+  }
+  .info-plantas {
+    font-size: 14px;
+  }
+  .info-plantas > span {
+    font-size: 14px;
+  }
+  .btn-tour-vista {
+    margin-bottom: 1.5rem;
+  }
+  .btn-tour-vista > a {
+    padding: 1rem 0;
+    font-size: 28px;
+  }
+  .btn-tour-vista > a > span {
+    top: 7px;
+  }
+  #button-tour-vista {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title-obras {
+    font-size: 30px;
+  }
+  .title-status {
+    font-size: 25px;
+  }
+  .progress {
+    height: 40px;
+  }
+  .progress-number {
+    font-size: 23px;
+  }
+  .container-carousel-obras {
+    margin-top: 5rem;
+  }
+  .total-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .row-status:last-child .total-item:last-child {
+    margin-top: 3rem;
+  }
+  #ficha-tecnica {
+    padding: 3rem 0;
+  }
+  .acordeao-item {
+    width: 100%;
+  }
+  .acordeao-title {
+    font-size: 25px;
+  }
+  .acordeao-descricao {
+    width: 100%;
+  }
+  .descricao-item, .descricao-resp {
+    font-size: 15px;
+  }
+  .localizacao-text {
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .localizacao-text .container-title {
+    padding: 0;
+  }
+  #localizacao {
+    padding-bottom: 3rem;
+  }
+  .title-conheca {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-group-radio label {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-infos-sm {
+    width: 50%;
+  }
+  .infos-text {
+    align-items: self-start !important;
+  }
+  .container-infos {
+    margin-bottom: 2rem;
+  }
+  .br-dorms {
+    display: none;
+  }
+  .button-interesse {
+    align-self: center;
+  }
+  .container-title {
+    padding: 0 2rem;
+  }
+  .title-empreendimento {
+    font-size: 30px;
+    text-align: left;
+  }
+  .controlador-voltar, .controlador-avancar {
+    font-size: 40px;
+  }
+  .botao-voltar {
+    right: 50px;
+  }
+  .botao-avancar {
+    right: 0;
+  }
+  .carousel-dots {
+    bottom: 30px;
+  }
+  .row-localizacao {
+    margin-top: 1.5rem;
+  }
+  .row-localizacao .col-md-10 {
+    align-content: center;
+  }
+  .map-subtitle {
+    margin-top: 1.5rem;
+  }
+  .subtitle-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  #map-section {
+    padding-bottom: 1rem;
+  }
+  .icon-opcoes {
+    position: initial;
+    margin: 0;
+  }
+  .itens-opcoes {
+    position: initial;
+    margin: 0;
+    margin-left: 0.5rem !important;
+  }
+  .container-options-lazer {
+    padding: 0rem 1rem;
+  }
+  #lazer-section {
+    padding-bottom: 1rem;
+  }
+  .tab-item > .nav-link.active {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .tab-item > .nav-link {
+    text-align: left;
+  }
+  .nav-item.tab-item {
+    width: 50%;
+  }
+  .tab-pane > .row > .col-md-8 {
+    margin-top: 1.5rem;
+  }
+  .info-plantas {
+    font-size: 14px;
+  }
+  .info-plantas > span {
+    font-size: 14px;
+  }
+  .btn-tour-vista {
+    margin-bottom: 1.5rem;
+  }
+  .btn-tour-vista > a {
+    padding: 1rem 0;
+    font-size: 28px;
+  }
+  .btn-tour-vista > a > span {
+    top: 7px;
+  }
+  #button-tour-vista {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title-obras {
+    font-size: 30px;
+  }
+  .title-status {
+    font-size: 25px;
+  }
+  .progress {
+    height: 40px;
+  }
+  .progress-number {
+    font-size: 23px;
+  }
+  .container-carousel-obras {
+    margin-top: 5rem;
+  }
+  .total-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  #ficha-tecnica {
+    padding: 3rem 0;
+  }
+  .acordeao-item {
+    width: 100%;
+  }
+  .acordeao-title {
+    font-size: 25px;
+  }
+  .acordeao-descricao {
+    width: 100%;
+  }
+  .descricao-item, .descricao-resp {
+    font-size: 15px;
+  }
+  .localizacao-text {
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .localizacao-text .container-title {
+    padding: 0;
+  }
+  #localizacao {
+    padding-bottom: 3rem;
+  }
+  .title-conheca {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-group-radio label {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container-infos-sm {
+    width: 50%;
+  }
+  .infos-text {
+    align-items: self-start !important;
+  }
+  .container-infos {
+    margin-bottom: 2rem;
+  }
+  .br-dorms {
+    display: none;
+  }
+  .button-interesse {
+    align-self: center;
+  }
+  .container-title {
+    padding: 0 2rem;
+  }
+  .title-empreendimento {
+    font-size: 30px;
+    text-align: left;
+  }
+  .controlador-voltar, .controlador-avancar {
+    font-size: 40px;
+  }
+  .botao-voltar {
+    right: 50px;
+  }
+  .botao-avancar {
+    right: 0;
+  }
+  .carousel-dots {
+    bottom: 30px;
+  }
+  .row-localizacao {
+    margin-top: 1.5rem;
+  }
+  .row-localizacao .col-md-10 {
+    align-content: center;
+  }
+  .map-subtitle {
+    margin-top: 1.5rem;
+  }
+  .subtitle-empreendimento {
+    font-size: 30px;
+    text-align: center;
+  }
+  #map-section {
+    padding-bottom: 1rem;
+  }
+  .icon-opcoes {
+    position: initial;
+    margin: 0;
+  }
+  .itens-opcoes {
+    position: initial;
+    margin: 0;
+    margin-left: 0.5rem !important;
+  }
+  .container-options-lazer {
+    padding: 0rem 1rem;
+  }
+  #lazer-section {
+    padding-bottom: 1rem;
+  }
+  .tab-item > .nav-link.active {
+    padding-bottom: 0;
+    text-align: left;
+  }
+  .tab-item > .nav-link {
+    text-align: left;
+  }
+  .nav-item.tab-item {
+    width: 50%;
+  }
+  .tab-pane > .row > .col-md-8 {
+    margin-top: 1.5rem;
+  }
+  .info-plantas {
+    font-size: 14px;
+  }
+  .info-plantas > span {
+    font-size: 14px;
+  }
+  .btn-tour-vista {
+    margin-bottom: 1.5rem;
+  }
+  .btn-tour-vista > a {
+    padding: 1rem 0;
+    font-size: 28px;
+  }
+  .btn-tour-vista > a > span {
+    top: 7px;
+  }
+  #button-tour-vista {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .title-obras {
+    font-size: 30px;
+  }
+  .title-status {
+    font-size: 25px;
+  }
+  .progress {
+    height: 40px;
+  }
+  .progress-number {
+    font-size: 23px;
+  }
+  .container-carousel-obras {
+    margin-top: 5rem;
+  }
+  .total-item {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  #ficha-tecnica {
+    padding: 3rem 0;
+  }
+  .acordeao-item {
+    width: 100%;
+  }
+  .acordeao-title {
+    font-size: 25px;
+  }
+  .acordeao-descricao {
+    width: 100%;
+  }
+  .descricao-item, .descricao-resp {
+    font-size: 15px;
+  }
+  .localizacao-text {
+    padding: 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+  .localizacao-text .container-title {
+    padding: 0;
+  }
+  #localizacao {
+    padding-bottom: 3rem;
+  }
+  .title-conheca {
+    font-size: 30px;
+    text-align: center;
+  }
+  .form-group-radio label {
+    width: 80%;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  #carousel-img .container-title .title-empreendimento {
+    padding: 0rem 2rem;
+  }
+  .row-localizacao .col-md-2 {
+    align-self: center;
+  }
+  .btn-tour-vista > a {
+    font-size: 40px;
+  }
+  .btn-tour-vista > a > span {
+    top: 24px;
+  }
+}
 .container-banner-sobre__title h1 {
   text-align: start;
   font-size: 128px;
