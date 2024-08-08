@@ -1,0 +1,116 @@
+@import "./variaveis";
+
+#blog-title-inc {
+  .container-title-blog-maximo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0 4rem;
+
+    h1 {
+      color: $cor-azul-escuro;
+      font-weight: $peso-fonte-negrito-titulo;
+    }
+
+    h2 {
+      color: $cor-verde-agua-claro;
+      font-weight: $peso-fonte-normal-subtitulo;
+      font-size: $tamanho-fonte-subtitulo;
+    }
+
+    p {
+      margin-top: 2rem;
+      color: $cor-preta;
+      font-weight: $peso-fonte-negrito-paragrafo;
+    }
+
+    button {
+      @include botaoFiltrar($cor-verde-agua-claro, $cor-branca);
+    }
+  }
+}
+
+#Newsletter {
+  background: transparent
+    linear-gradient(180deg, $cor-azul-escuro 30%, $cor-verde-agua-claro 100%) 0%
+    0% no-repeat padding-box;
+  padding: 6rem 0;
+  margin: 3rem 0 5rem;
+
+  .container-content-newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12rem;
+
+    .container-text-newsletter {
+      max-width: 500px;
+      color: $cor-branca;
+      text-align: end;
+      padding-bottom: 20px;
+
+      h2 {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .container-form-newsletter {
+      display: flex;
+      flex-direction: column;
+      color: $cor-branca;
+      padding: 2rem;
+
+      p {
+        font-size: 12px;
+        margin-bottom: 2rem;
+      }
+
+      form {
+        input {
+          width: 100%;
+          border: 2px solid $cor-branca;
+          border-radius: 0;
+          margin-bottom: 1rem;
+          outline: none;
+          background-color: transparent;
+          color: $cor-branca;
+        }
+
+        input::placeholder {
+          color: $cor-branca;
+          font-size: 12px;
+        }
+
+        button {
+          @include btnForm($cor-branca, $cor-preta);
+          width: 100%;
+          border: none;
+          border-radius: 0;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #Newsletter {
+    .container-content-newsletter {
+      gap: 5rem;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+    #Newsletter {
+      .container-content-newsletter {
+        flex-direction: column;
+        gap: 1rem;
+
+        .container-text-newsletter {
+            text-align: center;
+        }
+      }
+    }
+  }

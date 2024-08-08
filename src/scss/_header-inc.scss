@@ -43,7 +43,13 @@
 
 .background-image-portal-inc {
   background: url("./img/Topo - Imagem - BG.png") center no-repeat;
-  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-blog-maximo-inc {
+  background: url("./img/background-blog.png") center no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;

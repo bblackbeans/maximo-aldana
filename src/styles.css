@@ -1223,7 +1223,13 @@ footer {
 
 .background-image-portal-inc {
   background: url("./img/Topo - Imagem - BG.png") center no-repeat;
-  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image-blog-maximo-inc {
+  background: url("./img/background-blog.png") center no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -3714,6 +3720,144 @@ button {
   color: #18354f;
   font-size: 50px;
   margin: 3rem 0 1rem;
+}
+
+#single-portal-btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: flex-end;
+}
+#single-portal-btns .container-btns-single-portal {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+#single-portal-btns .container-btns-single-portal .btn-single-portal {
+  color: #ffffff;
+  background-color: #0D5F7B;
+  border-radius: 27px;
+  border: none;
+}
+#single-portal-btns .container-btns-single-portal .btn-single-portal:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+
+@media (max-width: 403px) {
+  #single-portal-btns {
+    align-items: center;
+  }
+  #single-portal-btns .container-btns-single-portal {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#blog-title-inc .container-title-blog-maximo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0 4rem;
+}
+#blog-title-inc .container-title-blog-maximo h1 {
+  color: #18354f;
+  font-weight: 700;
+}
+#blog-title-inc .container-title-blog-maximo h2 {
+  color: #66c1bf;
+  font-weight: 400;
+  font-size: 34px;
+}
+#blog-title-inc .container-title-blog-maximo p {
+  margin-top: 2rem;
+  color: #000000;
+  font-weight: 700;
+}
+#blog-title-inc .container-title-blog-maximo button {
+  background-color: #66c1bf;
+  color: #ffffff;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 152px;
+  height: 53px;
+}
+#blog-title-inc .container-title-blog-maximo button:hover {
+  background: transparent linear-gradient(180deg, #18354f 0%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+}
+
+#Newsletter {
+  background: transparent linear-gradient(180deg, #18354f 30%, #66c1bf 100%) 0% 0% no-repeat padding-box;
+  padding: 6rem 0;
+  margin: 3rem 0 5rem;
+}
+#Newsletter .container-content-newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12rem;
+}
+#Newsletter .container-content-newsletter .container-text-newsletter {
+  max-width: 500px;
+  color: #ffffff;
+  text-align: end;
+  padding-bottom: 20px;
+}
+#Newsletter .container-content-newsletter .container-text-newsletter h2 {
+  margin-bottom: 2rem;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 2rem;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter p {
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter form input {
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter form input::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter form button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  height: 65px;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  height: 40px;
+}
+#Newsletter .container-content-newsletter .container-form-newsletter form button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+  #Newsletter .container-content-newsletter {
+    gap: 5rem;
+  }
+}
+@media (max-width: 992px) {
+  #Newsletter .container-content-newsletter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  #Newsletter .container-content-newsletter .container-text-newsletter {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
