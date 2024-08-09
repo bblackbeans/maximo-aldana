@@ -2,7 +2,6 @@
 
 .background-image {
   background: url("./img/Topo - Imagem - BG.png") center no-repeat;
-  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -10,8 +9,7 @@
 
 .background-agradecimento-image {
   background: linear-gradient(180deg, #000000a1 0%, #54545400 100%),
-  url("./img/Topo - Imagem - BG.png")
-    center no-repeat;
+    url("./img/Topo - Imagem - BG.png") center no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -171,6 +169,10 @@ header.scrolled .navbar-brand-inc {
 
   .navbar-brand-inc {
     top: 0 !important;
+    
+    img {
+      top: 43px;
+    }
   }
 }
 
@@ -181,5 +183,22 @@ header.scrolled .navbar-brand-inc {
 
   .navbar-brand-inc {
     top: 0 !important;
+
+    img {
+      top: 43px;
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  .navbar-brand-inc {
+    img {
+      width: 230px !important;
+      top: 25px;
+    }
+  }
+
+  .header-inc.scrolled .navbar-brand-inc img {
+    width: 235px !important;
   }
 }

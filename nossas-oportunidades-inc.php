@@ -44,7 +44,7 @@ include('header-oportunidades-inc.php'); ?>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <span class="material-symbols-outlined arrow-acordion">
+                        <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Título vaga 1
                     </button>
@@ -72,7 +72,7 @@ include('header-oportunidades-inc.php'); ?>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <span class="material-symbols-outlined arrow-acordion">
+                        <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Título vaga 3
                     </button>
@@ -133,7 +133,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -155,7 +155,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -177,7 +177,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -201,7 +201,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -223,7 +223,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -245,7 +245,7 @@ include('header-oportunidades-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -259,4 +259,22 @@ include('header-oportunidades-inc.php'); ?>
     </div>
 </section>
 
+<script>
+    //controlando aparicao de acordion se tiver vagas
+    function controlarVisibilidade() {
+        const accordion = document.getElementById("accordion-vagas-maximo");
+        const divNaoVagas = document.querySelector(".container-nao-a-vagas");
+        const itemsAccordion = accordion.querySelectorAll(".accordion-item");
+
+        if (itemsAccordion.length > 0) {
+            divNaoVagas.style.display = "none";
+        } else {
+            accordion.style.display = "none";
+            divNaoVagas.style.display = "flex";
+        }
+    }
+
+    // Chame a função após o carregamento da página
+    window.onload = controlarVisibilidade();
+</script>
 <?php include('footer-inc.php'); ?>

@@ -131,13 +131,19 @@ include('header-portal-inc.php'); ?>
                 <p style="padding: 0 2rem; color: white;">Caso queira enviar alguma evidência (ex: documento digitalizado, foto, vídeo, áudio ou outro documento) associado ao seu relato, utilize o campo abaixo para anexá-la.</p><br>
                 <p style="padding: 0 2rem; color: white;">Neste acesso poderá ser enviado até 5 arquivos ou se preferir anexe todos os documentos em um único arquivo zipado. (Capacidade máxima de até 100 MB por arquivo anexado).</p><br>
                 <div class="inputs-file-seu-terreno-inc">
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <div class="inputs-file-seu-terreno-inc">
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <button type="submit">Enviar</button>
