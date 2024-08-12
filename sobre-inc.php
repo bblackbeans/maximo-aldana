@@ -120,129 +120,129 @@ include('header-sobre-inc.php'); ?>
     <h1>Nossa história</h1>
     <h3 style="margin-bottom: 4rem;">Há 25 anos planejando sonhos, construindo o futuro</h3>
     <div id="linha-do-tempo">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Fundação da</h4>
                     <h3>Maximo Aldana Engenharia e Construção</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
-            <div class="container-content-ano"> 
-                <div class="content-text-ano">
+            <div class="container-content-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Primeira obra hospitalar</h4>
                     <h3>Hospital São João de Deus</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
-                <div>
-                    <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%; max-width: 370px" alt="">
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Fundação da</h4>
                     <h3>Maximo Aldana Incorporadora</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Primeira incorporação residencial</h4>
                     <h3>Style Platinum</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Implantação e Certificação</h4>
                     <h3>ISO:9001 E PBQP-H</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Primeira incorporação no litoral paulista</h4>
                     <h3>Costa Esmeralda</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Criação da nova marca</h4>
                     <h3>Maximo Aldana <br> Construtora e Incorporadora</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Foram construídos</h4>
                     <h3>100.000 m²</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Construção do</h4>
                     <h3>Aeroporto de Aripuanã - MT</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Categoria Inovação em Obras</h4>
                     <h3>Prêmio HealthARQ 2022</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>3º ano consecutivo entre as</h4>
                     <h3>100 maiores construtoras do Brasil</h3>
                     <h4>segundo no Ranking Intec</h4>
@@ -250,22 +250,232 @@ include('header-sobre-inc.php'); ?>
                     <h4>Ganhador na Categoria Construtora</h4>
                     <h3>Prêmio Líderes de Saúde</h3>
                 </div>
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div class="content-text-ano">
+                    <div style="width: 30vw;">
+                        <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
+                    </div>
                 </div>
             </div>
             <div class="container-content-ano">
-                <div>
-                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="max-width: 370px;" alt="">
+                <div style="width: 30vw;">
+                    <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%; max-width: 370px" alt="">
                 </div>
-                <div class="content-text-ano">
+                <div class="content-text-ano" style="width: 30vw;">
                     <h4>Entrega do prédio residencial</h4>
                     <h3>Aldana One</h3>
-                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas 
-                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus 
+                    <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                        alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
                         tempora est ipsa pariatur.</p>
                 </div>
-            </div> 
+            </div>
+        </div>
+    </div>
+    <div id="linha-do-tempo-mobile">
+        <div class="container container-responsive-content-linha">
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>1999</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/1999.jpeg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Fundação da</h4>
+                        <h3>Maximo Aldana Engenharia e Construção</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2011</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Primeira obra hospitalar</h4>
+                        <h3>Hospital São João de Deus</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2012</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Fundação da</h4>
+                        <h3>Maximo Aldana Incorporadora</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Primeira incorporação residencial</h4>
+                        <h3>Style Platinum</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2014</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Implantação e Certificação</h4>
+                        <h3>ISO:9001 E PBQP-H</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2016</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Primeira incorporação no litoral paulista</h4>
+                        <h3>Costa Esmeralda</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2017</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Criação da nova marca</h4>
+                        <h3>Maximo Aldana Construtora e Incorporadora</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2018</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Foram construídos</h4>
+                        <h3>100.000 m²</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2021</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Construção do</h4>
+                        <h3>Aeroporto de Aripuanã - MT</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2022</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Categoria Inovação em Obras</h4>
+                        <h3>Prêmio HealthARQ 2022</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2023</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>3º ano consecutivo entre as</h4>
+                        <h3>100 maiores construtoras do Brasil</h3>
+                        <h4>segundo no Ranking Intec</h4>
+                        <h3>2ª maior construtora do Grande ABC</h3>
+                        <h4>Ganhador na Categoria Construtora</h4>
+                        <h3>Prêmio Líderes de Saúde</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="linha-mobile-container">
+                <div class="ano-linha">
+                    <span>2024</span>
+                </div>
+                <div class="content-linha">
+                    <div style="width: 50vw;">
+                        <img src="./src/img/linha-do-tempo/HOSPITAL SÇO JOÇO DE DEUS.jpg" style="width: 100%;" alt="">
+                    </div>
+                    <div class="content-text-ano">
+                        <h4>Entrega do prédio residencial</h4>
+                        <h3>Aldana One</h3>
+                        <p>Lorem ipsum dolor sit amet. Et repellendus libero sed voluptas
+                            alias id quia aperiam et pariatur nemo et dolores ipsam eos natus
+                            tempora est ipsa pariatur.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -333,7 +543,7 @@ include('header-sobre-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -355,7 +565,7 @@ include('header-sobre-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -377,7 +587,7 @@ include('header-sobre-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -401,7 +611,7 @@ include('header-sobre-inc.php'); ?>
                         <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -423,7 +633,7 @@ include('header-sobre-inc.php'); ?>
                         <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
@@ -445,7 +655,7 @@ include('header-sobre-inc.php'); ?>
                         <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                    Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
