@@ -229,7 +229,101 @@ include('header-inc.php'); ?>
                 <div class="tab-pane fade" id="final3-58m" role="tabpanel" aria-labelledby="contact-tab" tabindex="2">...</div>
                 <div class="tab-pane fade" id="final4-59m" role="tabpanel" aria-labelledby="disabled-tab" tabindex="3">...</div>
                 <div class="tab-pane fade" id="final6-58m" role="tabpanel" aria-labelledby="disabled-tab" tabindex="4">...</div>
-                <div class="tab-pane fade" id="area-de-lazer" role="tabpanel" aria-labelledby="disabled-tab" tabindex="5">...</div>
+                <div class="tab-pane fade" id="area-de-lazer" role="tabpanel" aria-labelledby="disabled-tab" tabindex="5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="d-flex flex-column container-button-plantas">
+                                <div class="button-plantas active">
+                                    <span class="material-symbols-outlined">
+                                        arrow_drop_down
+                                    </span><button class="nav-link" id="button-bolotario1" data-bs-target="#bolotario1" type="button">Bolotário</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="container-bolotario position-relative">
+                                <img src="./src/img/plantas/bolotario-n.png" alt="Planta" class="img-fluid" id="bolotario1">
+                                <div class="bolotario-item" style="left: 43%; top:14%;" data-info="Piscina Adulto">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 81%; top:13%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 22%; top:36%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 44%; top:34%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 67%; top:36%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 86%; top:37%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 20%; top:55%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 37%; top:63%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 72%; top:49%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 71%; top:62%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 16%; top:74%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 33%; top:75%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 47%; top:81%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 60%; top:75%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="bolotario-item" style="left: 73%; top:76%;" data-info="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </div>
+                            </div>
+                            <div id="tooltip" style="display: none;"></div>
+                            <p class="info-plantas mt-4 px-4">Os elementos decorativos, os móveis, os acessórios, as vegetações e os demais elementos elucidativos das ilustrações, são meramente sugestivos, não incluídos nas especificações da obra e no preço das unidades.<span>Estudo Preliminar de Projeto | Sujeito a Alterações.</span></p>
+                        </div>
+                    </div>
+                </div>
                 <div class="tab-pane fade" id="rooftop" role="tabpanel" aria-labelledby="disabled-tab" tabindex="6">...</div>
             </div>
         </div>
@@ -1022,47 +1116,71 @@ include('header-inc.php'); ?>
 </script>
 
 <script>
-  function showSlide(index) {
-    const slide = document.getElementById('carouselSlide');
-    const totalSlides = document.querySelectorAll('.carousel-item-obras').length;
-    console.log (totalSlides);
-    if (index >= totalSlides - 1) {
-      currentIndex = 0;
-    } else if (index < 0) {
-      currentIndex = totalSlides / 2 - 1;
-    } else {
-      currentIndex = index;
+    function showSlide(index) {
+        const slide = document.getElementById('carouselSlide');
+        const totalSlides = document.querySelectorAll('.carousel-item-obras').length;
+        console.log(totalSlides);
+        if (index >= totalSlides - 1) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = totalSlides / 2 - 1;
+        } else {
+            currentIndex = index;
+        }
+        slide.style.transform = `translateX(${-currentIndex * 50}%)`;
+        updateIndicators();
     }
-    slide.style.transform = `translateX(${-currentIndex * 50}%)`;
-    updateIndicators();
-  }
 
-  function prevSlide() {
-    showSlide(currentIndex - 1);
-  }
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
 
-  function nextSlide() {
-    showSlide(currentIndex + 1);
-  }
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
 
-  function currentSlide(index) {
-    showSlide(index);
-  }
+    function currentSlide(index) {
+        showSlide(index);
+    }
 
-  function updateIndicators() {
-    const indicators = document.querySelectorAll('.carousel-indicators button');
-    indicators.forEach((indicator, index) => {
-      if (index === Math.floor(currentIndex / 1)) {
-        indicator.classList.add('active');
-      } else {
-        indicator.classList.remove('active');
-      }
+    function updateIndicators() {
+        const indicators = document.querySelectorAll('.carousel-indicators button');
+        indicators.forEach((indicator, index) => {
+            if (index === Math.floor(currentIndex / 1)) {
+                indicator.classList.add('active');
+            } else {
+                indicator.classList.remove('active');
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        updateIndicators();
     });
-  }
+</script>
 
-  document.addEventListener('DOMContentLoaded', () => {
-    updateIndicators();
-  });
+<script>
+    document.querySelectorAll('.bolotario-item').forEach(function(hotspot) {
+    hotspot.addEventListener('mouseenter', function(event) {
+        var tooltip = document.getElementById('tooltip');
+        tooltip.innerHTML = hotspot.getAttribute('data-info');
+        tooltip.style.display = 'block';
+        tooltip.style.top = (event.pageY + 10) + 'px';
+        tooltip.style.left = (event.pageX + 10) + 'px';
+    });
+
+    hotspot.addEventListener('mousemove', function(event) {
+        var tooltip = document.getElementById('tooltip');
+        tooltip.style.top = (event.pageY + 10) + 'px';
+        tooltip.style.left = (event.pageX + 10) + 'px';
+    });
+
+    hotspot.addEventListener('mouseleave', function() {
+        var tooltip = document.getElementById('tooltip');
+        tooltip.style.display = 'none';
+    });
+});
+
 </script>
 
 <?php include('footer-inc.php'); ?>
