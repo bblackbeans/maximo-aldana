@@ -62,6 +62,14 @@
           padding-left: 1rem;
         }
 
+        .icon-select-input {
+          position: absolute;
+          bottom: 15px;
+          right: 28px;
+          font-size: 30px;
+          color: $cor-verde-agua-claro;
+        }
+
         select::placeholder {
           color: #444744;
           opacity: 0.4;

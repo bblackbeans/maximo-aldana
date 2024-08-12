@@ -9,7 +9,15 @@
   justify-content: center;
 
   .input-file-inc-terreno {
+    display: none;
     max-width: 145px;
+  }
+
+  .btn-upload-novo {
+    max-width: 160px;
+    height: 44px !important;
+    color: gray !important;
+    font-size: 16px !important;
   }
 }
 

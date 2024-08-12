@@ -93,7 +93,8 @@ include('header-portal-inc.php'); ?>
                         </div>
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
+                    <i class="fa-solid fa-caret-down icon-select-input"></i>
                     <label for="produto">Em que cidade você mora?</label>
                     <select class="form-control" id="cidade" required>
                         <option disabled selected style="color: #444744; opacity: 0.4;">Selecionar uma opção </option>
@@ -111,7 +112,8 @@ include('header-portal-inc.php'); ?>
                 </div>
                 <p style="padding: 0 2rem; color: white;">Tipo(s) permitido(s): .pdf, .doc, .docs</p><br>
                 <div class="inputs-file-seu-terreno-inc" style="margin-left: 2rem; justify-content: flex-start;">
-                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".pdf,.doc,.docs" required>
+                    <button class="btn-upload-novo">Escolher arquivo</button>
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <button type="submit">Enviar</button>
                 <div class="form-check">

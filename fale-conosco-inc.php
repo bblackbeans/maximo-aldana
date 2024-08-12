@@ -47,7 +47,8 @@ include('header-portal-inc.php'); ?>
                     <label for="email">Qual o seu melhor e-mail?</label>
                     <input type="email" class="form-control" placeholder="E-mail" id="email" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
+                    <i class="fa-solid fa-caret-down icon-select-input"></i>
                     <label for="produto">Qual o produto de interesse?</label>
                     <select class="form-control" id="senha" required>
                         <option disabled selected style="color: #444744; opacity: 0.4;">Selecionar uma opção </option>

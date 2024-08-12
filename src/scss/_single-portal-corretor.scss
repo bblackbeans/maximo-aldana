@@ -1,0 +1,37 @@
+@import "./variaveis";
+
+#single-portal-btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: flex-end;
+
+  .container-btns-single-portal {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    .btn-single-portal {
+      color: $cor-branca;
+      background-color: #0D5F7B;
+      border-radius: 27px;
+      border: none;
+    }
+
+    .btn-single-portal:hover {
+      background: transparent
+        linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+        0% 0% no-repeat padding-box;
+    }
+  }
+}
+
+@media (max-width: 403px) {
+  #single-portal-btns {
+    align-items: center;
+    .container-btns-single-portal {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

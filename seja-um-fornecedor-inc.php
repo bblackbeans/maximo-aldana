@@ -86,6 +86,7 @@ include('header-portal-inc.php'); ?>
                 </div>
                 <p style="padding: 0 2rem; color: white;">Capacidade máxima de até 25MB. Aceitamos arquivos do tipo jpeg. pgn. pdf. ppt. mp4.</p><br>
                 <div class="inputs-file-seu-terreno-inc">
+                    <button class="btn-upload-novo">Escolher arquivo</button>
                     <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <button type="submit">Enviar</button>
