@@ -288,7 +288,7 @@ include('header-inc.php'); ?>
                 </div>
             </div>
             <div class="container-fase__button mt-5">
-                <button onclick="toggleDisplay()">VER TODOS</button>
+                <button id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
             </div>
         </div>
     </div>

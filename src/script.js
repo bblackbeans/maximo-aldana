@@ -1,13 +1,16 @@
 // Definindo a função toggleDisplay para abrir todos os cards
-async function toggleDisplay() {
+function toggleDisplay() {
   try {
     var carousels = document.querySelectorAll(".secondCarousel");
+    var toggleButton = document.getElementById("toggleButton");
 
     carousels.forEach((carousel) => {
       if (carousel.style.display === "none" || carousel.style.display === "") {
         carousel.style.display = "block";
+        toggleButton.textContent = "OCULTAR";
       } else {
         carousel.style.display = "none";
+        toggleButton.textContent = "VER TODOS";
       }
     });
   } catch (error) {
@@ -18,12 +21,15 @@ async function toggleDisplay() {
 //
 function toggleCardBlog() {
   var carousels = document.querySelectorAll(".second-card-blog");
+  var toggleButtonBlog = document.getElementById("toggleButtonCardBlog");
 
   carousels.forEach((carousel) => {
     if (carousel.style.display === "none" || carousel.style.display === "") {
       carousel.style.display = "flex";
+      toggleButtonBlog.textContent = "OCULTAR";
     } else {
       carousel.style.display = "none";
+      toggleButtonBlog.textContent = "VER TODOS";
     }
   });
 }

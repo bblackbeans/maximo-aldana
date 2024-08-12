@@ -237,7 +237,7 @@ include('header-vaga-inc.php'); ?>
             </div>
         </div>
         <div class="container-button-todos">
-            <button class="ver-todos-button bg-acquagreen" onclick="toggleCardBlog()">VER TODOS</button>
+            <button id="toggleButtonCardBlog" class="ver-todos-button bg-acquagreen" onclick="toggleCardBlog()">VER TODOS</button>
         </div>
     </div>
 </section>
