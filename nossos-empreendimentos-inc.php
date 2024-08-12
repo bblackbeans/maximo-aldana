@@ -317,7 +317,7 @@ include('header-portal-inc.php'); ?>
             <h4>Fique por dento do</h4>
             <h2>Nosso Blog</h2>
         </div>
-        <div class="container container-card-blog" style="margin-bottom: 2rem;">
+        <div class="container container-card-blog">
             <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
@@ -452,6 +452,9 @@ include('header-portal-inc.php'); ?>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container-button-todos">
+            <button id="toggleButtonCardBlog" class="ver-todos-button bg-acquagreen" onclick="toggleCardBlog()">VER TODOS</button>
         </div>
     </div>
 </section>

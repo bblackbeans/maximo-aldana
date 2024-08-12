@@ -3859,7 +3859,7 @@ button {
 #nossa-historia #linha-do-tempo {
   background: url("./img/linha-do-tempo.png") center no-repeat;
   background-size: contain;
-  height: 508vh;
+  height: 505vh;
 }
 #nossa-historia #linha-do-tempo .container-content-ano {
   display: flex;
@@ -3870,6 +3870,33 @@ button {
 }
 #nossa-historia #linha-do-tempo .container-content-ano .content-text-ano {
   max-width: 532px;
+}
+#nossa-historia #linha-do-tempo-mobile {
+  display: none;
+}
+#nossa-historia #linha-do-tempo-mobile .container-responsive-content-linha {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#nossa-historia #linha-do-tempo-mobile .container-responsive-content-linha .linha-mobile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+#nossa-historia #linha-do-tempo-mobile .container-responsive-content-linha .linha-mobile-container .ano-linha span {
+  background-color: #66c1bf;
+  color: #18354f;
+  font-size: 40px;
+  padding: 5px 12px;
+  font-weight: 700;
+}
+#nossa-historia #linha-do-tempo-mobile .container-responsive-content-linha .linha-mobile-container .content-linha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 #certificacoes-premiacoes {
@@ -3934,6 +3961,14 @@ button {
   }
   #certificacoes-premiacoes .container-content-certificacoes .content-one-certificacoes .content-img-certificacoes {
     margin: 20px 0;
+  }
+}
+@media (max-width: 991px) {
+  #nossa-historia #linha-do-tempo {
+    display: none;
+  }
+  #nossa-historia #linha-do-tempo-mobile {
+    display: flex;
   }
 }
 @media (max-width: 768px) {
