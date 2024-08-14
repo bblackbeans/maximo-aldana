@@ -1,0 +1,86 @@
+@import "./variaveis";
+
+.container-title-banner-dna {
+  h1 {
+    font-size: 100px;
+    font-family: "avenir-black", sans-serif;
+    color: $cor-branca;
+    text-shadow: 8px 8px 98px $cor-preta;
+    opacity: 1;
+    line-height: 1;
+    margin-left: 3rem;
+    position: absolute;
+    top: 343px;
+  }
+}
+
+.container-image-iframe-dna {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  span {
+    position: absolute;
+    bottom: 10px;
+    right: -91px;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: $cor-branca;
+    font-weight: bold;
+    text-align: center;
+    background-color: $cor-azul-escuro;
+    padding: 1px 16px;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+  }
+}
+
+.container-btn-dna-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 3rem 0 5rem;
+
+  button {
+    @include botaoSetaCon($cor-azul-escuro, $cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    padding-left: 30px;
+  }
+  .fa-arrow-right:before {
+    content: "\f061";
+    background: #245077;
+    color: $cor-branca;
+    padding: 13px 15px;
+    border-radius: 37px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 975px) {
+  .container-title-banner-dna {
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .container-title-banner-dna {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+@media (max-width: 585px) {
+    .container-title-banner-dna {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
