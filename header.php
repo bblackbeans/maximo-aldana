@@ -70,7 +70,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
             <nav id="menuPrincipal" class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                     <a class="navbar-brand" href="<?php echo $home; ?>">
-                        <img id="logoPrincipal" src="./src/img/construtora-horizontal.png" alt="Logo Maximo Aldana">
+                        <img id="logoPrincipal" src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/08/construtora-horizontal-e1723570665733.png" alt="Logo Maximo Aldana">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -85,6 +85,12 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                             </li>
                             <li class="nav-item logo-menu">
                                 <a class="nav-link logo-menu__button" href="<?php echo $home; ?>/orce-sua-obra-conosco">ORCE SUA OBRA</a>
+                            </li>
+                            <li class="nav-item top-menu align-self-center">
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="nav-item top-menu align-self-center">
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-bars"></i></a>
                             </li>
                         </ul>
                     </div>

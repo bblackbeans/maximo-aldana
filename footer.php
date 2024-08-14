@@ -68,12 +68,14 @@
                 <div class="footer-menu position-absolute bottom-0">
                     <div class="footer-menu__list">
                         <ul class="ps-0">
-                        <div class="footer-menu__title">
-                            CONTATOS
-                        </div>
-                            <li><a href=""><i class="fa-brands fa-whatsapp me-3"></i>+55 11 91705-3110</a></li>
-                            <li><a href=""><i class="fa-solid fa-phone me-3"></i>+55 11 4337-1200</a></li>
+                            <li><a href=""><i class="fa-brands fa-whatsapp me-3 icon-zap-insta"></i>+55 11 91705-3110</a></li>
+                            <li><a href=""><i class="fa-solid fa-phone me-3 icon-zap-insta"></i>+55 11 4337-1200</a></li>
                         </ul>
+                        <div class="icons-redes-sociais">
+                            <a href=""><i class="fa-brands fa-instagram icon-rede-social-con"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook icon-rede-social-con"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin icon-rede-social-con"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>

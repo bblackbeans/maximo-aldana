@@ -7,7 +7,7 @@ include('header.php'); ?>
 <section id="dna-da-construcao">
     <div class="container">
         <div class="container-title">
-            <h3 class="container-title__title">Temos o DNA da Construção</h3>
+            <h1 class="container-title__title">Temos o DNA da Construção</h1>
             <h6 class="container-title__subtitle">desde a nossa fundação</h6>
             <p class="container-title__frase">A Maximo Aldana está no mercado há mais de 25 anos construindo em todo território nacional obras de médio e grande porte, com foco e expertise nos segmentos de obras prediais hospitalares. Entendemos que nosso sucesso é resultado de uma equipe altamente qualificada e comprometida com nossos principais pilares:</p>
         </div>
@@ -23,8 +23,8 @@ include('header.php'); ?>
                         <div class="col-md-9 items-desc">
                             <h4>Segurança e Qualidade</h4>
                             <h6>A segurança não se discute. Entendemos que um ambiente limpo,
-seguro e organizado traz maior produtividade em nossos canteiros de
-obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
+                                seguro e organizado traz maior produtividade em nossos canteiros de
+                                obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                         <div class="col-md-9 items-desc">
                             <h4>Melhoria contínua e Inovação</h4>
                             <h6>Fomentamos internamente a adoção de processos buscando melhoria
-                            contínua e inovação (Max Mentalidade).</h6>
+                                contínua e inovação (Max Mentalidade).</h6>
                         </div>
                     </div>
                 </div>
@@ -104,6 +104,19 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                         <div class="col-md-9 items-desc">
                             <h4>Sistema de Qualidade</h4>
                             <h6>Possuímos um sistema de gestão da qualidade com processos ágeis e bem definidos.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 items-check">
+                            <span class="material-symbols-outlined">
+                                psychology
+                            </span>
+                        </div>
+                        <div class="col-md-9 items-desc">
+                            <h4>#MaxMentality</h4>
+                            <h6>Fomentamos internamente e adoção de processos buscando melhoria contínua e inovação.</h6>
                         </div>
                     </div>
                 </div>
@@ -150,7 +163,7 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                 <img class="segmentos-img" src="./src/img/servicos/ServicoUm.png" alt="Serviço Um">
             </div>
             <div class="container-segmento-name-img">
-                <p class="segmentos-name">DESIGN BUILD</p>
+                <p class="segmentos-name">DESIGN AND BUILD</p>
                 <img class="segmentos-img" src="./src/img/servicos/ServicoDois.png" alt="Serviço DOis">
             </div>
             <div class="container-segmento-name-img">
@@ -163,7 +176,7 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
             </div>
         </div>
     </div>
-    <div class="container-segmentos">
+    <!-- <div class="container-segmentos">
         <div class="container-segmentos-name">
             <h1>Diferenciais</h1>
         </div>
@@ -185,11 +198,11 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                 <img class="segmentos-img" src="./src/img/servicos/ServicoOito.jpg" alt="Serviço Oito">
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <section id="form-construtora">
-    <div class="container-fluid px-5">
+    <div class="container-fluid px-5 container-padding-form">
         <div class="row">
             <div class="col-md-6 form-left">
                 <h2>Entre em Contato Conosco<br>Construa com a Maximo Aldana!</h2>
@@ -197,7 +210,7 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
             </div>
             <div class="col-md-6 form-right">
                 <form method="POST" action="" id="form-home-construtora">
-                    <h3>Preencha o formulário para conversar com um especialista.</h3>
+                    <p>Preencha o formulário para conversar com um especialista.</p>
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
                     </div>
@@ -209,12 +222,20 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
                     </div>
                     <div class="form-group-radio">
                         <label>Qual melhor forma de contato?*</label><br>
-                        <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
-                        <label class="label-radio" for="whatsapp">Whatsapp</label>
-                        <input type="radio" id="e-mail" name="contact_method" value="email" required>
-                        <label class="label-radio" for="email">E-mail</label>
-                        <input type="radio" id="phone" name="contact_method" value="phone" required>
-                        <label class="label-radio" for="phone">Telefone</label>
+                        <div class="container-radios">
+                            <div>
+                                <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
+                                <label class="label-radio" for="whatsapp">Whatsapp</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="e-mail" name="contact_method" value="email" required>
+                                <label class="label-radio" for="email">E-mail</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="phone" name="contact_method" value="phone" required>
+                                <label class="label-radio" for="phone">Telefone</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group-button">
                         <button type="submit" class="button-form-construtora">Enviar</button>
@@ -226,108 +247,191 @@ obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
     </div>
 </section>
 
-<section id="certificacoes">
+<section id="certificacoes-premiacoes" style="background-color: white; margin-top: 0px;">
     <div class="container">
-        <div class="container-title">
-            <h6 class="container-title__subtitle mb-0">Certificados e Premiações</h6>
-            <h3 class="container-title__title">Maximo Aldana</h3>
+        <div class="container-title-certificacoes">
+            <h5>Certificados e Premiações</h4>
+                <h1>Maximo Aldana</h1>
         </div>
-        <div class="container-certificacoes">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="certificados-image">
-                        <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/ISO.png" class="certificados-image__img" alt="ISO 9001:2015">
-                        <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/PBOP.png" class="certificados-image__img" alt="PBQP do Habitat">
-                        <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/ACIGABC.png" class="certificados-image__img" alt="ACIGABC desde 1988">
-                        <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/INTEC.png" class="certificados-image__img" alt="Construtora Classificada 2024">
+        <div>
+            <div class="container-content-certificacoes">
+                <div class="content-one-certificacoes" style="padding-left: 48px;">
+                    <h2>Certificados</h2>
+                    <div class="content-img-certificacoes">
+                        <img src="./src/img/certificados-premiacoes/sas.png" alt="SAS">
+                        <img src="./src/img/certificados-premiacoes/pbqp-h.png" alt="PBQP">
                     </div>
                 </div>
-                <div class="col-md-8 align-content-center">
-                    <div class="certificados-texto">
-                        <p>Sempre focados em oferecer o melhor aos nossos clientes, conquistamos o Certificado do PBQP-H (Programa Brasileiro da Qualidade e Produtividade do Habitat), regulamentador nacional de produtos e serviços e o ISO 9001:2015, norma de sistema de gestão da qualidade.<br><br> Por três vezes consecutivas, entre as <b>100 maiores construtoras do Brasil</b>, segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).<br><br><b>POLÍTICA DE QUALIDADE</b><br>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis, melhorando continuamente nossos processos em busca da satisfação dos nossos clientes e colaboradores.</p>
+                <p style="padding-left: 20px;">Sempre focados em oferecer o melhor aos nossos clientes, conquistamos o Certificado do PBQP-H
+                    (Programa Brasileiro da Qualidade e Produtividade do Habitat), regulamentador nacional de produtos e
+                    serviços e o ISO 9001:2015, norma de sistema de gestão da qualidade. </p>
+            </div>
+            <hr>
+            <div class="container-content-certificacoes">
+                <div class="content-one-certificacoes">
+                    <h2>Premiações</h2>
+                    <div class="content-img-certificacoes">
+                        <img src="./src/img/certificados-premiacoes/lideres-da-saude.png" alt="lideres">
+                        <img src="./src/img/certificados-premiacoes/Premio-health-arq-2022.png" alt="health arq">
+                        <img src="./src/img/certificados-premiacoes/INTEC.png" alt="intec">
                     </div>
+                </div>
+                <div>
+                    <p>Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
+                        segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).</p>
+                    <h6>POLÍTICA DE QUALIDADE</h6>
+                    <p>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis,
+                        melhorando continuamente nossos processos em busca da satisfação dos nossos clientes e colaboradores.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="blog-home" class="py-5">
-    <div class="container-fluid px-5">
+<section id="blog-home" class="pb-5">
+    <div class="container-fluid px-2">
         <div class="container-title-blog">
             <h4>Fique por dento do</h4>
             <h2>Nosso Blog</h2>
         </div>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="container container-card-blog">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
-                        <img class="img-fluid" src="https://maximoaldana.com.br/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-15.03.37.jpeg" alt="">
+                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
                     </div>
                     <div class="card-blog__title">
-                        <h2>Título principal do blog</h2>
+                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
                     </div>
                     <div class="card-blog__data">
                         <span class="material-symbols-outlined">
                             calendar_today
                         </span>
-                        <p>1 de Janeiro de 2024 • Por Máximo Aldana</p>
+                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut lorem ac tortor tempor vehicula. Vivamus consectetur pretium volutpat. Praesent vitae porta diam. Aenean bibendum blandit augue, sit amet viverra quam ornare in. Fusce mattis auctor orci nec tincidunt. Integer a nisi non purus vestibulum…
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
                     <div class="card-blog__button">
-                        <a href="">LEIA MAIS</a>
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
-                        <img class="img-fluid" src="https://maximoaldana.com.br/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-15.03.37.jpeg" alt="">
+                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
                     </div>
                     <div class="card-blog__title">
-                        <h2>Título principal do blog</h2>
+                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
                     </div>
                     <div class="card-blog__data">
                         <span class="material-symbols-outlined">
                             calendar_today
                         </span>
-                        <p>1 de Janeiro de 2024 • Por Máximo Aldana</p>
+                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut lorem ac tortor tempor vehicula. Vivamus consectetur pretium volutpat. Praesent vitae porta diam. Aenean bibendum blandit augue, sit amet viverra quam ornare in. Fusce mattis auctor orci nec tincidunt. Integer a nisi non purus vestibulum…
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
                     <div class="card-blog__button">
-                        <a href="">LEIA MAIS</a>
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="" style="max-width: 400px; height:605px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
-                        <img class="img-fluid" src="https://maximoaldana.com.br/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-15.03.37.jpeg" alt="">
+                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
                     </div>
                     <div class="card-blog__title">
-                        <h2>Título principal do blog</h2>
+                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
                     </div>
                     <div class="card-blog__data">
                         <span class="material-symbols-outlined">
                             calendar_today
                         </span>
-                        <p>1 de Janeiro de 2024 • Por Máximo Aldana</p>
+                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
                     </div>
                     <div class="card-blog__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut lorem ac tortor tempor vehicula. Vivamus consectetur pretium volutpat. Praesent vitae porta diam. Aenean bibendum blandit augue, sit amet viverra quam ornare in. Fusce mattis auctor orci nec tincidunt. Integer a nisi non purus vestibulum…
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
                     <div class="card-blog__button">
-                        <a href="">LEIA MAIS</a>
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-card-blog second-card-blog" style="display: none;">
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana pela terceira vez consecutiva, entre as 100 maiores construtoras do Brasil segundo o Ranking Intec</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>3 de Março de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/100maiores.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana construirá o novo Hospital de Unimed Sul Mineira em Pouso Alegre - MG</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>16 de Janeiro de 2023 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="max-width: 400px; height:605px;">
+                <div class="card-blog">
+                    <div class="card-blog__img">
+                        <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
+                    </div>
+                    <div class="card-blog__title">
+                        <h2>Maximo Aldana é destaque no HealthARQ 2022</h2>
+                    </div>
+                    <div class="card-blog__data">
+                        <span class="material-symbols-outlined">
+                            calendar_today
+                        </span>
+                        <p>11 de Novembro de 2022 • Por Máximo Aldana</p>
+                    </div>
+                    <div class="card-blog__desc">
+                        Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
+                    </div>
+                    <div class="card-blog__button">
+                        <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container-button-todos">
-            <a href="" class="ver-todos-button">VER TODOS</a>
+            <button id="toggleButtonCardBlog" class="ver-todos-button" onclick="toggleCardBlog()">VER TODOS</button>
         </div>
     </div>
 </section>

@@ -56,6 +56,22 @@ $peso-fonte-negrito-paragrafo: 700;
   }
 }
 
+@mixin botaoAzulEscuro($cor-azul-escuro, $cor-branca) {
+  background-color: $cor-azul-escuro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 41px;
+  cursor: pointer;
+  width: 145px;
+  height: 45px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
 @mixin botaoMenu($cor-verde-agua-claro, $cor-branca) {
   background-color: $cor-verde-agua-claro;
   color: $cor-branca;
@@ -79,6 +95,20 @@ $peso-fonte-negrito-paragrafo: 700;
   border-radius: 27px;
   cursor: pointer;
   width: 310px;
+  height: 53px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+@mixin botaoSetaCon($cor-azul-escuro, $cor-branca) {
+  background-color: $cor-azul-escuro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 27px;
+  cursor: pointer;
+  width: 320px;
   height: 53px;
 
   &:hover {
@@ -140,6 +170,22 @@ $peso-fonte-negrito-paragrafo: 700;
   &:hover {
     background: transparent
       linear-gradient(180deg, $cor-azul-escuro 0%, $cor-verde-agua-claro 100%)
+      0% 0% no-repeat padding-box;
+  }
+}
+
+@mixin btnLeiaMaisCon($cor-azul-escuro, $cor-branca) {
+  background-color: $cor-azul-escuro;
+  color: $cor-branca;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  width: 103px;
+  height: 39px;
+
+  &:hover {
+    background: transparent
+      linear-gradient(180deg, $cor-verde-agua-claro 0%, $cor-azul-escuro 100%)
       0% 0% no-repeat padding-box;
   }
 }
