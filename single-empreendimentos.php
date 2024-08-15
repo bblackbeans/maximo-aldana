@@ -713,14 +713,14 @@ include('header-inc.php'); ?>
         </div>
         <div class="container-carousel-conheca">
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/51e223fa0238e8489aca6b51b9e7b6b4.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -734,13 +734,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                    <div class="carousel-item-index" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/seven-living.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -755,13 +755,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                    <div class="carousel-item-index" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Aldana-One.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA <br>ONE</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -776,13 +776,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                    <div class="carousel-item-index" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/egydio-martins (1).png" class="card-img-top" alt="...">
                                 <p class="img-text-title">EGYDIO <br>MARTINS</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -800,14 +800,14 @@ include('header-inc.php'); ?>
                 </div>
             </div>
             <div class="carousel secondCarousel" style="display: none;">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/51e223fa0238e8489aca6b51b9e7b6b4.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -821,13 +821,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                    <div class="carousel-item-index" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/seven-living.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -842,13 +842,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                    <div class="carousel-item-index" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Aldana-One.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA <br>ONE</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -863,13 +863,13 @@ include('header-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                    <div class="carousel-item-index" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/egydio-martins (1).png" class="card-img-top" alt="...">
                                 <p class="img-text-title">EGYDIO <br>MARTINS</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p>EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">

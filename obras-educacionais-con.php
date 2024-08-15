@@ -99,8 +99,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Colegio-Camp-Sao-Bernardo-do-Campo-10-758x564.jpeg" class="card-img-top" alt="...">
@@ -119,8 +119,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel secondCarousel" style="display: none;">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Colegio-Camp-Sao-Bernardo-do-Campo-10-758x564.jpeg" class="card-img-top" alt="...">

@@ -106,14 +106,14 @@ include('header-portal-inc.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Varandas-Pitangueiras.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">VARANDAS<br>PITANGUEIRAS</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
@@ -128,13 +128,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                    <div class="carousel-item-index" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Aldana-One.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA <br>ONE</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
@@ -149,13 +149,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                    <div class="carousel-item-index" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/seven-living.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">COSTA<br> ESMERALDA</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
@@ -170,13 +170,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                    <div class="carousel-item-index" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Style.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">STYLE <br>PLATINUM</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
@@ -194,14 +194,14 @@ include('header-portal-inc.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Style d.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">STYLE <br>DIAMOND</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p><i class="fa-solid fa-house"></i>&ensp;PRONTO PARA MORAR</p>
                             </div>
                             <div class="card-body">
@@ -216,13 +216,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Aldana.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -236,13 +236,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                    <div class="carousel-item-index" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/seven-living-fachada.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -257,13 +257,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
+                    <div class="carousel-item-index" data-cidade="santos" data-status="em-construcao" data-dormitorio="4-mais">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Centro.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">CENTRO  <br>EMPRESARIAL</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                             <p class="color-two-construction"><i class="fa-solid fa-key"></i>&ensp;PRONTO PARA ALUGAR</p>
                             </div>
                             <div class="card-body">
@@ -281,13 +281,13 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
+                    <div class="carousel-item-index" data-cidade="guaruja" data-status="pronto" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/egydio-martins (1).png" class="card-img-top" alt="...">
                                 <p class="img-text-title">EGYDIO <br>MARTINS</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p class="color-three-breve"><i class="fa-solid fa-calendar"></i>&ensp;BREVE LANÇAMENTO</p>
                             </div>
                             <div class="card-body">

@@ -739,6 +739,15 @@
   }
 }
 
+@media(max-width: 492px) {
+  .container-title {
+    &__title {
+      font-size: 35px
+      
+    }
+  }
+}
+
 @media (min-width: 1201px) and (max-width: 1400px) {
 }
 

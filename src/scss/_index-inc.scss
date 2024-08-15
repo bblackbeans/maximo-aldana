@@ -175,7 +175,6 @@
   /* Internet Explorer 10+ */
   scrollbar-width: none;
   /* Firefox */
-  justify-content: center;
 }
 
 .carousel-inner::-webkit-scrollbar {
@@ -183,7 +182,7 @@
   /* Safari e Chrome */
 }
 
-.carousel-item {
+.carousel-item-index {
   max-width: 20%;
   margin-right: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -354,11 +353,11 @@
   height: auto;
 }
 
-.carousel-item:hover .carousel-item__nome {
+.carousel-item-index:hover .carousel-item-index__nome {
   display: none;
 }
 
-.carousel-item:hover .carousel-item__hover-content {
+.carousel-item-index:hover .carousel-item-index__hover-content {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -407,7 +406,7 @@
   z-index: 0;
 }
 
-.carousel-item img {
+.carousel-item-index img {
   width: 100%;
   height: 525px;
 }
@@ -670,7 +669,7 @@ button {
     }
   }
 
-  .carousel-item {
+  .carousel-item-index {
     max-width: 85%;
   }
 
@@ -780,7 +779,7 @@ button {
     }
   }
 
-  .carousel-item {
+  .carousel-item-index {
     max-width: 50%;
   }
 
@@ -835,7 +834,7 @@ button {
     }
   }
 
-  .carousel-item {
+  .carousel-item-index {
     max-width: 35%;
   }
 
@@ -881,7 +880,7 @@ button {
     display: none;
   }
 
-  .carousel-item {
+  .carousel-item-index {
     max-width: 35%;
   }
 
@@ -940,7 +939,7 @@ button {
     }
   }
 
-  .carousel-item {
+  .carousel-item-index {
     &__nome {
       p {
         font-size: 34px;

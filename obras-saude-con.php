@@ -98,8 +98,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="pouso-alegre">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="pouso-alegre">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/port saúde.png" class="card-img-top" alt="...">
@@ -115,7 +115,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campina-grande">
+                    <div class="carousel-item-index" data-cidade="campina-grande">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-UNIMED-Construtora-Maximo-Aldana-1-496x366.png" class="card-img-top" alt="...">
@@ -131,7 +131,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campos-dos-goytacazes">
+                    <div class="carousel-item-index" data-cidade="campos-dos-goytacazes">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-maximo-aldana-nursing-care-obra.jpg-496x366.png" class="card-img-top" alt="...">
@@ -147,7 +147,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="divinopolis">
+                    <div class="carousel-item-index" data-cidade="divinopolis">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-Obras_saude_hospital-hospital-sao-joao-de-deus-496x366.png" class="card-img-top" alt="...">
@@ -166,8 +166,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel secondCarousel" style="display: none;">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="pouso-alegre">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="pouso-alegre">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/port saúde.png" class="card-img-top" alt="...">
@@ -183,7 +183,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campina-grande">
+                    <div class="carousel-item-index" data-cidade="campina-grande">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-UNIMED-Construtora-Maximo-Aldana-1-496x366.png" class="card-img-top" alt="...">
@@ -199,7 +199,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campos-dos-goytacazes">
+                    <div class="carousel-item-index" data-cidade="campos-dos-goytacazes">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-maximo-aldana-nursing-care-obra.jpg-496x366.png" class="card-img-top" alt="...">
@@ -215,7 +215,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="divinopolis">
+                    <div class="carousel-item-index" data-cidade="divinopolis">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-Obras_saude_hospital-hospital-sao-joao-de-deus-496x366.png" class="card-img-top" alt="...">

@@ -99,8 +99,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="pouso-alegre">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="pouso-alegre">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-Edificio_Senador_obra-Maximo-Aldana-496x366.png" class="card-img-top" alt="...">
@@ -116,7 +116,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campina-grande">
+                    <div class="carousel-item-index" data-cidade="campina-grande">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-edificio-works-obra-maximo-aldana-496x366.png" class="card-img-top" alt="...">
@@ -132,7 +132,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campos-dos-goytacazes">
+                    <div class="carousel-item-index" data-cidade="campos-dos-goytacazes">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-edificio-kenney-496x366.png" class="card-img-top" alt="...">
@@ -148,7 +148,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="divinopolis">
+                    <div class="carousel-item-index" data-cidade="divinopolis">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Capa-Acisbec-obra-maximo-aldana--496x366.png" class="card-img-top" alt="...">
@@ -167,8 +167,8 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel secondCarousel" style="display: none;">
-                <div class="carousel-inner">
-                    <div class="carousel-item" data-cidade="pouso-alegre">
+                <div class="carousel-inner justify-content-center">
+                    <div class="carousel-item-index" data-cidade="pouso-alegre">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-Edificio_Senador_obra-Maximo-Aldana-496x366.png" class="card-img-top" alt="...">
@@ -184,7 +184,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campina-grande">
+                    <div class="carousel-item-index" data-cidade="campina-grande">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-edificio-works-obra-maximo-aldana-496x366.png" class="card-img-top" alt="...">
@@ -200,7 +200,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="campos-dos-goytacazes">
+                    <div class="carousel-item-index" data-cidade="campos-dos-goytacazes">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/capa-edificio-kenney-496x366.png" class="card-img-top" alt="...">
@@ -216,7 +216,7 @@ include('header.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="divinopolis">
+                    <div class="carousel-item-index" data-cidade="divinopolis">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/Capa-Acisbec-obra-maximo-aldana--496x366.png" class="card-img-top" alt="...">

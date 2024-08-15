@@ -33,14 +33,14 @@ include('header-portal-inc.php'); ?>
         </div>
         <div class="container-fase">
             <div class="carousel">
-                <div class="carousel-inner" style="margin: 0 0 4rem;">
-                    <div class="carousel-item" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
+                <div class="carousel-inner justify-content-center" style="margin: 0 0 4rem;">
+                    <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/Aldana.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">ALDANA<br>JARDIM</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
@@ -54,13 +54,13 @@ include('header-portal-inc.php'); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
+                    <div class="carousel-item-index" data-cidade="santo-andre" data-status="lancamento" data-dormitorio="3-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
                                 <img src="./src/img/empreedimentos/seven-living-fachada.png" class="card-img-top" alt="...">
                                 <p class="img-text-title">SEVEN <br>LIVING</p>
                             </div>
-                            <div class="carousel-item__estagio">
+                            <div class="carousel-item-index__estagio">
                                 <p class="color-two-construction"><i class="fa-solid fa-trowel-bricks"></i>&ensp;EM CONSTRUÇÃO</p>
                             </div>
                             <div class="card-body">
