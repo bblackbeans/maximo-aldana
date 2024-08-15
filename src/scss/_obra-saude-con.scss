@@ -1,0 +1,143 @@
+@import "./variaveis";
+
+#hospital-saude-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+
+  .container-obra-saude-text {
+    h1 {
+      font-size: $tamanho-fonte-titulo;
+      font-weight: $peso-fonte-negrito-titulo;
+      color: $cor-azul-escuro;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    p {
+      max-width: 90%;
+      text-align: center;
+    }
+  }
+}
+
+.carousel-indicators button.active {
+  height: 15px;
+  width: 15px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: $cor-branca;
+  height: 15px;
+  width: 15px;
+  opacity: 1;
+}
+
+#detalhes-obra-saude {
+  background-color: $cor-azul-escuro;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  margin: 2rem 0;
+
+  .container-detalhes-obra-saude {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      color: $cor-branca;
+      font-size: $tamanho-fonte-subtitulo;
+      font-weight: $peso-fonte-negrito-titulo;
+    }
+
+    .container-content-detalhes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      gap: 2rem;
+      align-items: center;
+
+      .container-one-detalhes {
+        width: 600px;
+        padding: 2rem 0;
+
+        .content-text-detalhes {
+          display: flex;
+          justify-content: space-between;
+
+          .name-detalhe-obra-saude {
+            color: $cor-verde-agua-claro;
+          }
+
+          .valor-detalhe-obra-saude {
+            color: $cor-branca;
+            text-align: end;
+          }
+        }
+      }
+    }
+  }
+}
+
+#acompanhe-obra-con {
+  .content-acampanhamento-obra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+
+    h1 {
+      color: $cor-azul-escuro;
+      font-size: $tamanho-fonte-titulo;
+      font-weight: $peso-fonte-negrito-titulo;
+      margin-bottom: 3rem;
+    }
+
+    .content-img-acompanhamento-obra {
+      max-width: 900px;
+      width: 90%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #detalhes-obra-saude {
+    .container-detalhes-obra-saude {
+      .container-content-detalhes {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #detalhes-obra-saude {
+    .container-detalhes-obra-saude {
+      .container-content-detalhes {
+        .container-one-detalhes {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 445px) {
+  #detalhes-obra-saude {
+    .container-detalhes-obra-saude {
+      .container-content-detalhes {
+        .container-one-detalhes {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
