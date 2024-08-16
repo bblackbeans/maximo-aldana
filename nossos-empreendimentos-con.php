@@ -8,7 +8,7 @@ include('header.php'); ?>
     <div class="container-fluid">
         <div class="container-banner">
             <div class="container-title-banner-dna">
-                <h1>Nossos <br>&ensp;&ensp;Empreendimentos</h1>
+                <h1 style="margin-left: 0;">Nossos <br>&ensp;&ensp;Empreendimentos</h1>
             </div>
 
         </div>
@@ -99,7 +99,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner justify-content-center">
+                <div class="carousel-inner">
                     <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">
@@ -187,7 +187,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="carousel">
-                <div class="carousel-inner justify-content-center">
+                <div class="carousel-inner">
                     <div class="carousel-item-index" data-cidade="sao-bernardo" data-status="futuro-lancamento" data-dormitorio="2-quartos">
                         <div class="card" style="width: 100%;">
                             <div class="image-container">

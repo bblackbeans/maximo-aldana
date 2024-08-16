@@ -20,7 +20,7 @@ include('header.php'); ?>
 <section id="Clientes">
     <div class="container-clientes">
         <div class="container-clientes-name">
-            <h1>Nossos clientes</h1>
+            <h1 style="text-align: center;">Nossos clientes</h1>
         </div>
         <div class="container-clientes-img">
             <img class="clientes-img" src="./src/img/clientes/BK.png" alt="Burguer King">

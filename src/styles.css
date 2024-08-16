@@ -5427,6 +5427,7 @@ hr {
 #portfolio-construtora .container-portfolio .container-geral-content-portfolio .content-container-portfolio .content-img-portfolio img {
   max-width: 402px;
   max-height: 402px;
+  width: 100%;
 }
 #portfolio-construtora .container-portfolio .container-geral-content-portfolio .content-container-portfolio .content-text-portfolio {
   display: flex;
@@ -5473,6 +5474,7 @@ hr {
 #portfolio-construtora .container-portfolio .container-geral-content-portfolio .content-container-portfolio-two .content-img-portfolio img {
   max-width: 402px;
   max-height: 402px;
+  width: 100%;
 }
 #portfolio-construtora .container-portfolio .container-geral-content-portfolio .content-container-portfolio-two .content-text-portfolio-rigth {
   display: flex;
