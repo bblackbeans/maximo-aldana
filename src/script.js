@@ -51,17 +51,41 @@ handleFileSelection();
 
 /* ESTILIZAÇÃO DO HEADER QUANDO A JANELA ROLA */
 
-window.addEventListener("scroll", function () {
+function initScrollIncoporadora() {
   const header = document.getElementById("header");
   const logo = document.getElementById("logoPrincipal");
-  if (window.scrollY > 0) {
-    header.classList.add("scrolled");
-    logo.src = "./src/img/logo-color.png";
-  } else {
-    header.classList.remove("scrolled");
-    logo.src = "./src/img/incorporadora-horizontal.png";
+  if (header && logo) {
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 0) {
+        header.classList.add("scrolled");
+        logo.src = "./src/img/logo-color.png";
+      } else {
+        header.classList.remove("scrolled");
+        logo.src = "./src/img/incorporadora-horizontal.png";
+      }
+    });
   }
-});
+}
+initScrollIncoporadora();
+
+/* ESTILIZAÇÃO DO HEADER QUANDO A JANELA ROLA */
+
+function initScrollConstrutora() {
+  const header = document.getElementById("header-two");
+  const logo = document.getElementById("logoPrincipal");
+  if (header && logo) {
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > 0) {
+        header.classList.add("scrolled");
+        logo.src = "./src/img/logo-color.png";
+      } else {
+        header.classList.remove("scrolled");
+        logo.src = "./src/img/construtora horizontal (1).png";
+      }
+    });
+  }
+}
+initScrollConstrutora();
 
 /* ROLAGEM CARROSSEL */
 

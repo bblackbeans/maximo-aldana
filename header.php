@@ -26,7 +26,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
             <source src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/Aldana-One-Evolucao-de-Obras-Abril_2024.mp4" type="video/mp4">
             Seu navegador não suporta vídeos HTML5.
         </video>
-        <header id="header">
+        <header id="header" class="header header-two">
             <nav id="menuSuperior" class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -35,7 +35,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
                             <a class="offcanvas-img" href="<?php echo $home; ?>">
-                                <img src="./src/img/construtora-horizontal.png" alt="Logo Maximo Aldana">
+                                <img src="./src/img/construtora horizontal (1).png" alt="Logo Maximo Aldana">
                             </a>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
@@ -70,7 +70,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
             <nav id="menuPrincipal" class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                     <a class="navbar-brand" href="<?php echo $home; ?>">
-                        <img id="logoPrincipal" src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/08/construtora-horizontal-e1723570665733.png" alt="Logo Maximo Aldana">
+                        <img id="logoPrincipal" src="./src/img/construtora horizontal (1).png" alt="Logo Maximo Aldana">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
