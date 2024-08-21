@@ -80,7 +80,7 @@ function initScrollConstrutora() {
         logo.src = "./src/img/logo-color.png";
       } else {
         header.classList.remove("scrolled");
-        logo.src = "./src/img/construtora horizontal (1).png";
+        logo.src = "./src/img/construtora-horizontal.png";
       }
     });
   }

@@ -33,7 +33,7 @@ include('header-blog-maximo-inc.php'); ?>
 <section id="blog-home" class="pb-5">
     <div class="container-fluid px-2">
         <div class="container container-card-blog" style="margin-bottom: 2rem;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -55,7 +55,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -77,7 +77,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -103,7 +103,7 @@ include('header-blog-maximo-inc.php'); ?>
     </div>
     <div class="container-fluid px-2">
         <div class="container container-card-blog" style="margin-bottom: 2rem;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/1.png" alt="">
@@ -125,7 +125,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/2.png" alt="">
@@ -147,7 +147,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/3.png" alt="">
@@ -173,7 +173,7 @@ include('header-blog-maximo-inc.php'); ?>
     </div>
     <div class="container-fluid px-2">
         <div class="container container-card-blog" style="margin-bottom: 2rem;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/4.png" alt="">
@@ -195,7 +195,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/5.png" alt="">
@@ -217,7 +217,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/6.png" alt="">
@@ -243,7 +243,7 @@ include('header-blog-maximo-inc.php'); ?>
     </div>
     <div class="container-fluid px-2">
         <div class="container container-card-blog" style="margin-bottom: 2rem;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/7.png" alt="">
@@ -265,7 +265,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/8.png" alt="">
@@ -287,7 +287,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/9.png" alt="">
@@ -313,7 +313,7 @@ include('header-blog-maximo-inc.php'); ?>
     </div>
     <div class="container-fluid px-2">
         <div class="container container-card-blog" style="margin-bottom: 2rem;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/10.png" alt="">
@@ -335,7 +335,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/11.png" alt="">
@@ -357,7 +357,7 @@ include('header-blog-maximo-inc.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/cards-blog/12.png" alt="">
@@ -382,7 +382,7 @@ include('header-blog-maximo-inc.php'); ?>
         </div>
         <div class="container-fluid px-2">
             <div class="container container-card-blog" style="margin-bottom: 2">
-                <div class="" style="max-width: 400px; height:605px;">
+                <div class="" style="max-width: 400px; height:575px;">
                     <div class="card-blog">
                         <div class="card-blog__img">
                             <img class="img-fluid" src="./src/img/cards-blog/13.png" alt="">

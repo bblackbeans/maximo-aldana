@@ -83,7 +83,7 @@ include('header.php'); ?>
             <h2>Nosso Blog</h2>
         </div>
         <div class="container container-card-blog">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -105,7 +105,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -127,7 +127,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -151,7 +151,7 @@ include('header.php'); ?>
             </div>
         </div>
         <div class="container container-card-blog second-card-blog" style="display: none;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -173,7 +173,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -195,7 +195,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">

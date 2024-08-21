@@ -26,7 +26,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
             <source src="http://devmaximoaldana.c09b59be.configr.cloud/wp-content/uploads/2024/06/Aldana-One-Evolucao-de-Obras-Abril_2024.mp4" type="video/mp4">
             Seu navegador não suporta vídeos HTML5.
         </video>
-        <header id="header" class="header header-two">
+        <header id="header-two" class="header header-two">
             <nav id="menuSuperior" class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -42,24 +42,24 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                         <div class="offcanvas-body">
                             <ul class="navbar-nav flex-grow-1">
                                 <li class="nav-item top-menu">
-                                    <a class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/a-incorporadora">A INCORPORADORA</a>
+                                    <a style="background-color: #66c1bf; border-radius: 27px; padding: 9px 10px !important; line-height: 12px;" class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/a-incorporadora">A INCORPORADORA</a>
                                 </li>
                                 <li class="nav-item top-menu">
-                                    <a class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/a-maximo-aldana">A MAXIMO ALDANA</a>
+                                    <a style="border-radius: 27px; padding: 9px 10px !important; line-height: 12px;" class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/a-maximo-aldana">A MAXIMO ALDANA</a>
                                 </li>
                                 <li class="nav-item me-4 top-menu">
-                                    <a class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/blog">BLOG</a>
+                                    <a style="border-radius: 27px; padding: 9px 10px !important; line-height: 12px;" class="nav-link top-menu__link d-flex align-items-center" href="<?php echo $home; ?>/blog">BLOG</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav navbar-nav-mobile flex-grow-1">
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i style="font-size: 14px;" class="fa-brands fa-instagram"></i></a>
                                 </li>
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i style="font-size: 12px;" class="fa-brands fa-facebook-f"></i></a>
                                 </li>
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a class="nav-link top-menu__brands d-flex align-items-center" href=""><i style="font-size: 13px;" class="fa-brands fa-linkedin-in"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -70,7 +70,7 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
             <nav id="menuPrincipal" class="navbar navbar-expand-lg">
                 <div class="container-fluid px-5">
                     <a class="navbar-brand" href="<?php echo $home; ?>">
-                        <img id="logoPrincipal" src="./src/img/construtora horizontal (1).png" alt="Logo Maximo Aldana">
+                        <img id="logoPrincipal" src="./src/img/construtora-horizontal.png" alt="Logo Maximo Aldana">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -87,10 +87,10 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                                 <a class="nav-link logo-menu__button" href="<?php echo $home; ?>/orce-sua-obra-conosco">ORCE SUA OBRA</a>
                             </li>
                             <li class="nav-item top-menu align-self-center">
-                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i style="font-size: 11px;" class="fa-solid fa-magnifying-glass"></i></a>
                             </li>
                             <li class="nav-item top-menu align-self-center">
-                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-bars"></i></a>
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i style="font-size: 11px;" class="fa-solid fa-bars"></i></a>
                             </li>
                         </ul>
                     </div>

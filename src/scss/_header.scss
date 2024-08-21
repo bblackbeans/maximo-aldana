@@ -101,11 +101,13 @@ header.scrolled .navbar-brand {
   position: relative;
   z-index: 980;
   background-color: #18354f;
+  padding: 12px 0px;
 }
 
 #menuPrincipal {
   position: relative;
   padding: 20px 0px;
+  margin-bottom: 15px;
 }
 
 .navbar-brand {
@@ -169,7 +171,7 @@ header.scrolled .navbar-brand {
     border: 2px solid #fff;
     border-radius: 50px;
     width: 140px;
-    padding: 4px 0px !important;
+    padding: 5px 0px 3px 0px !important;
     transition: all 0.5s ease;
   }
 

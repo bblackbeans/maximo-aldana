@@ -135,11 +135,13 @@ header.scrolled .navbar-brand {
   position: relative;
   z-index: 980;
   background-color: #18354f;
+  padding: 12px 0px;
 }
 
 #menuPrincipal {
   position: relative;
   padding: 20px 0px;
+  margin-bottom: 15px;
 }
 
 .navbar-brand {
@@ -196,7 +198,7 @@ header.scrolled .navbar-brand {
   border: 2px solid #fff;
   border-radius: 50px;
   width: 140px;
-  padding: 4px 0px !important;
+  padding: 5px 0px 3px 0px !important;
   transition: all 0.5s ease;
 }
 .logo-menu__button:hover {
@@ -388,7 +390,7 @@ header.scrolled .navbar-brand {
 }
 #dna-da-construcao {
   padding-top: 3rem;
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .container-title {
@@ -420,7 +422,10 @@ header.scrolled .navbar-brand {
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
   color: #444744;
+  font-weight: 700;
   opacity: 1;
+  max-width: 900px;
+  margin-bottom: 3rem;
 }
 
 .items-check {
@@ -467,7 +472,7 @@ header.scrolled .navbar-brand {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .container-segmentos-name h1 {
@@ -501,15 +506,16 @@ header.scrolled .navbar-brand {
   margin-left: 10px;
   border-radius: 20px;
   background-color: #18354f;
-  padding: 10px 30px;
+  padding: 10px 25px;
   z-index: 1;
   font-size: 14px;
   font-family: "avenir-light", sans-serif;
+  font-weight: 700;
 }
 
 .segmentos-img {
-  width: 250px;
-  height: 250px;
+  width: 312px;
+  height: 312px;
   gap: 10px;
   object-fit: cover;
 }
@@ -520,6 +526,7 @@ header.scrolled .navbar-brand {
   background-size: cover;
   padding-bottom: 5rem;
   padding-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 #form-construtora::before {
@@ -547,7 +554,7 @@ header.scrolled .navbar-brand {
 }
 .form-left h2 {
   text-align: right;
-  font-size: 28px;
+  font-size: 36px;
   font-family: "avenir-black", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
@@ -556,7 +563,7 @@ header.scrolled .navbar-brand {
 }
 .form-left p {
   text-align: right;
-  font-size: 16px;
+  font-size: 22px;
   font-family: "avenir-heavy", sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
@@ -600,9 +607,11 @@ header.scrolled .navbar-brand {
 }
 .form-group input:focus {
   background-color: transparent;
+  color: #ffffff;
 }
 .form-group input::placeholder {
   color: #ffffff;
+  font-size: 12px;
 }
 
 .form-group-radio label {
@@ -717,12 +726,13 @@ header.scrolled .navbar-brand {
 .card-blog__title h2 {
   text-align: left;
   font-family: "avenir-light";
-  font-size: 32px;
+  font-size: 29px;
   letter-spacing: 0px;
   color: #66c1bf;
   opacity: 1;
   margin-top: 1rem;
   line-height: 1;
+  font-weight: 600;
 }
 .card-blog__data {
   display: flex;
@@ -799,6 +809,8 @@ header.scrolled .navbar-brand {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 
 .container-clientes-name h1 {
@@ -1590,6 +1602,7 @@ header.scrolled .navbar-brand-inc {
   /* Internet Explorer 10+ */
   scrollbar-width: none;
   /* Firefox */
+  justify-content: center;
 }
 
 .carousel-inner::-webkit-scrollbar {
@@ -4010,7 +4023,7 @@ button {
   object-fit: contain;
 }
 #certificacoes-premiacoes .container-content-certificacoes p {
-  max-width: 750px;
+  max-width: 715px;
   text-align: left;
 }
 #certificacoes-premiacoes .container-content-certificacoes p span {

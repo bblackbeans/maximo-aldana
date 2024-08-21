@@ -47,7 +47,7 @@ include('header.php'); ?>
                     </div>
                 </div>
                 <div>
-                    <p>Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
+                    <p style="margin-bottom: 3rem;">Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
                         segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).</p>
                     <h6>POLÍTICA DE QUALIDADE</h6>
                     <p>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis,
@@ -111,7 +111,7 @@ include('header.php'); ?>
             <h2>Nosso Blog</h2>
         </div>
         <div class="container container-card-blog">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -133,7 +133,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -155,7 +155,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -179,7 +179,7 @@ include('header.php'); ?>
             </div>
         </div>
         <div class="container container-card-blog second-card-blog" style="display: none;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -201,7 +201,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -223,7 +223,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">

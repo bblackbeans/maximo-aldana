@@ -11,8 +11,8 @@ include('header.php'); ?>
             <h6 class="container-title__subtitle">desde a nossa fundação</h6>
             <p class="container-title__frase">A Maximo Aldana está no mercado há mais de 25 anos construindo em todo território nacional obras de médio e grande porte, com foco e expertise nos segmentos de obras prediais hospitalares. Entendemos que nosso sucesso é resultado de uma equipe altamente qualificada e comprometida com nossos principais pilares:</p>
         </div>
-        <div class="container-items">
-            <div class="row">
+        <div class="container-items justify-content-center" style="display: flex;">
+            <div class="row" style="max-width: 1050px;">
                 <div class="col-md-6 mb-5">
                     <div class="row">
                         <div class="col-md-3 items-check">
@@ -21,10 +21,8 @@ include('header.php'); ?>
                             </span>
                         </div>
                         <div class="col-md-9 items-desc">
-                            <h4>Segurança e Qualidade</h4>
-                            <h6>A segurança não se discute. Entendemos que um ambiente limpo,
-                                seguro e organizado traz maior produtividade em nossos canteiros de
-                                obras. Valores inegociáveis, senso de urgência e foco na entrega.</h6>
+                            <h4>Sistema de Qualidade</h4>
+                            <h6>Possuímos um sistema de gestão da qualidade com processos ágeis e bem definidos.</h6>
                         </div>
                     </div>
                 </div>
@@ -89,8 +87,7 @@ include('header.php'); ?>
                         </div>
                         <div class="col-md-9 items-desc">
                             <h4>Melhoria contínua e Inovação</h4>
-                            <h6>Fomentamos internamente a adoção de processos buscando melhoria
-                                contínua e inovação (Max Mentalidade).</h6>
+                            <h6>Evoluir constantemente os processos sempre inovando em nossos processos construtivos e de gestão (Max Mentality).</h6>
                         </div>
                     </div>
                 </div>
@@ -102,8 +99,8 @@ include('header.php'); ?>
                             </span>
                         </div>
                         <div class="col-md-9 items-desc">
-                            <h4>Sistema de Qualidade</h4>
-                            <h6>Possuímos um sistema de gestão da qualidade com processos ágeis e bem definidos.</h6>
+                            <h4>Compromisso com o cliente</h4>
+                            <h6>Trabalhamos para oferecer soluções personalizadas e de alta qualidade, garantindo que cada detalhe do seu novo lar atenda às suas expectativas e desejos.</h6>
                         </div>
                     </div>
                 </div>
@@ -277,7 +274,7 @@ include('header.php'); ?>
                     </div>
                 </div>
                 <div>
-                    <p>Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
+                    <p style="margin-bottom: 3rem;">Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
                         segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).</p>
                     <h6>POLÍTICA DE QUALIDADE</h6>
                     <p>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis,
@@ -295,7 +292,7 @@ include('header.php'); ?>
             <h2>Nosso Blog</h2>
         </div>
         <div class="container container-card-blog">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -317,7 +314,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -339,7 +336,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">
@@ -363,7 +360,7 @@ include('header.php'); ?>
             </div>
         </div>
         <div class="container container-card-blog second-card-blog" style="display: none;">
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/novoContrato.png" alt="">
@@ -385,7 +382,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/100maiores.png" alt="">
@@ -407,7 +404,7 @@ include('header.php'); ?>
                     </div>
                 </div>
             </div>
-            <div class="" style="max-width: 400px; height:605px;">
+            <div class="" style="max-width: 400px; height:575px;">
                 <div class="card-blog">
                     <div class="card-blog__img">
                         <img class="img-fluid" src="./src/img/premiohealtharq.png" alt="">

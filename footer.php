@@ -1,4 +1,4 @@
-<footer class="py-5">
+<footer class="py-5" style="padding-top: 5rem !important;">
     <div class="container-fluid px-5">
         <div class="row">
             <div class="col-xl-3 col-lg-3">
