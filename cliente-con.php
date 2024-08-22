@@ -17,7 +17,7 @@ include('header.php'); ?>
 
 </main>
 
-<section id="Clientes">
+<section id="Clientes" style="margin-bottom: 8rem;">
     <div class="container-clientes">
         <div class="container-clientes-name">
             <h1 style="text-align: center;">Nossos clientes</h1>

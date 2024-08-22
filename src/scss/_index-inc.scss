@@ -132,6 +132,7 @@
       letter-spacing: 0px;
       color: $cor-azul-escuro;
       opacity: 1;
+      font-weight: 700;
     }
   }
 
@@ -140,8 +141,24 @@
     gap: 2rem;
     margin-bottom: 2rem;
 
-    button {
+    .btn-ver-todos-cards {
+      background: #18354f 0% 0% no-repeat padding-box;
+      border-radius: 50px;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: 0px;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: "avenir-light", sans-serif;
+      opacity: 1;
+      padding: 10px 80px;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .btn-filtrar {
       @include botaoFiltrar($cor-verde-agua-claro, $cor-branca);
+      margin-bottom: 2rem;
     }
     a {
       text-decoration: none;
@@ -277,6 +294,8 @@
   padding: 0;
   padding-bottom: 15px;
   height: 256px;
+  border: 1px solid #707070;
+  border-top: 0;
 }
 
 .link-card-title {
@@ -286,13 +305,15 @@
 .card-title {
   background-color: $cor-azul-escuro;
   color: $cor-branca;
-  height: 38px;
+  height: 45px;
   text-align: justify;
   padding: 2px 12px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .card-title-second-color {
@@ -407,9 +428,13 @@
   z-index: 0;
 }
 
+.card {
+  border-radius: 0;
+}
+
 .carousel-item-index img {
-  width: 100%;
-  height: 525px;
+  aspect-ratio: 9/16;
+  border-radius: 0;
 }
 
 .img-text-title {
@@ -417,10 +442,9 @@
   bottom: 10px;
   color: $cor-branca;
   font-weight: $peso-fonte-negrito-paragrafo;
-  font-size: 46px;
+  font-size: 35px;
   padding-left: 12px;
   line-height: 1.2;
-  position: absolute;
   z-index: 0;
   transition: transform 0.5s ease;
 }
@@ -445,7 +469,7 @@
 
     h3 {
       text-align: left;
-      font-size: 30px;
+      font-size: 45px;
       font-family: "avenir-black", sans-serif;
       letter-spacing: 0px;
       color: $cor-branca;
@@ -454,7 +478,8 @@
 
     p {
       text-align: left;
-      font-size: 16px;
+      font-size: 27px;
+      font-weight: bold;
       font-family: "avenir-light", sans-serif;
       letter-spacing: 0px;
       color: $cor-branca;
@@ -474,7 +499,6 @@
   place-content: center;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   max-width: 470px;
 
   h3 {

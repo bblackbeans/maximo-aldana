@@ -30,7 +30,7 @@ include('header.php'); ?>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="justify-content: left;">
                 <div class="carousel-item active">
                     <img src="./src/img/capa-Aeroporto-de-Aripuanã-Obra-Maximo-Aldana-496x366.png" class="d-block w-100" alt="...">
                 </div>
@@ -226,7 +226,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="container-fase__button mt-5">
-                <button style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
+                <button class="btn-ver-todos-cards" style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
             </div>
         </div>
     </div>

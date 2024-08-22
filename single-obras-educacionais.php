@@ -19,14 +19,14 @@ include('header.php'); ?>
 
 <section id="hospital-saude-con">
     <div class="container container-obra-saude-text">
-        <h1>Colégio Camp São Bernardo do Campo</h1>
+        <h1 style="margin: 4rem 0;">Colégio Camp São Bernardo do Campo</h1>
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="justify-content: left;">
                 <div class="carousel-item active">
                     <img src="./src/img/Colegio-Camp-Sao-Bernardo-do-Campo-10-758x564.jpeg" class="d-block w-100" alt="...">
                 </div>

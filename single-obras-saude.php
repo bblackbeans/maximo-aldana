@@ -19,7 +19,7 @@ include('header.php'); ?>
 
 <section id="hospital-saude-con">
     <div class="container container-obra-saude-text">
-        <h1>Hospital Unimed Sul Mineira</h1>
+        <h1 style="margin: 4rem 0 3rem;">Hospital Unimed Sul Mineira</h1>
         <p>Construção completa do novo Hospital Unimed Sul Mineira. Composto 80 leitos básicos, 40 leitos de UTI’s (30 para adultos e 10 infantis).
             Área total de 22.787 m² divididos em 4 pavimentos, 2 subsolos e uma cobertura com heliponto.
         </p>
@@ -29,7 +29,7 @@ include('header.php'); ?>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="justify-content: left;">
                 <div class="carousel-item active">
                     <img src="./src/img/port saúde.png" class="d-block w-100" alt="...">
                 </div>
@@ -263,7 +263,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="container-fase__button mt-5">
-                <button style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
+                <button class="btn-ver-todos-cards" style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
             </div>
         </div>
     </div>

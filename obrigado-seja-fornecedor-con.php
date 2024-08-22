@@ -19,7 +19,7 @@ include('header.php'); ?>
 </main>
 
 <section class="container" id="somos-maximo" style="margin-bottom: 2rem !important;">
-    <div class="container-btn-dna-con">
+    <div class="container-btn-dna-con" style="margin: 3rem 0 3rem;">
         <button style="padding-left: 2rem;">VOLTAR PARA HOME <i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </section>

@@ -20,8 +20,8 @@ include('header.php'); ?>
 <section id="para-sua-fase">
     <div class="container-fluid px-5">
         <div class="container-title">
-            <h3 class="container-title__title">Conheça todas as obras de comerciais</h3>
-            <h3 class="container-title__title">construídas pela Maximo Aldana.</h3>
+            <h3 class="container-title__title" style="font-size: 43px;">Conheça todas as obras de comerciais</h3>
+            <h3 class="container-title__title" style="font-size: 43px;">construídas pela Maximo Aldana.</h3>
         </div>
         <p style="text-align: center;">Somo especialistas em obras de grande porte para os segmentos de Hospitais, Corporativo, Educação, Prediais Comerciais e Residenciais,</p>
         <div class="container-fase">
@@ -29,7 +29,7 @@ include('header.php'); ?>
                 <p>Encontre seu Máximo Aldana</p>
             </div>
             <div class="container-fase__button">
-                <button style="background-color: #18354f;" id="filterBtn">FILTRAR &ensp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-SettingsHorizontal">
+                <button class="btn-filtrar" style="background-color: #18354f;" id="filterBtn">FILTRAR &ensp; <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-SettingsHorizontal">
                         <path d="M3 5h4m14 0H11m-8 7h12m6 0h-2M3 19h2m16 0H9" />
                         <circle cx="9" cy="5" r="2" />
                         <circle cx="17" cy="12" r="2" />
@@ -235,7 +235,7 @@ include('header.php'); ?>
                 </div>
             </div>
             <div class="container-fase__button mt-5">
-                <button style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
+                <button class="btn-ver-todos-cards" style="background-color: #18354f;" id="toggleButton" onclick="toggleDisplay()">VER TODOS</button>
             </div>
         </div>
     </div>
@@ -256,10 +256,10 @@ include('header.php'); ?>
             </div>
             <div class="container-form__form">
                 <div class="container-form__texto">
-                    <h3>Conquiste o seu<br>IMÓVEL dos sonhos!</h3>
+                    <h3>Conquiste o seu<br> imóvel dos sonhos</h3><br>
                     <p>Os empreendimentos da Maximo Aldana trazem a exclusividade, modernidade e o conforto que você procura.</p>
                 </div>
-                <form method="POST" action="./mailIndex-inc.php" id="form-home-incorporadora">
+                <form method="POST" action="./mailObras-con.php" id="form-home-incorporadora">
                     <h3>Preencha o formulário para conversar com um especialista.</h3>
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
@@ -280,14 +280,23 @@ include('header.php'); ?>
                     </div>
                     <div class="form-group-radio">
                         <label>Qual melhor forma de contato?*</label><br>
-                        <label class="label-radio" for="whatsapp">Whatsapp</label>
-                        <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
-                        &ensp;
-                        <label class="label-radio" for="email">E-mail</label>
-                        <input type="radio" id="e-mail" name="contact_method" value="email" required>
-                        &ensp;
-                        <label class="label-radio" for="phone">Telefone</label>
-                        <input type="radio" id="phone" name="contact_method" value="phone" required>
+                        <div style="display: flex;">
+                            <div style="display: flex; flex-direction: row; align-items: baseline;">
+                                <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>&ensp;
+                                <label class="label-radio" for="whatsapp">Whatsapp</label>
+                            </div>
+                            &ensp;
+                            <div style="display: flex; flex-direction: row; align-items: baseline;">
+                                <input type="radio" id="e-mail" name="contact_method" value="email" required>&ensp;
+                                <label class="label-radio" for="email">E-mail</label>
+                            </div>
+                            &ensp;
+                            <div style="display: flex; flex-direction: row; align-items: baseline;">
+                                <input type="radio" id="phone" name="contact_method" value="phone" required>&ensp;
+                                <label class="label-radio" for="phone">Telefone</label>
+                            </div>
+                            &ensp;
+                        </div>
                     </div>
                     <div class="form-group-button">
                         <button type="submit" class="button-form-construtora">Enviar</button>

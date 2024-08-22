@@ -403,6 +403,7 @@
       color: $cor-branca;
       font-family: "avenir-light", sans-serif;
       font-weight: $peso-fonte-negrito-paragrafo;
+      font-size: 12px;
     }
   }
 }
@@ -421,9 +422,11 @@
   text-decoration: none;
   letter-spacing: 0px;
   font-size: 18px;
+  font-weight: 700;
   font-family: "avenir-light", sans-serif;
   opacity: 1;
-  padding: 7px 48px;
+  padding: 10px 85px;
+  margin-bottom: 3rem;
 }
 
 .ver-todos-button:hover {
