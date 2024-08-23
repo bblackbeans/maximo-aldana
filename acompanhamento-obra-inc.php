@@ -89,10 +89,10 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="container-form__form">
                 <div class="container-form__texto">
-                    <h3>Conquiste o seu<br>IMÓVEL dos sonhos!</h3>
+                    <h3>Conquiste o seu <br>imóvel dos sonhos</h3><br>
                     <p>Os empreendimentos da Maximo Aldana trazem a exclusividade, modernidade e o conforto que você procura.</p>
                 </div>
-                <form method="POST" action="" id="form-home-incorporadora">
+                <form method="POST" action="./mailIndex-inc.php" id="form-home-incorporadora">
                     <h3>Preencha o formulário para conversar com um especialista.</h3>
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
@@ -107,20 +107,26 @@ include('header-portal-inc.php'); ?>
                         <label for="empreendimento">Qual empreendimento você tem interesse?*</label>
                         <select class="form-select" aria-label="empreendimento" id="empreendimento" name="empreendimento">
                             <option selected>Selecionar uma opção</option>
-                            <option value="xxxxxxxx">Opção 1</option>
-                            <option value="xxxxxxxxxx">Opção 2</option>
+                            <option value="Seven Living">Seven Living</option>
+                            <option value="Aldana One">Aldana One</option>
                         </select>
                     </div>
                     <div class="form-group-radio">
                         <label>Qual melhor forma de contato?*</label><br>
-                        <label class="label-radio" for="whatsapp">Whatsapp</label>
-                        <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
-                        &ensp;
-                        <label class="label-radio" for="email">E-mail</label>
-                        <input type="radio" id="e-mail" name="contact_method" value="email" required>
-                        &ensp;
-                        <label class="label-radio" for="phone">Telefone</label>
-                        <input type="radio" id="phone" name="contact_method" value="phone" required>
+                        <div class="container-radios">
+                            <div>
+                                <input type="radio" id="whatsapp" name="contact" value="whatsapp" required> &ensp;
+                                <label class="label-radio" for="whatsapp">Whatsapp</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="e-mail" name="contact" value="email" required> &ensp;
+                                <label class="label-radio" for="email">E-mail</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="phone" name="contact" value="phone" required> &ensp;
+                                <label class="label-radio" for="phone">Telefone</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-group-button">
                         <button type="submit" class="button-form-construtora">Enviar</button>
@@ -156,7 +162,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -178,7 +184,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -200,7 +206,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -224,7 +230,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -246,7 +252,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -268,7 +274,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>

@@ -50,7 +50,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         O mercado da Construção Civil está mais uma vez sobre pressão. Questões como a guerra na...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Para os leigos do mercado, parece que é necessário apenas recursos e boa-vontade seja por parte dos governos...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         O projeto corporativo além do planejamento, precisa de cuidados especiais que construtoras especializadas...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -190,7 +190,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Se antes a área pet era um espaço adaptado, os pets places agora são elaborados com suporte de empresas e...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -212,7 +212,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Senior Living é uma construção que engloba o mercado imobiliário, hoteleiro e também o de saúde e cuidados...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Podemos dizer que o home office já vinha sendo uma tendência no mercado e dada a situação atual, a rotina...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Morar em cidades litorâneas fornece diversos benefícios, como melhor qualidade de vida, maiores opções de lazer, custo...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -282,7 +282,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Pensando em te ajudar a entender o porquê de morar em apartamento, trouxemos 4 benefícios que mostram que você...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -304,7 +304,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Um projeto corporativo, assim como uma obra residencial ou comercial, exige cuidados especiais e um planejamento eficaz...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -330,7 +330,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         A tecnologia está presente no nosso dia a dia em todas as áreas da nossa vida, mas agora ela pode ajudar a escolher o...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -352,7 +352,7 @@ include('header-blog-maximo-inc.php'); ?>
                     <div class="card-blog__desc">
                         Apesar do momento ser de dúvidas, ele ainda pode ser considerado uma grande oportunidade para realizar a...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>

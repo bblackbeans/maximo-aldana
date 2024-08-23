@@ -34,85 +34,82 @@ include('header-portal-inc.php'); ?>
             <p>Queremos conhecer sua proposta. Preencha o formulário abaixo e em breve entraremos em contato.</p>
         </div>
         <div class="content-container-form-portal-inc">
-            <form action="">
+            <form action="./mailOferecaTerreno-inc.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="login">Qual o seu nome?</label>
-                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
+                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" name="nome" aria-describedby="nome" required>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Qual seu número de contato?</label>
-                    <input type="text" class="form-control" placeholder="(+00) 00 00000-0000" id="telefone" required>
+                    <input type="text" class="form-control" placeholder="(+00) 00 00000-0000" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Qual o seu melhor e-mail?</label>
-                    <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+                    <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>
                 </div>
                 <div class="form-group">
                     <label for="">Qual a melhor forma de contato?</label><br>
                     <div class="label-radio-fale-conosco-inc">
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="Whatsapp">
-                            <label for="">Whatsapp</label>
+                            <input type="radio" id="contactChoice2" name="contact" value="Whatsapp" required>
+                            <label for="contactChoice2">Whatsapp</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="E-mail">
-                            <label for="">E-mail</label>
+                            <input type="radio" id="contactChoice2" name="contact" value="E-mail" required>
+                            <label for="contactChoice2">E-mail</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="Telefone">
-                            <label for="">Telefone</label>
+                            <input type="radio" id="contactChoice2" name="contact" value="Telefone" required>
+                            <label for="contactChoice2">Telefone</label>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="">Por favor, insira os dados do terreno:</label><br>
+                    <label for="cep">Qual o CEP?</label>
+                    <input type="text" class="form-control" placeholder="0000-000" id="cep" name="cep" aria-describedby="CEP" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Qual o CEP?</label>
-                    <input type="text" class="form-control" placeholder="0000-000" id="cep" aria-describedby="CEP" required>
+                    <label for="ruaiterreno">Qual é a Rua?</label>
+                    <input type="text" class="form-control" placeholder="Rua do Terreno" id="ruaiterreno" name="ruaiterreno" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Qual é a Rua?</label>
-                    <input type="text" class="form-control" placeholder="Rua do Terreno" id="ruaiterreno" required>
+                    <label for="numero-terreno">Qual é o número?</label>
+                    <input type="text" class="form-control" placeholder="Número do terreno" id="numero-terreno" name="numero-terreno" aria-describedby="numero-terreno" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Qual é o número?</label>
-                    <input type="text" class="form-control" placeholder="Número do terreno" id="numero-terreno" aria-describedby="numero-terreno" required>
+                    <label for="bairro">Qual o bairro?</label>
+                    <input type="text" class="form-control" placeholder="Bairro do terreno" id="bairro" name="bairro" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Qual o bairro?</label>
-                    <input type="text" class="form-control" placeholder="Bairro do terreno" id="bairro" required>
+                    <label for="cidade-terreno">Qual a cidade?</label>
+                    <input type="text" class="form-control" placeholder="Cidade do terreno" id="cidade-terreno" name="cidade-terreno" aria-describedby="cidade-terreno" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Qual a cidade?</label>
-                    <input type="text" class="form-control" placeholder="Cidade do terreno" id="cidade-terreno" aria-describedby="cidade-terreno" required>
+                    <label for="complemento">Complemento</label>
+                    <input type="text" class="form-control" placeholder="Informações adicionais" id="complemento" name="complemento" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Complemento</label>
-                    <input type="text" class="form-control" placeholder="Informações adicionais" id="telefone" required>
+                    <label for="metragem-terreno">Área do terreno</label>
+                    <input type="text" class="form-control" placeholder="Metragem do terreno" id="metragem-terreno" name="metragem-terreno" aria-describedby="metragem-terreno" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Área do terreno</label>
-                    <input type="text" class="form-control" placeholder="Metragem do terreno" id="metragem-terreno" aria-describedby="metragem-terreno" required>
-                </div>
-                <div class="form-group">
-                    <label for="telefone">Preço (Opcional)</label>
-                    <input type="text" class="form-control" placeholder="Valor do terreno" id="valor-terreno">
+                    <label for="valor-terreno">Preço (Opcional)</label>
+                    <input type="text" class="form-control" placeholder="Valor do terreno" id="valor-terreno" name="valor-terreno">
                 </div>
                 <div class="form-group">
                     <label for="">Você é:</label><br>
                     <div class="label-radio-fale-conosco-inc">
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="corretor">
-                            <label for="">Corretor(a)</label>
+                            <input type="radio" id="corretor" name="contactTipo" value="corretor" required>
+                            <label for="corretor">Corretor(a)</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="proprietario">
-                            <label for="">Proprietário(a)</label>
+                            <input type="radio" id="proprietario" name="contactTipo" value="proprietario" required>
+                            <label for="proprietario">Proprietário(a)</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="representante">
-                            <label for="">Representante</label>
+                            <input type="radio" id="representante" name="contactTipo" value="representante" required>
+                            <label for="representante">Representante</label>
                         </div>
                     </div>
                 </div>
@@ -130,10 +127,11 @@ include('header-portal-inc.php'); ?>
                 </div>
                 <button type="submit">Enviar</button>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="lembrarSenha">
+                    <input type="checkbox" class="form-check-input" id="lembrarSenha" required>
                     <label class="form-check-label" for="lembrarSenha">Ao preencher e enviar este formulário, você concorda com o armazenamento e manuseio de seus dados pelo Máximo Aldana</label>
                 </div>
             </form>
+
         </div>
     </div>
 </section>
@@ -144,7 +142,7 @@ include('header-portal-inc.php'); ?>
         <div class="accordion" id="accordion-vagas-maximo" style="width: 100%;">
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #1
@@ -158,7 +156,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #2
@@ -172,7 +170,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #3
@@ -186,7 +184,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #4

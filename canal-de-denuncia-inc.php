@@ -71,61 +71,61 @@ include('header-portal-inc.php'); ?>
             <p>Este canal é totalmente confidencial e anônimo, então, não se sinta reprimido na hora de fazer sua denúncia. </p>
             <p>A ferramenta é segura e confidencial e as informações relatadas são recebidas de forma sigilosa. Em seguida, encaminhadas para avaliação dos responsáveis. Deseja relatar um desvio de conduta? Basta preencher o formulário abaixo:</p>
         </div>
-        <div class="content-container-form-denuncia-inc">
-            <form action="">
+        <div class="content-container-form-denuncia-inc" id="form-denuncia">
+            <form method="POST" action="./mailCanalDenuncia-inc.php" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="login">Deseja se identificar? Se sim, escreva seu nome abaixo:</label>
-                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
+                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" name="nome" aria-describedby="nome">
                 </div>
                 <div class="form-group">
                     <label for="produto">Natureza da Ocorrência:*</label>
-                    <select class="form-control" id="senha" required>
-                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
-                        <option value="senha2">ocorrencia 1</option>
-                        <option value="senha3">ocorrencia 2</option>
-                        <option value="senha4">ocorrencia 3</option>
+                    <select class="form-control" id="natureza_ocorrencia" name="natureza_ocorrencia" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção</option>
+                        <option value="ocorrencia1">Ocorrência 1</option>
+                        <option value="ocorrencia2">Ocorrência 2</option>
+                        <option value="ocorrencia3">Ocorrência 3</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="produto">Tipo do Envolvimento:*</label>
-                    <select class="form-control" id="senha" required>
-                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
-                        <option value="senha2">Envolvimento 1</option>
-                        <option value="senha3">Envolvimento 2</option>
-                        <option value="senha4">Envolvimento 3</option>
+                    <select class="form-control" id="tipo_envolvimento" name="tipo_envolvimento" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção</option>
+                        <option value="envolvimento1">Envolvimento 1</option>
+                        <option value="envolvimento2">Envolvimento 2</option>
+                        <option value="envolvimento3">Envolvimento 3</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="email">Data do ocorrido:*</label>
-                    <input type="date" class="form-control" placeholder="DIA/MÊS/ANO" id="data" required>
+                    <input type="date" class="form-control" placeholder="DIA/MÊS/ANO" id="data_ocorrido" name="data_ocorrido" required>
                 </div>
                 <div class="form-group">
                     <label for="login">Local do Ocorrido:*</label>
-                    <input type="text" class="form-control" placeholder="Local" id="local-ocorrido" aria-describedby="local-ocorrido" required>
+                    <input type="text" class="form-control" placeholder="Local" id="local_ocorrido" name="local_ocorrido" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Descrição do Ocorrido:*</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Descrição" rows="5"></textarea>
+                    <label for="descricao_ocorrido">Descrição do Ocorrido:*</label>
+                    <textarea class="form-control" id="descricao_ocorrido" name="descricao_ocorrido" placeholder="Descrição" rows="5" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Há quanto tempo ocorre?*</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Há situação relatada acontece ou aconteceu mais de uma vez? Se é algo que se repete, conte-nos há quanto tempo vem ocorrendo a ação." rows="5"></textarea>
+                    <label for="tempo_ocorrendo">Há quanto tempo ocorre?*</label>
+                    <textarea class="form-control" id="tempo_ocorrendo" name="tempo_ocorrendo" placeholder="Se é algo que se repete, conte-nos há quanto tempo vem ocorrendo a ação." rows="5" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Quando ficou sabendo?*</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Como ficou ciente sobre a ocorrência deste evento?" rows="5"></textarea>
+                    <label for="quando_soube">Quando ficou sabendo?*</label>
+                    <textarea class="form-control" id="quando_soube" name="quando_soube" placeholder="Como ficou ciente sobre a ocorrência deste evento?" rows="5" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Sugestão para resolver o problema?*</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Se tiver alguma sugestão de como resolver o problema, descreve-a:" rows="5"></textarea>
+                    <label for="sugestao_resolucao">Sugestão para resolver o problema?*</label>
+                    <textarea class="form-control" id="sugestao_resolucao" name="sugestao_resolucao" placeholder="Se tiver alguma sugestão de como resolver o problema, descreva-a." rows="5" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="produto">Quanto ao conteúdo do seu relato, você:*</label>
-                    <select class="form-control" id="senha" required>
-                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção </option>
-                        <option value="senha2">relato 1</option>
-                        <option value="senha3">relato 2</option>
-                        <option value="senha4">relato 3</option>
+                    <label for="conteudo_relato">Quanto ao conteúdo do seu relato, você:*</label>
+                    <select class="form-control" id="conteudo_relato" name="conteudo_relato" required>
+                        <option disabled selected style="color: #444744; opacity: 0.4;">Selecione uma opção</option>
+                        <option value="relato1">Relato 1</option>
+                        <option value="relato2">Relato 2</option>
+                        <option value="relato3">Relato 3</option>
                     </select>
                 </div>
                 <p style="padding: 0 2rem; color: white;">Caso queira enviar alguma evidência (ex: documento digitalizado, foto, vídeo, áudio ou outro documento) associado ao seu relato, utilize o campo abaixo para anexá-la.</p><br>
@@ -149,9 +149,10 @@ include('header-portal-inc.php'); ?>
                 <button type="submit">Enviar</button>
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="lembrarSenha">
-                    <label class="form-check-label" for="lembrarSenha">Ao preencher e enviar este formulário, você concorda com o armazenamento e manuseio de seus dados pelo Máximo Aldana</label>
+                    <label class="form-check-label" for="lembrarSenha">Ao preencher e enviar este formulário, você concorda com o armazenamento e manuseio de seus dados pelo Máximo Aldana.</label>
                 </div>
             </form>
+
         </div>
     </div>
 </section>

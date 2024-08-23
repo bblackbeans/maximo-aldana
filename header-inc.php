@@ -58,13 +58,13 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                             </ul>
                             <ul class="navbar-nav navbar-nav-mobile flex-grow-1">
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i style="font-size: 14px;" class="fa-brands fa-instagram"></i></a>
                                 </li>
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i style="font-size: 12px;" class="fa-brands fa-facebook-f"></i></a>
                                 </li>
                                 <li class="nav-item top-menu align-self-center">
-                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a class="nav-link top-menu__brands-border d-flex align-items-center" href=""><i style="font-size: 13px;" class="fa-brands fa-linkedin-in"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -86,13 +86,32 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
                                 <a class="nav-link logo-menu__button-inc" href="<?php echo $home; ?>/fale-conosco">FALE CONOSCO</a>
                             </li>
                             <li class="nav-item top-menu align-self-center">
-                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i style="font-size: 11px;" class="fa-solid fa-magnifying-glass"></i></a>
                             </li>
                             <li class="nav-item top-menu align-self-center">
-                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href=""><i class="fa-solid fa-bars"></i></a>
+                                <a class="nav-link top-menu__brands-border-two d-flex align-items-center" href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i style="font-size: 11px;" class="fa-solid fa-bars"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
+            <div class="offcanvas offcanvas-end menulateral" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel" style="color: #fff;">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="color: #fff;"></button>
+                </div>
+                <div class="offcanvas-body" style="align-self:flex-start">
+                    <ul class="ps-0">
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">HOME</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">SOBRE A MAXIMO</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">ENCONTRE SEU IMOVEL</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">A INCORPORADORA</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">A CONSTRUTORA</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">NOSSOS CLIENTES</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">BLOG</a></li>
+                        <li style="margin-bottom: 1rem;"><a href="" class="link-name-offcanvas">FALE CONOSCO</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>

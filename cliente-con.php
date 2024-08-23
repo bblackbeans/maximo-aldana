@@ -57,13 +57,13 @@ include('header.php'); ?>
                 <p>Agilidade, experiência e comprometimento em nossa entrega. Somos especialistas em obras de grande porte para os segmentos de Hospitais, Corporativo, Educação, Prediais Comerciais e Residenciais.<br><br> Preencha e envie o formulário ao lado e em breve entraremos em contato com você.</p>
             </div>
             <div class="col-md-6 form-right">
-                <form method="POST" action="" id="form-home-construtora">
+                <form method="POST" action="./mailEntreContato-con.php" id="form-home-construtora" method="POST" enctype="multipart/form-data">
                     <p>Preencha o formulário para conversar com um especialista.</p>
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="Nome*" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="telefone" name="phone" placeholder="Telefone*" class="form-control" required>
+                        <input type="tel" id="phone" name="phone" placeholder="Telefone*" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <input type="email" id="email" placeholder="Email*" name="email" class="form-control" required>
@@ -72,15 +72,15 @@ include('header.php'); ?>
                         <label>Qual melhor forma de contato?*</label><br>
                         <div class="container-radios">
                             <div>
-                                <input type="radio" id="whatsapp" name="contact_method" value="whatsapp" required>
+                                <input type="radio" id="whatsapp" name="contact" value="whatsapp" required>
                                 <label class="label-radio" for="whatsapp">Whatsapp</label>
                             </div>
                             <div>
-                                <input type="radio" id="e-mail" name="contact_method" value="email" required>
+                                <input type="radio" id="e-mail" name="contact" value="email" required>
                                 <label class="label-radio" for="email">E-mail</label>
                             </div>
                             <div>
-                                <input type="radio" id="phone" name="contact_method" value="phone" required>
+                                <input type="radio" id="phone" name="contact" value="phone" required>
                                 <label class="label-radio" for="phone">Telefone</label>
                             </div>
                         </div>

@@ -34,27 +34,27 @@ include('header-portal-inc.php'); ?>
             <p>Preencha e envie o formulário ao lado e em breve um especialista entrará em contato com você</p>
         </div>
         <div class="content-container-form-portal-inc">
-            <form action="">
+            <form method="POST" action="./mailFaleConosco.php">
                 <div class="form-group">
                     <label for="login">Qual o seu nome?</label>
-                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
+                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" name="nome" aria-describedby="nome" required>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Qual seu número de contato?</label>
-                    <input type="text" class="form-control" placeholder="(+00) 00 00000-0000" id="telefone" required>
+                    <input type="text" class="form-control" placeholder="(+00) 00 00000-0000" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Qual o seu melhor e-mail?</label>
-                    <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+                    <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>
                 </div>
                 <div class="form-group position-relative">
                     <i class="fa-solid fa-caret-down icon-select-input"></i>
                     <label for="produto">Qual o produto de interesse?</label>
-                    <select class="form-control" id="senha" required>
+                    <select class="form-control" id="produto" name="produto" required>
                         <option disabled selected style="color: #444744; opacity: 0.4;">Selecionar uma opção </option>
-                        <option value="senha2">Produto</option>
-                        <option value="senha3">Produto</option>
-                        <option value="senha4">Produto</option>
+                        <option value="produto1">Produto 1</option>
+                        <option value="produto2">Produto 2</option>
+                        <option value="produto3">Produto 3</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -62,15 +62,15 @@ include('header-portal-inc.php'); ?>
                     <div class="label-radio-fale-conosco-inc">
                         <div class="input-radio-fale-conosco-inc">
                             <input type="radio" id="contactChoice2" name="contact" value="Whatsapp">
-                            <label for="">Whatsapp</label>
+                            <label for="contactChoice2">Whatsapp</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
                             <input type="radio" id="contactChoice2" name="contact" value="E-mail">
-                            <label for="">E-mail</label>
+                            <label for="contactChoice2">E-mail</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
                             <input type="radio" id="contactChoice2" name="contact" value="Telefone">
-                            <label for="">Telefone</label>
+                            <label for="contactChoice2">Telefone</label>
                         </div>
                     </div>
                 </div>
@@ -78,12 +78,12 @@ include('header-portal-inc.php'); ?>
                     <label for="">Já é cliente Maximo Aldana?</label><br>
                     <div class="label-radio-fale-conosco-inc">
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="sim">
-                            <label for="">Sim</label>
+                            <input type="radio" id="contactChoice3" name="cliente_maximo" value="sim">
+                            <label for="contactChoice3">Sim</label>
                         </div>
                         <div class="input-radio-fale-conosco-inc">
-                            <input type="radio" id="contactChoice2" name="contact" value="Nao">
-                            <label for="">Não</label>
+                            <input type="radio" id="contactChoice3" name="cliente_maximo" value="nao">
+                            <label for="contactChoice3">Não</label>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ include('header-portal-inc.php'); ?>
         <div class="accordion" id="accordion-vagas-maximo" style="width: 100%;">
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #1
@@ -117,7 +117,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #2
@@ -131,7 +131,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #3
@@ -145,7 +145,7 @@ include('header-portal-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Collapsible Group Item #4

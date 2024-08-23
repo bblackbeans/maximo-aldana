@@ -30,30 +30,30 @@ include('header.php'); ?>
             </div>
         </div>
         <div class="content-container-form-orce-sua-obra-con">
-            <form action="">
+            <form action="./mailOrceSuaObra-con.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="login">Qual seu nome?*</label>
-                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
+                    <label for="nome">Qual seu nome?*</label>
+                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" name="nome" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Empresa:*</label>
-                    <input type="text" class="form-control" placeholder="Nome da empresa" id="nome-empresa" required>
+                    <label for="nome-empresa">Empresa:*</label>
+                    <input type="text" class="form-control" placeholder="Nome da empresa" id="nome-empresa" name="nome-empresa" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Segmento da Empresa:*</label>
-                    <input type="email" class="form-control" placeholder="CNPJ" id="CNPJ" required>
+                    <input type="email" class="form-control" placeholder="CNPJ" id="CNPJ" name="CNPJ" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Telefone: *</label>
-                    <input type="text" class="form-control" placeholder="+55 (00) 00000-0000" id="nome" aria-describedby="nome" required>
+                    <label for="telefone">Telefone: *</label>
+                    <input type="text" class="form-control" placeholder="+55 (00) 00000-0000" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">E-mail:</label>
-                    <input type="text" class="form-control" placeholder="E-mail" id="Email" required>
+                    <label for="Email">E-mail:</label>
+                    <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Escreva sua mensagem:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escreva aqui" rows="4"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="mensagem" placeholder="Escreva aqui" rows="4"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="">Qual a melhor forma de contato?</label><br>

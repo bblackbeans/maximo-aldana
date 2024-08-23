@@ -43,7 +43,7 @@ include('header-oportunidades-inc.php'); ?>
         <div class="accordion" id="accordion-vagas-maximo" style="width: 100%;">
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Título vaga 1
@@ -57,7 +57,7 @@ include('header-oportunidades-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Título vaga 2
@@ -71,7 +71,7 @@ include('header-oportunidades-inc.php'); ?>
             </div>
             <div class="accordion-item" style="margin-bottom: 2rem;">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed bg-acquagreen" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <span class="material-symbols-outlined arrow-acordion">
                             arrow_right
                         </span> Título vaga 3
@@ -135,7 +135,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -203,7 +203,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -225,7 +225,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ include('header-oportunidades-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>

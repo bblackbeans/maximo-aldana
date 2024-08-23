@@ -272,7 +272,7 @@
   background: $cor-branca 0% 0% no-repeat padding-box;
   opacity: 1;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "avenir-light", sans-serif;
   letter-spacing: 0px;
   color: $cor-azul-escuro;
@@ -281,6 +281,7 @@
   padding-top: 0.51rem;
   padding-bottom: 0.51rem;
   border-radius: 0;
+  font-weight: 700;
 }
 
 .form-footer {
@@ -376,6 +377,7 @@
     margin-bottom: 1rem;
     position: absolute;
     bottom: 110px;
+    gap: 8px
   }
 
   &__desc {
@@ -401,9 +403,8 @@
       text-decoration: none;
       background: none !important;
       color: $cor-branca;
-      font-family: "avenir-light", sans-serif;
       font-weight: $peso-fonte-negrito-paragrafo;
-      font-size: 12px;
+      font-size: 13px;
     }
   }
 }
@@ -423,9 +424,8 @@
   letter-spacing: 0px;
   font-size: 18px;
   font-weight: 700;
-  font-family: "avenir-light", sans-serif;
   opacity: 1;
-  padding: 10px 85px;
+  padding: 8px 85px;
   margin-bottom: 3rem;
 }
 

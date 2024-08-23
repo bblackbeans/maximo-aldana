@@ -510,7 +510,7 @@ include('header-sobre-inc.php'); ?>
                     </div>
                 </div>
                 <div>
-                    <p>Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
+                    <p style="margin-bottom: 3rem;">Por quatro vezes consecutivas, entre as <span>100 maiores construtoras do Brasil</span>,
                         segundo o Ranking Intec e 2ª construtora do Grande ABC (2023).</p>
                     <h6>POLÍTICA DE QUALIDADE</h6>
                     <p>O máximo de qualidade em nossos serviços, com canteiros de obras sustentáveis,
@@ -545,7 +545,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -567,7 +567,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -589,7 +589,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -613,7 +613,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -635,7 +635,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -657,7 +657,7 @@ include('header-sobre-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>

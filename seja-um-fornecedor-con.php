@@ -27,30 +27,30 @@ include('header.php'); ?>
             <p>Preencha e envie o formulário ao lado e em breve um especialista entrará em contato com você.</p>
         </div>
         <div class="content-container-form-orce-sua-obra-con">
-            <form action="">
+            <form action="./mailSejaFornecedor-con.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
-                    <label for="login">Qual seu nome?*</label>
-                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" aria-describedby="nome" required>
+                    <label for="nome">Qual seu nome?*</label>
+                    <input type="text" class="form-control" placeholder="Nome Completo" id="nome" name="nome" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Empresa:*</label>
-                    <input type="text" class="form-control" placeholder="Nome da empresa" id="nome-empresa" required>
+                    <label for="nome-empresa">Empresa:*</label>
+                    <input type="text" class="form-control" placeholder="Nome da empresa" id="nome-empresa" name="nome-empresa" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">CNPJ:*</label>
-                    <input type="email" class="form-control" placeholder="CNPJ" id="CNPJ" required>
+                    <label for="CNPJ">CNPJ:*</label>
+                    <input type="text" class="form-control" placeholder="CNPJ" id="CNPJ" name="CNPJ" required>
                 </div>
                 <div class="form-group">
-                    <label for="login">Telefone?*</label>
-                    <input type="text" class="form-control" placeholder="+55 (00) 00000-0000" id="nome" aria-describedby="nome" required>
+                    <label for="telefone">Telefone?*</label>
+                    <input type="text" class="form-control" placeholder="+55 (00) 00000-0000" id="telefone" name="telefone" required>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">E-mail:*</label>
-                    <input type="text" class="form-control" placeholder="E-mail" id="Email" required>
+                    <label for="Email">E-mail:*</label>
+                    <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Segmento da Empresa</label>
-                    <input type="email" class="form-control" placeholder="Segmento da Empresa" id="segmento-empresa" required>
+                    <label for="segmento-empresa">Segmento da Empresa</label>
+                    <input type="text" class="form-control" placeholder="Segmento da Empresa" id="segmento-empresa" name="segmento-empresa" required>
                 </div>
                 <div class="form-group">
                     <label for="">Qual a melhor forma de contato?</label><br>
@@ -70,8 +70,8 @@ include('header.php'); ?>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="telefone">Escreva sua mensagem:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escreva aqui" rows="4"></textarea>
+                    <label for="mensagem">Escreva sua mensagem:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name="mensagem" placeholder="Escreva aqui" rows="4"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="">Faça upload:</label><br>
@@ -79,7 +79,7 @@ include('header.php'); ?>
                 <p style="padding: 0 2rem; color: white;">Capacidade máxima de até 25MB. Aceitamos arquivos do tipo jpeg. pgn. pdf. ppt. mp4.</p><br>
                 <div class="inputs-file-seu-terreno-inc">
                     <button class="btn-upload-novo">Escolher arquivo</button>
-                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
+                    <input class="input-file-inc-terreno" type="file" id="file-upload" name="file-upload[]" multiple accept=".jpeg,.jpg,.png,.pgn,.pdf,.ppt,.mp4" required>
                 </div>
                 <button type="submit">Enviar</button>
                 <div class="form-check">

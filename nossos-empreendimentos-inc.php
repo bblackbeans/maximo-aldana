@@ -335,7 +335,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -357,7 +357,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -379,7 +379,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -403,7 +403,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Ranking foi divulgado hoje, no dia 1 de março de 2023. A construtora e incorporadora ficou em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -425,7 +425,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Em breve a população de Pouso Alegre (MG) e região passará a contar com o hospital da Unimed...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
@@ -447,7 +447,7 @@ include('header-portal-inc.php'); ?>
                     <div class="card-blog__desc">
                         Essa semana a Maximo Aldana recebeu o Prêmio HealthARQ 2022 na categoria Inovação em...
                     </div>
-                    <div class="card-blog__button">
+                    <div class="card-blog__button bg-acquagreen">
                         <a href="" class="bg-acquagreen">LEIA MAIS</a>
                     </div>
                 </div>
