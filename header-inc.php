@@ -22,6 +22,96 @@ $home = "http://devmaximoaldana.c09b59be.configr.cloud/";
 
 <body>
     <main class="background-image">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-slide-header">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="justify-content: left;">
+                <div class="carousel-item active ">
+                    <img src="./src/img/port saúde.png" class="d-block w-100 img-carousel-header" alt="...">
+                    <div class="container container-legenda-header">
+                        <div class="container-banner">
+                            <div class="container-banner__title">
+                                <h1>Aldana Jardim</h1>
+                            </div>
+
+                        </div>
+                        <div class="container-bar">
+                            <div class="container-bar__dot">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                </span>
+                            </div>
+                            <div class="container-bar__lorem">
+                                <p>Jardim do Mar </br> São Bernardo do Campo</p>
+                            </div>
+                            <div class="container-bar__descricao">
+                                <p style="margin-right: 24px;">59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
+                            </div>
+                            <div class="container-bar__button" style="margin-right: 62px;">
+                                <a href="">SAIBA MAIS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/img/Banner-Somos-Maximo.png" class="d-block w-100 img-carousel-header" alt="">
+                    <div class="container container-legenda-header">
+                        <div class="container-banner">
+                            <div class="container-banner__title">
+                                <h1>Seven Living</h1>
+                            </div>
+
+                        </div>
+                        <div class="container-bar">
+                            <div class="container-bar__dot">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                </span>
+                            </div>
+                            <div class="container-bar__lorem">
+                                <p>Jardim do Mar </br> São Bernardo do Campo</p>
+                            </div>
+                            <div class="container-bar__descricao">
+                                <p style="margin-right: 24px;">59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
+                            </div>
+                            <div class="container-bar__button" style="margin-right: 62px;">
+                                <a href="">SAIBA MAIS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/img/banner-vaga.png" class="d-block w-100 img-carousel-header" alt="">
+                    <div class="container container-legenda-header">
+                        <div class="container-banner">
+                            <div class="container-banner__title">
+                                <h1>Aldana One</h1>
+                            </div>
+
+                        </div>
+                        <div class="container-bar">
+                            <div class="container-bar__dot">
+                                <span class="material-symbols-outlined">
+                                    location_on
+                                </span>
+                            </div>
+                            <div class="container-bar__lorem">
+                                <p>Jardim do Mar </br> São Bernardo do Campo</p>
+                            </div>
+                            <div class="container-bar__descricao">
+                                <p style="margin-right: 24px;">59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
+                            </div>
+                            <div class="container-bar__button" style="margin-right: 62px;">
+                                <a href="">SAIBA MAIS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header id="header" class="header-inc">
             <nav id="menuSuperior" class="navbar navbar-expand-lg menuSuperior-inc">
                 <div class="container-fluid px-5 position-relative">

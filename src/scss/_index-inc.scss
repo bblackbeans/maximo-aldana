@@ -12,6 +12,8 @@
     color: $cor-branca;
     text-shadow: 8px 8px 98px $cor-preta;
     opacity: 1;
+    z-index: 2;
+    position: relative;
   }
 
   &__subtitle > h2 {
@@ -719,10 +721,6 @@ button {
     }
   }
 
-  .carousel-item-index {
-    max-width: 85%;
-  }
-
   .container-form {
     flex-direction: column;
     padding-top: 3rem;
@@ -768,10 +766,6 @@ button {
       display: flex;
       flex-direction: column;
     }
-  }
-
-  .carousel-item {
-    max-width: 85%;
   }
 
   .container-form {

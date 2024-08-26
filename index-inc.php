@@ -5,30 +5,7 @@ Template Name: Home Incorporadora
 include('header-inc.php'); ?>
 
 <section id="banner" class="py-5">
-    <div class="container">
-        <div class="container-banner">
-            <div class="container-banner__title">
-                <h1>Aldana Jardim</h1>
-            </div>
-
-        </div>
-        <div class="container-bar">
-            <div class="container-bar__dot">
-                <span class="material-symbols-outlined">
-                    location_on
-                </span>
-            </div>
-            <div class="container-bar__lorem">
-                <p>Jardim do Mar </br> São Bernardo do Campo</p>
-            </div>
-            <div class="container-bar__descricao">
-                <p>59 e 65 m² | 2 dormitórios | 1 vaga na garagem</p>
-            </div>
-            <div class="container-bar__button" style="margin-right: 38px;">
-                <a href="">SAIBA MAIS</a>
-            </div>
-        </div>
-    </div>
+    
 </section>
 
 </main>
